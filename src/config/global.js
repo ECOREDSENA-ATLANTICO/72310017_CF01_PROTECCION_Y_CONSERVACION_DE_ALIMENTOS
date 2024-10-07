@@ -1,18 +1,20 @@
 export default {
   global: {
-    componenteFormativo: 'NOMBRE DEL COMPONENTE FORMATIVO',
-    descripcionCurso: 'BREVE DESCRIPCIÓN',
-    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.svg'),
+    componenteFormativo:
+      'Seguridad alimentaria y buenas prácticas de manufactura',
+    descripcionCurso:
+      'La clasificación de los alimentos es clave para su uso adecuado, conservación y prevención de su deterioro o contaminación. Comprender los peligros que afectan la seguridad alimentaria, como los factores que causan su deterioro, permite identificar las mejores prácticas para un manejo adecuado de la cadena alimentaria, desde la producción hasta el consumo, asegurando la inocuidad y calidad de los alimentos.',
+    imagenBannerPrincipal: require('@/assets/curso/portada/banner-princiapal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
     imagenesDecorativasBanner: [
-      {
-        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
-      },
-      {
-        clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
-      },
+      // {
+      //   clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      // },
+      // {
+      //   clases: ['banner-principal-decorativo-2'],
+      //   imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
+      // },
     ],
   },
   menuPrincipal: {
@@ -31,13 +33,24 @@ export default {
       {
         nombreRuta: 'tema1',
         numero: '1',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Fundamentos de la seguridad alimentaria',
         desarrolloContenidos: true,
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Titulo de segundo nivel',
+            titulo: 'Identificación del bien o servicio',
             hash: 't_1_1',
+          },
+          {
+            numero: '1.2',
+            titulo: 'Clasificación de los alimentos',
+            hash: 't_1_2',
+          },
+          {
+            numero: '1.3',
+            titulo:
+              'Factores que influyen en la calidad e inocuidad de los alimentos',
+            hash: 't_1_3',
           },
         ],
       },
@@ -45,13 +58,25 @@ export default {
       {
         nombreRuta: 'tema2',
         numero: '2',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Buenas prácticas de manipulación y preservación de alimentos',
         desarrolloContenidos: true,
+        subMenu: [
+          {
+            numero: '2.1',
+            titulo: 'Historia de las Buenas Prácticas de Manufactura (BPM)',
+            hash: 't_2_1',
+          },
+          {
+            numero: '2.2',
+            titulo: 'Principios de las BPM',
+            hash: 't_2_2',
+          },
+        ],
       },
       {
         nombreRuta: 'tema3',
         numero: '3',
-        titulo: 'Titulo de primer nivel',
+        titulo: 'Prevención y control del deterioro de los alimentos',
         desarrolloContenidos: true,
       },
     ],
