@@ -5,7 +5,275 @@
     .titulo-principal.color-acento-contenido
       .titulo-principal__numero
         span 3
-      h1 Titulo de primer nivel
+      h1 Prevención y control del deterioro de los alimentos
+
+    figure
+        img.mb-3(src='@/assets/curso/images/tema3/img_1.png', alt='Texto que describa la imagen').mx-autoplay
+
+    p.mb-2 Para garantizar la seguridad alimentaria y asegurar la calidad de los alimentos, es fundamental implementar estrategias para prevenir y controlar su deterioro. A continuación, se presentan los principales elementos que contribuyen a la conservación de la calidad e inocuidad de los alimentos, desde las buenas prácticas de conservación hasta la aplicación del sistema HACCP.
+
+    Separador
+    #t_3_1.titulo-segundo
+      .h2(data-aos="fade-right") 3.1 Buenas prácticas de preservación
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12.mb-3
+        .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_2.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 La preservación de alimentos es un proceso fundamental que atraviesa todos los eslabones de la cadena alimentaria, desde la producción hasta el consumo. Su importancia radica en la capacidad de extender la vida útil de los productos, protegiéndolos del deterioro y asegurando su inocuidad, lo cual garantiza un acceso seguro y confiable a alimentos frescos y saludables para todos. Este proceso no solo busca evitar el desperdicio, sino que también permite distribuir los alimentos de manera eficiente a nivel nacional e internacional, abriendo posibilidades de acceso a productos frescos y saludables en diferentes regiones.
+
+    h4.mb-4 Técnicas de preservación de alimentos
+
+    p.mb-4 Las técnicas de preservación de alimentos se basan en la aplicación de métodos que ralentizan o detienen el crecimiento de microorganismos y enzimas que provocan el deterioro de los alimentos. A continuación se describen las técnicas más comunes:
+            
+    .row.align-items-center.justify-content-center.mb-3
+      .col-md-12.mb-4
+        //- .titulo-sexto.color-acento-contenido.mb-3
+        //-     h5 Figura 3. 
+        //-     span Temas que deben incluirse en las guías de BPM
+        figure
+          img.mb-3(src='@/assets/curso/images/tema3/img_3.png', alt='Texto que describa la imagen').mx-auto
+          figcaption Fuente: Elaboración Propia.
+
+
+    Separador
+    #t_3_2.titulo-segundo
+      .h2(data-aos="fade-right") 3.2  Recomendaciones generales
+
+    .row.align-items-center.justify-content-center.mb-3
+      .col-md-8
+        p.mb-3 Para asegurar la prevención y control del deterioro de los alimentos, la <b>Resolución 2674 de 2013</b> y las Buenas Prácticas de Manufactura (BPM) proporcionan lineamientos claros sobre almacenamiento, transporte, manipulación, limpieza y desinfección en el contexto colombiano.
+        
+        p.mb-3 Las BPM y la resolución enfatizan la necesidad de mantener una higiene rigurosa en todas las etapas del manejo de alimentos. Esto implica un control sistemático de los factores que puedan influir en la calidad e inocuidad alimentaria, incluyendo temperatura, humedad, y la prevención de la contaminación cruzada durante toda la cadena de producción (Ministerio de Salud y Protección Social, 2013).
+
+        .tarjeta.color-terciario.p-3
+          .row.justify-content-around.align-items-center
+            .col-auto
+              img(src="@/assets/curso/images/tema3/img_12.png").img65
+            .col
+              .row.justify-content-between.align-items-center
+                .col.mb-3.mb-sm-0
+                  h4.mb-1 Normativa
+                  p.text-small.mb-0 Para conocer más acerca de la normativa que rige las buenas prácticas de manufactura consultar el siguiente link.
+                .col-sm-auto
+                  a.boton.color-acento-botones(href="https://foman.com.co/wp-content/uploads/2016/01/2674.pdf" target="_blank")
+                    span Descargar
+                    i.fas.fa-file-download
+
+      .col-md-4
+        figure
+          img(src='@/assets/curso/images/tema3/img_13.png', alt='Texto que describa la imagen').img125
+
+    .row.justify-content-center.align-items-center.mb-4
+      .col-lg-4
+        figure
+          img(src="@/assets/curso/images/tema3/img_14.png", alt="alt")
+      .col-lg-8
+        LineaTiempoD
+          p(numero="1" titulo="Almacenamiento") 
+            ul.lista-ul--color.lista-ul--separador
+              li 
+                i.fas.fa-check
+                | Condiciones adecuadas: los alimentos deben almacenarse en condiciones que eviten su deterioro, lo cual incluye mantener una temperatura y humedad apropiadas según el tipo de producto. Los alimentos perecederos deben conservarse a temperaturas de refrigeración adecuadas (≤4°C) o congelación (≤-18°C).
+              li 
+                i.fas.fa-check
+                | Organización y rotación: implementar el sistema PEPS (Primero en Entrar, Primero en Salir) es crucial. Los productos deben estar bien etiquetados con fechas de recepción y expiración para asegurar su consumo antes de que se deterioren.
+              li 
+                i.fas.fa-check
+                | Separación de productos: para evitar la contaminación cruzada, los alimentos crudos deben almacenarse separados de los cocidos o listos para el consumo, preferiblemente en recipientes herméticos.
+
+          p(numero="2" titulo="Transporte") 
+            
+            ul.lista-ul--color.lista-ul--separador
+                li 
+                  i.fas.fa-check
+                  | Vehículos adecuados: los vehículos utilizados para el transporte de alimentos deben estar designados exclusivamente para este propósito, mantenidos en condiciones higiénicas y equipados para mantener las temperaturas requeridas durante el transporte.
+                li 
+                  i.fas.fa-check
+                  | Manipulación segura: durante el transporte, los alimentos deben estar debidamente protegidos contra daños físicos, contaminación, y condiciones climáticas adversas.
+
+          p(numero="3" titulo="Manipulación") 
+            
+            ul.lista-ul--color.lista-ul--separador
+                li 
+                  i.fas.fa-check
+                  | Buenas prácticas de higiene: todo el personal involucrado en la manipulación de alimentos debe seguir prácticas estrictas de higiene personal, incluyendo el uso adecuado de ropa protectora y lavado frecuente de manos.
+                li 
+                  i.fas.fa-check
+                  | Evitar la contaminación cruzada: utilizar utensilios y tablas de cortar diferentes para alimentos crudos y cocidos. Asegurarse de que todas las superficies que entren en contacto con alimentos estén limpias y desinfectadas.
+
+          p(numero="4" titulo="Limpieza") 
+            
+            ul.lista-ul--color.lista-ul--separador
+                li 
+                  i.fas.fa-check
+                  | Procedimientos regulares: implementar un cronograma de limpieza que garantice que todas las áreas y equipos en contacto con alimentos se limpien regularmente para prevenir la acumulación de suciedad y la multiplicación de microorganismos.
+                li 
+                  i.fas.fa-check
+                  | Uso de productos adecuados: utilizar detergentes y productos de limpieza que sean aptos para uso alimentario y seguir las instrucciones del fabricante para su utilización.
+
+          p(numero="5" titulo="Desinfección") 
+            
+            ul.lista-ul--color.lista-ul--separador
+                li 
+                  i.fas.fa-check
+                  | Soluciones desinfectantes efectivas: aplicar una solución de hipoclorito de sodio a 250 ppm o alcohol al 70 % como desinfectantes estándar después de la limpieza para reducir al mínimo la carga microbiana residual (Ministerio de Salud y Protección Social, 2013).
+                li 
+                  i.fas.fa-check
+                  | Frecuencia y control: la desinfección debe realizarse después de cada limpieza en las áreas críticas, especialmente en las zonas de manipulación de alimentos listos para el consumo.
+
+    Separador
+    #t_3_3.titulo-segundo
+      .h2(data-aos="fade-right") 3.3   Control de plagas
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-12.mb-3
+        .bloque-texto-g.bloque-texto-g--inverso.color-negro.p-3.p-sm-4.p-md-5
+          .bloque-texto-g__img(
+            :style="{'background-image': `url(${require('@/assets/curso/images/tema3/img_15.png')})`}"
+          )
+          .bloque-texto-g__texto.p-4
+            p.mb-0 Para asegurar la inocuidad alimentaria y prevenir la proliferación de microorganismos en la cocina, es crucial establecer medidas rigurosas de limpieza y desinfección, así como un manejo efectivo de desechos y un control de plagas, todo ello conforme a la <b>Resolución 2674 de 2013</b> del Ministerio de Salud y Protección Social de Colombia. A continuación, se exponen las disposiciones en un lenguaje técnico accesible y formativo:
+
+    h4.mb-4 Disposiciones referentes a la limpieza y la desinfección para evitar la proliferación de plagas
+
+    p.mb-4 La limpieza y desinfección en la cocina son procesos planeados y esenciales para mantener la inocuidad. Esto debe considerarse desde el diseño de las instalaciones, aunque muchas cocinas existentes no fueron diseñadas con este enfoque preventivo. La clave está en la pulcritud durante las preparaciones, asegurando que los cocineros mantengan orden y limpieza en sus áreas de trabajo, como estanterías y mesadas, mientras el personal de limpieza se encarga de áreas generales como paredes, pisos y equipos (Ministerio de Salud y Protección Social, 2013).
+        
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-12
+        .row.justify-content-center
+          .col-lg-6
+            .tarjeta.color-primario.p-2
+              .row.justify-content-center.mb-3
+                .col-md-12
+                  figure
+                    img(src="@/assets/curso/images/tema3/img_16.png", alt="alt").w-25.mx-auto
+              .row.justify-content-center
+                .col-md-11
+                  h4.mb-0.text-center Limpieza
+                  p La limpieza tiene como objetivo eliminar residuos alimenticios que podrían servir como nutrientes para microorganismos. Para ser efectiva, la limpieza debe evitar que haya suciedad visible, detectable al tacto o al olfato. Se debe seguir un proceso metódico:
+                            
+                  ul.lista-ul--color.lista-ul--separador
+                      li 
+                        i.fas.fa-check
+                        | <b>Remoción de suciedad visible:</b> se eliminan restos visibles de alimentos y otros desechos.
+                      li 
+                        i.fas.fa-check
+                        | <b>Enjabonado:</b> se aplica un detergente adecuado para eliminar suciedad adherida.
+                      li 
+                        i.fas.fa-check
+                        | <b>Enjuagado:</b> se utiliza agua tibia para enjuagar y quitar el detergente y suciedad restante.
+
+
+          .col-lg-6
+            .tarjeta.color-primario.p-2
+              .row.justify-content-center.mb-3
+                .col-md-12
+                  figure
+                    img(src="@/assets/curso/images/tema3/img_17.png", alt="alt").w-25.mx-auto
+              .row.justify-content-center
+                .col-md-11
+                  h4.mb-0.text-center Desinfección
+                  p La desinfección reduce aún más los microorganismos residuales tras la limpieza. Se recomienda el uso de soluciones como una dilución de hipoclorito de sodio de 250 ppm, preparada diariamente. Alternativamente, el alcohol al 70% puede ser utilizado, ya que es más efectivo que el alcohol puro. (Ministerio de Salud y Protección Social, 2013).
+
+                  ul.lista-ul--color.lista-ul--separador
+                      li 
+                        i.fas.fa-check
+                        | <b>Enjuague final:</b> dependiendo del desinfectante empleado, puede ser necesario un último enjuague.
+                      li 
+                        i.fas.fa-check
+                        | <b>Secado:</b> es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
+
+    h4.mb-4 Secuencia y frecuencia
+
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-8
+        p.mb-3 La limpieza debe seguir una secuencia lógica, comenzando de arriba hacia abajo, y debe realizarse con la frecuencia adecuada:
+        ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-check
+            | •	Superficies en contacto directo con alimentos, como mesadas, deben limpiarse frecuentemente durante su uso.
+          li 
+            i.fas.fa-check
+            | •	Una limpieza exhaustiva debe llevarse a cabo al final de cada jornada.
+          li 
+            i.fas.fa-check
+            | •	Áreas de menor contacto deben recibir atención al menos mensualmente.
+
+      .col-md-4
+        figure
+          img(src="@/assets/curso/images/tema3/img_18.png", alt="alt").mx-auto
+          
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-12
+        .row.justify-content-center
+          .col-lg-4
+            .tarjeta.color-primario.p-2
+              .row.justify-content-center.mb-3
+                .col-md-12
+                  figure
+                    img(src="@/assets/curso/images/tema3/img_19.png", alt="alt").w-50.mx-auto
+              .row.justify-content-center
+                .col-md-11
+                  h4.mb-0.text-center Limpieza
+                  p La limpieza tiene como objetivo eliminar residuos alimenticios que podrían servir como nutrientes para microorganismos. Para ser efectiva, la limpieza debe evitar que haya suciedad visible, detectable al tacto o al olfato. Se debe seguir un proceso metódico:
+                            
+                  ul.lista-ul--color.lista-ul--separador
+                      li 
+                        i.fas.fa-check
+                        | <b>Remoción de suciedad visible:</b> se eliminan restos visibles de alimentos y otros desechos.
+                      li 
+                        i.fas.fa-check
+                        | <b>Enjabonado:</b> se aplica un detergente adecuado para eliminar suciedad adherida.
+                      li 
+                        i.fas.fa-check
+                        | <b>Enjuagado:</b> se utiliza agua tibia para enjuagar y quitar el detergente y suciedad restante.
+
+
+          .col-lg-4
+            .tarjeta.color-primario.p-2
+              .row.justify-content-center.mb-3
+                .col-md-12
+                  figure
+                    img(src="@/assets/curso/images/tema3/img_20.png", alt="alt").w-50.mx-auto
+              .row.justify-content-center
+                .col-md-11
+                  h4.mb-0.text-center Desinfección
+                  p La desinfección reduce aún más los microorganismos residuales tras la limpieza. Se recomienda el uso de soluciones como una dilución de hipoclorito de sodio de 250 ppm, preparada diariamente. Alternativamente, el alcohol al 70% puede ser utilizado, ya que es más efectivo que el alcohol puro. (Ministerio de Salud y Protección Social, 2013).
+
+                  ul.lista-ul--color.lista-ul--separador
+                      li 
+                        i.fas.fa-check
+                        | <b>Enjuague final:</b> dependiendo del desinfectante empleado, puede ser necesario un último enjuague.
+                      li 
+                        i.fas.fa-check
+                        | <b>Secado:</b> es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
+
+
+
+          .col-lg-4
+            .tarjeta.color-primario.p-2
+              .row.justify-content-center.mb-3
+                .col-md-12
+                  figure
+                    img(src="@/assets/curso/images/tema3/img_21.png", alt="alt").w-50.mx-auto
+              .row.justify-content-center
+                .col-md-11
+                  h4.mb-0.text-center Desinfección
+                  p La desinfección reduce aún más los microorganismos residuales tras la limpieza. Se recomienda el uso de soluciones como una dilución de hipoclorito de sodio de 250 ppm, preparada diariamente. Alternativamente, el alcohol al 70% puede ser utilizado, ya que es más efectivo que el alcohol puro. (Ministerio de Salud y Protección Social, 2013).
+
+                  ul.lista-ul--color.lista-ul--separador
+                      li 
+                        i.fas.fa-check
+                        | <b>Enjuague final:</b> dependiendo del desinfectante empleado, puede ser necesario un último enjuague.
+                      li 
+                        i.fas.fa-check
+                        | <b>Secado:</b> es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
+
+
 
 </template>
 
