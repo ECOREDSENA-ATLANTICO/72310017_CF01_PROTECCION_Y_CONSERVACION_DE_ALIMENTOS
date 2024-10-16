@@ -142,50 +142,40 @@
 
     p.mb-4 La limpieza y desinfección en la cocina son procesos planeados y esenciales para mantener la inocuidad. Esto debe considerarse desde el diseño de las instalaciones, aunque muchas cocinas existentes no fueron diseñadas con este enfoque preventivo. La clave está en la pulcritud durante las preparaciones, asegurando que los cocineros mantengan orden y limpieza en sus áreas de trabajo, como estanterías y mesadas, mientras el personal de limpieza se encarga de áreas generales como paredes, pisos y equipos (Ministerio de Salud y Protección Social, 2013).
         
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12
-        .row.justify-content-center
-          .col-lg-6
-            .tarjeta.color-primario.p-2
-              .row.justify-content-center.mb-3
-                .col-md-12
-                  figure
-                    img(src="@/assets/curso/images/tema3/img_16.png", alt="alt").w-25.mx-auto
-              .row.justify-content-center
-                .col-md-11
-                  h4.mb-0.text-center Limpieza
-                  p La limpieza tiene como objetivo eliminar residuos alimenticios que podrían servir como nutrientes para microorganismos. Para ser efectiva, la limpieza debe evitar que haya suciedad visible, detectable al tacto o al olfato. Se debe seguir un proceso metódico:
-                            
-                  ul.lista-ul--color.lista-ul--separador
-                      li 
-                        i.fas.fa-check
-                        | <b>Remoción de suciedad visible:</b> se eliminan restos visibles de alimentos y otros desechos.
-                      li 
-                        i.fas.fa-check
-                        | <b>Enjabonado:</b> se aplica un detergente adecuado para eliminar suciedad adherida.
-                      li 
-                        i.fas.fa-check
-                        | <b>Enjuagado:</b> se utiliza agua tibia para enjuagar y quitar el detergente y suciedad restante.
+    .row.justify-content-center.mb-5
+      .col-lg-6
+        .tarjeta.color-rosa.p-4.h-100
+          figure
+            img(src="@/assets/curso/images/tema3/img_16.png", alt="alt").w-25.mx-auto.mb-3
+          h4.mb-3.text-center Limpieza
+          p La limpieza tiene como objetivo eliminar residuos alimenticios que podrían servir como nutrientes para microorganismos. Para ser efectiva, la limpieza debe evitar que haya suciedad visible, detectable al tacto o al olfato. Se debe seguir un proceso metódico:
+                    
+          ul.lista-ul--color.lista-ul--separador
+            li 
+              i.fas.fa-check
+              | <b>Remoción de suciedad visible:</b> se eliminan restos visibles de alimentos y otros desechos.
+            li 
+              i.fas.fa-check
+              | <b>Enjabonado:</b> se aplica un detergente adecuado para eliminar suciedad adherida.
+            li 
+              i.fas.fa-check
+              | <b>Enjuagado:</b> se utiliza agua tibia para enjuagar y quitar el detergente y suciedad restante.
 
 
-          .col-lg-6
-            .tarjeta.color-primario.p-2
-              .row.justify-content-center.mb-3
-                .col-md-12
-                  figure
-                    img(src="@/assets/curso/images/tema3/img_17.png", alt="alt").w-25.mx-auto
-              .row.justify-content-center
-                .col-md-11
-                  h4.mb-0.text-center Desinfección
-                  p La desinfección reduce aún más los microorganismos residuales tras la limpieza. Se recomienda el uso de soluciones como una dilución de hipoclorito de sodio de 250 ppm, preparada diariamente. Alternativamente, el alcohol al 70% puede ser utilizado, ya que es más efectivo que el alcohol puro. (Ministerio de Salud y Protección Social, 2013).
+      .col-lg-6
+        .tarjeta.color-rosa-claro.p-4.h-100
+          figure
+            img(src="@/assets/curso/images/tema3/img_17.png", alt="alt").w-25.mx-auto.mb-3
+          h4.mb-3.text-center Desinfección
+          p La desinfección reduce aún más los microorganismos residuales tras la limpieza. Se recomienda el uso de soluciones como una dilución de hipoclorito de sodio de 250 ppm, preparada diariamente. Alternativamente, el alcohol al 70% puede ser utilizado, ya que es más efectivo que el alcohol puro. (Ministerio de Salud y Protección Social, 2013).
 
-                  ul.lista-ul--color.lista-ul--separador
-                      li 
-                        i.fas.fa-check
-                        | <b>Enjuague final:</b> dependiendo del desinfectante empleado, puede ser necesario un último enjuague.
-                      li 
-                        i.fas.fa-check
-                        | <b>Secado:</b> es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
+          ul.lista-ul--color.lista-ul--separador
+            li 
+              i.fas.fa-check
+              | <b>Enjuague final:</b> dependiendo del desinfectante empleado, puede ser necesario un último enjuague.
+            li 
+              i.fas.fa-check
+              | <b>Secado:</b> es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
 
     h4.mb-4 Secuencia y frecuencia
 
@@ -195,84 +185,39 @@
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check
-            | •	Superficies en contacto directo con alimentos, como mesadas, deben limpiarse frecuentemente durante su uso.
+            | Superficies en contacto directo con alimentos, como mesadas, deben limpiarse frecuentemente durante su uso.
           li 
             i.fas.fa-check
-            | •	Una limpieza exhaustiva debe llevarse a cabo al final de cada jornada.
+            | Una limpieza exhaustiva debe llevarse a cabo al final de cada jornada.
           li 
             i.fas.fa-check
-            | •	Áreas de menor contacto deben recibir atención al menos mensualmente.
+            | Áreas de menor contacto deben recibir atención al menos mensualmente.
 
       .col-md-4
         figure
           img(src="@/assets/curso/images/tema3/img_18.png", alt="alt").mx-auto
           
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-12
-        .row.justify-content-center
-          .col-lg-4
-            .tarjeta.color-primario.p-2
-              .row.justify-content-center.mb-3
-                .col-md-12
-                  figure
-                    img(src="@/assets/curso/images/tema3/img_19.png", alt="alt").w-50.mx-auto
-              .row.justify-content-center
-                .col-md-11
-                  h4.mb-0.text-center Limpieza
-                  p La limpieza tiene como objetivo eliminar residuos alimenticios que podrían servir como nutrientes para microorganismos. Para ser efectiva, la limpieza debe evitar que haya suciedad visible, detectable al tacto o al olfato. Se debe seguir un proceso metódico:
-                            
-                  ul.lista-ul--color.lista-ul--separador
-                      li 
-                        i.fas.fa-check
-                        | <b>Remoción de suciedad visible:</b> se eliminan restos visibles de alimentos y otros desechos.
-                      li 
-                        i.fas.fa-check
-                        | <b>Enjabonado:</b> se aplica un detergente adecuado para eliminar suciedad adherida.
-                      li 
-                        i.fas.fa-check
-                        | <b>Enjuagado:</b> se utiliza agua tibia para enjuagar y quitar el detergente y suciedad restante.
+    .row.justify-content-center.mb-5
+      .col-md-4
+        .tarjeta.color-primario.p-4.h-100
+          figure
+            img(src="@/assets/curso/images/tema3/img_19.png", alt="alt").w-50.mx-auto.mb-3
+          h4.mb-3 Utensilios y Materiales de Limpieza
+          p Los utensilios de limpieza deben mantenerse ordenados, limpios y almacenados en un área separada de la cocina. Las esponjas y trapos requieren desinfección diaria para prevenir la contaminación. (Ministerio de Salud y Protección Social, 2013).
 
+      .col-md-4
+        .tarjeta.color-primario.p-4.h-100
+          figure
+            img(src="@/assets/curso/images/tema3/img_20.png", alt="alt").w-50.mx-auto.mb-3
+          h4.mb-3 Desinfestación
+          p El control de plagas es fundamental para prevenir la entrada y la proliferación de roedores, insectos y otros animales en la cocina. Se deben establecer barreras físicas, como rejillas y mosquiteros. La fumigación periódica por empresas especializadas es recomendable, asegurando la protección de alimentos y superficies de contacto directo durante el proceso.
 
-          .col-lg-4
-            .tarjeta.color-primario.p-2
-              .row.justify-content-center.mb-3
-                .col-md-12
-                  figure
-                    img(src="@/assets/curso/images/tema3/img_20.png", alt="alt").w-50.mx-auto
-              .row.justify-content-center
-                .col-md-11
-                  h4.mb-0.text-center Desinfección
-                  p La desinfección reduce aún más los microorganismos residuales tras la limpieza. Se recomienda el uso de soluciones como una dilución de hipoclorito de sodio de 250 ppm, preparada diariamente. Alternativamente, el alcohol al 70% puede ser utilizado, ya que es más efectivo que el alcohol puro. (Ministerio de Salud y Protección Social, 2013).
-
-                  ul.lista-ul--color.lista-ul--separador
-                      li 
-                        i.fas.fa-check
-                        | <b>Enjuague final:</b> dependiendo del desinfectante empleado, puede ser necesario un último enjuague.
-                      li 
-                        i.fas.fa-check
-                        | <b>Secado:</b> es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
-
-
-
-          .col-lg-4
-            .tarjeta.color-primario.p-2
-              .row.justify-content-center.mb-3
-                .col-md-12
-                  figure
-                    img(src="@/assets/curso/images/tema3/img_21.png", alt="alt").w-50.mx-auto
-              .row.justify-content-center
-                .col-md-11
-                  h4.mb-0.text-center Desinfección
-                  p La desinfección reduce aún más los microorganismos residuales tras la limpieza. Se recomienda el uso de soluciones como una dilución de hipoclorito de sodio de 250 ppm, preparada diariamente. Alternativamente, el alcohol al 70% puede ser utilizado, ya que es más efectivo que el alcohol puro. (Ministerio de Salud y Protección Social, 2013).
-
-                  ul.lista-ul--color.lista-ul--separador
-                      li 
-                        i.fas.fa-check
-                        | <b>Enjuague final:</b> dependiendo del desinfectante empleado, puede ser necesario un último enjuague.
-                      li 
-                        i.fas.fa-check
-                        | <b>Secado:</b> es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
-
+      .col-md-4
+        .tarjeta.color-primario.p-4.h-100
+          figure
+            img(src="@/assets/curso/images/tema3/img_21.png", alt="alt").w-50.mx-auto.mb-3
+          h4.mb-3 Manejo de Desechos
+          p Un manejo adecuado de desechos es vital para evitar la contaminación y la atracción de plagas. Los cocineros deben recolectar desechos en recipientes con tapa y el personal de limpieza encargado de su evacuación. Estos tachos nunca deben dejarse llenos de un día para otro, cumpliendo así con una estrategia efectiva de eliminación de basura. (Ministerio de Salud y Protección Social, 2013).
 
 
 </template>

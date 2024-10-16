@@ -310,9 +310,9 @@
             p.mb-0 El transporte de alimentos perecederos es un proceso que requiere un cuidado especial, especialmente en cuanto a la temperatura. Es fundamental controlar la temperatura del vehículo para evitar un corte de la cadena de frío, lo que podría afectar la vida útil del alimento y aumentar el riesgo de contaminación. Un corte en la cadena de frío puede provocar la multiplicación de microorganismos patógenos y en algunos casos, puede ocasionar una intoxicación alimentaria.
 
     h4.mb-5.text-center Recomendaciones para el transporte de alimentos perecederos:
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.mb-5
       .col-md-4.mb-4
-        .tarjeta-numerada.bg-06.p-5
+        .tarjeta-numerada.bg-06.p-5.h-100
           .tarjeta-numerada__numero
             .h2 1
           p 
@@ -320,7 +320,7 @@
           p Utilizar sistemas de refrigeración adecuados para mantener la temperatura del vehículo dentro de los rangos establecidos para el tipo de producto que se transporta.
 
       .col-md-4.mb-4
-        .tarjeta-numerada.bg-07.p-5
+        .tarjeta-numerada.bg-07.p-5.h-100
           .tarjeta-numerada__numero
             .h2 2
           p 
@@ -328,7 +328,7 @@
           p Manipular los productos con cuidado para evitar golpes o movimientos bruscos que puedan afectar su calidad.
 
       .col-md-4.mb-4
-        .tarjeta-numerada.bg-08.p-5
+        .tarjeta-numerada.bg-08.p-5.h-100
           .tarjeta-numerada__numero
             .h2 3
           p 
@@ -361,41 +361,27 @@
 
     h4.mb-5.text-center  En una cocina podemos distinguir tres tipos de almacenamientos, a saber:
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-md-10
-        .row.justify-content-center
-          .col-lg-4
-            .tarjeta.color-primario.p-2
-              .row.justify-content-center.mb-3
-                .col-md-12
-                  figure
-                    img(src="@/assets/curso/images/tema2/img_24.png", alt="alt").w-50.mx-auto
-              .row.justify-content-center
-                .col-md-11
-                  h4.mb-0 Refrigeración
-                  p La temperatura de refrigeración no debe superar los 4°C para asegurar una buena conservación de los productos.
-          
-          .col-lg-4
-            .tarjeta.color-primario.p-2
-              .row.justify-content-center.mb-3
-                .col-md-12
-                  figure
-                    img(src="@/assets/curso/images/tema2/img_25.png", alt="alt").w-50.mx-auto
-              .row.justify-content-center
-                .col-md-11
-                  h4.mb-0 Congelación
-                  p La temperatura de congelación no debe superar los -18°C para una conservación a largo plazo.
-          
-          .col-lg-4
-            .tarjeta.color-primario.p-2
-              .row.justify-content-center.mb-3
-                .col-md-12
-                  figure
-                    img(src="@/assets/curso/images/tema2/img_26.png", alt="alt").w-50.mx-auto
-              .row.justify-content-center
-                .col-md-11
-                  h4.mb-0 Temperatura ambiente
-                  p Para productos secos y vinos, la temperatura de almacenamiento no debe superar los 22°C. El ambiente debe ser seco y alejado de fuentes de calor. 
+    .row.justify-content-center.mb-5
+      .col-lg-4
+        .tarjeta.color-primario.p-4.h-100
+          figure
+            img(src="@/assets/curso/images/tema2/img_24.png", alt="alt").w-50.mx-auto.mb-3
+          h4.mb-3 Refrigeración
+          p La temperatura de refrigeración no debe superar los 4°C para asegurar una buena conservación de los productos.
+      
+      .col-lg-4
+        .tarjeta.color-primario.p-4.h-100
+          figure
+            img(src="@/assets/curso/images/tema2/img_25.png", alt="alt").w-50.mx-auto.mb-3
+          h4.mb-3 Congelación
+          p La temperatura de congelación no debe superar los -18°C para una conservación a largo plazo.
+      
+      .col-lg-4
+        .tarjeta.color-primario.p-4.h-100
+          figure
+            img(src="@/assets/curso/images/tema2/img_26.png", alt="alt").w-50.mx-auto.mb-3
+          h4.mb-3 Temperatura ambiente
+          p Para productos secos y vinos, la temperatura de almacenamiento no debe superar los 22°C. El ambiente debe ser seco y alejado de fuentes de calor. 
 
           
     .row.justify-content-center.align-items-center.mb-4
