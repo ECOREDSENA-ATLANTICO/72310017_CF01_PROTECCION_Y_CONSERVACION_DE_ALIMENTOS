@@ -25,14 +25,12 @@
 
     p La higiene y seguridad alimentaria son pilares fundamentales en la preservación de la salud pública y en la prevención de enfermedades transmitidas por alimentos. Estos conceptos aseguran que los alimentos que consumimos sean seguros, nutritivos y aptos para el consumo humano. A continuación, se detallan los conceptos básicos que todo manipulador de alimentos debe conocer y aplicar.
 
-    .tarjeta.tarjeta.fondo_1.p-4.slyder_1.bg-01
+    .tarjeta.tarjeta.fondo_1_2.p-4.slyder_1.bg-01
       SlyderA(tipo="b")
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-5
             .col-md-7.mb-4.mb-md-0
-              .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-                .col-lg-10.bg-color-1.px-3.py-2
-                  .h3.mx-5.mb-0.mt-1 Definición de higiene alimentaria
+              h3.mb-2 Definición de higiene alimentaria
 
               p La higiene alimentaria comprende un conjunto de condiciones y medidas necesarias para garantizar la seguridad e inocuidad de los alimentos en todas las etapas de la cadena alimentaria. Esto incluye desde la producción, procesamiento, y almacenamiento, hasta la distribución y consumo final.
 
@@ -44,9 +42,7 @@
           .row.justify-content-center.align-items-center.my-lg-4.p-5
             .col-md-7.mb-4.mb-md-0
       
-              .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-                .col-lg-10.bg-color-1.px-3.py-2
-                  .h3.mx-5.mb-0.mt-1 Importancia de la Higiene y Seguridad Alimentaria.
+              h3.mb-2 Importancia de la Higiene y Seguridad Alimentaria.
 
               ul.lista-ul
                 li 
@@ -66,9 +62,7 @@
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-5
             .col-md-7.mb-4.mb-md-0
-              .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-                .col-lg-10.bg-color-1.px-3.py-2
-                  .h3.mx-5.mb-0.mt-1 Principios Básicos.
+              h3.mb-2 Principios Básicos.
 
               ul.lista-ul
                 li 
@@ -139,17 +133,17 @@
           img.w-25.mx-auto(src="@/assets/curso/images/tema1/img_12.png")
           h5 Humedad
           p Facilita el desarrollo de microorganismos debido a que proporciona las condiciones propicias para su crecimiento y multiplicación.
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/images/tema1/img_13.png")
           h5 El aire 
           p Por contener oxígeno puede alterar algunas proteínas produciendo cambios de color, facilitando la oxidación, etc.
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/images/tema1/img_14.png")
           h5 La luz 
           p Afecta el color y altera algunas vitaminas.
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/images/tema1/img_15.png")
           h5 Presencia de sustancias extrañas 
@@ -196,7 +190,7 @@
     p Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
 
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8.mb-4
         LineaTiempoD
           p(numero="1" titulo="Enzimáticos") Algunas enzimas sobreviven a los propios organismos, pudiendo aumentar su actividad. Pueden cambiar la textura de los alimentos (maduración de frutos o reblandecimiento de carne) y en algunos casos provocar su descomposición. El rigor mortis de los animales, por ejemplo, es debido a cambios enzimáticos ocurridos al faltar la circulación sanguínea y por lo tanto la oxigenación necesaria para el metabolismo aerobio. 
 
@@ -204,7 +198,7 @@
 
           p(numero="3" titulo="Microorganismos") Son sin duda los que producen las transformaciones más indeseadas y abundantes. En algunos casos pueden suponer riesgos para la salud de las personas, siendo las infecciones microbianas el problema más grave de la alimentación humana, después del hambre y la sobrealimentación.
 
-      .col-8.col-lg-4
+      .col-8.col-lg-4.mb-4
         figure
           img(src="@/assets/curso/images/tema1/img_19.png", alt="alt")
 

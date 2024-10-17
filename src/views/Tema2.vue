@@ -208,7 +208,7 @@
     h4.text-center.mb-4 Se deben tener en cuenta los siguientes elementos: 
 
     .row.justify-content-center.mb-5
-      .col-lg-8
+      .col-lg-8.mb-3
         LineaTiempoD
           p(numero="1" titulo="Diseño higiénico") Las cocinas deben construirse para evitar la acumulación de suciedad y permitir operaciones de limpieza eficaces. Las superficies deben ser continuas y de fácil acceso para la limpieza y desinfección, evitando ángulos y grietas donde se pueda acumular suciedad.
 
@@ -222,19 +222,20 @@
           
           p(numero="6" titulo="Prevención de condensación") Los techos deben diseñarse para evitar la acumulación de humedad que pueda provocar condensación y goteo sobre áreas donde se manipulan alimentos. El control de la temperatura y la humedad es esencial para prevenir estos riesgos (Ministerio de Salud y Protección Social, 2013, Art. 9).
 
-      .col-8.col-lg-4
+      .col-8.col-lg-4.mb-3
         figure
           img(src="@/assets/curso/images/tema2/img_14.png", alt="alt")
 
-    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+    .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2
         .h3.mx-5.mb-0.mt-1 Disposiciones referentes a los utensilios, recipientes, envases y envolturas
-    p Los utensilios, recipientes, envases y envolturas utilizados en la cocina deben cumplir con estrictos requisitos de higiene para asegurar la inocuidad de los alimentos. Según la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social de Colombia, es imperativo que estos elementos se encuentren en perfecto estado de conservación e higiene para prevenir la contaminación cruzada (Ministerio de Salud y Protección Social, 2013, Art. 5).
+
+    p.mb-3 Los utensilios, recipientes, envases y envolturas utilizados en la cocina deben cumplir con estrictos requisitos de higiene para asegurar la inocuidad de los alimentos. Según la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social de Colombia, es imperativo que estos elementos se encuentren en perfecto estado de conservación e higiene para prevenir la contaminación cruzada (Ministerio de Salud y Protección Social, 2013, Art. 5).
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-4
         figure
-          img(src='@/assets/curso/images/tema2/img_15.png', alt='Texto que describa la imagen').mx-auto 
+          img(src='@/assets/curso/images/tema2/img_15.png', alt='Texto que describa la imagen').mx-auto.mb-4 
       .col-md-8    
         ul.lista-ul--color.lista-ul--separador
           li 
@@ -268,25 +269,25 @@
             p.mb-0 Se debe realizar una visita técnico-profesional al establecimiento del proveedor para evaluar las condiciones de la infraestructura, higiene y métodos de conservación que utiliza. El proveedor debe contar con el registro de su establecimiento como elaborador y/o distribuidor de alimentos, así como con la habilitación correspondiente del municipio o departamento.
           
 
-    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+    .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2
         .h3.mx-5.mb-0.mt-1 Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad 
   
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-2
       .col-md-3
         figure
-          img(src='@/assets/curso/images/tema2/img_17.png', alt='Texto que describa la imagen')
+          img(src='@/assets/curso/images/tema2/img_17.png', alt='Texto que describa la imagen').mx-auto
       .col-md-9
-        p <b>Control de origen y procedencia:</b> es fundamental documentar el origen y procedencia de todos los productos y materias primas que se utilizan en la cocina. Cada producto debe contar con su etiqueta correspondiente, la cual debe incluir la fecha de elaboración, vencimiento, la descripción de los ingredientes, el registro del producto y del establecimiento. Mientras el producto se utiliza en la cocina, la etiqueta debe mantenerse visible. 
+        p.mb-4 <b>Control de origen y procedencia:</b> es fundamental documentar el origen y procedencia de todos los productos y materias primas que se utilizan en la cocina. Cada producto debe contar con su etiqueta correspondiente, la cual debe incluir la fecha de elaboración, vencimiento, la descripción de los ingredientes, el registro del producto y del establecimiento. Mientras el producto se utiliza en la cocina, la etiqueta debe mantenerse visible. 
         .cajon.bg-3.g_18.mb-5.mb-lg-0
           .row.mb-4
             .col-lg-12.p-4.ps-5
               p.mb-0 <b>Prohibición de uso de productos en mal estado:</b> la presencia de materias primas o preparaciones culinarias con defectos de preparación o conservación indica su intención de uso. Por lo tanto, estas no pueden ser utilizadas y deben ser devueltas o descartadas dentro de las 48 horas siguientes. Los productos en mal estado deben ser almacenados en un lugar aislado, con una etiqueta visible que indique su inutilización. Está prohibido separar la porción en mal estado y vender el resto del alimento. Todo el producto se considera desperdicio.
       
-    h4.text-center.mb-4 Evaluación de la materia prima: al adquirir una materia prima, se deben evaluar los siguientes factores:
+    h4.text-center.mb-3 Evaluación de la materia prima: al adquirir una materia prima, se deben evaluar los siguientes factores:
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8.mb-3
         LineaTiempoD
           p(numero="1" titulo="Calidad organoléptica") Los manipuladores deben tener conocimiento de la calidad organoléptica de los alimentos, es decir, su aspecto visual (color, textura), olor y sabor. Esta evaluación es parte de la ética profesional y comercial.
 
@@ -305,12 +306,10 @@
               li 
                 i.fas.fa-check
                 |	<b>Documentación:</b> verificar que la materia prima cuente con la rotulación correcta, incluyendo el origen, el registro del establecimiento y la fecha de elaboración y vencimiento.
-    
 
-      .col-lg-4
+      .col-lg-4.mb-3
         figure
           img(src="@/assets/curso/images/tema2/img_18.png", alt="alt")
-
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2
@@ -487,7 +486,7 @@
                 p.mb-0 La manipulación segura de alimentos es un pilar fundamental para garantizar su inocuidad y evitar la contaminación cruzada, un proceso que puede afectar negativamente la salud de los consumidores. La contaminación cruzada ocurre cuando microorganismos nocivos de alimentos crudos se transfieren a alimentos cocidos o listos para el consumo. Para prevenir esta situación, es crucial seguir las siguientes disposiciones, que abarcan diferentes aspectos del proceso de manipulación: 
 
     .row.justify-content-center.align-items-center.mb-5
-      .col-lg-8
+      .col-lg-8.mb-4
         LineaTiempoD
           p(numero="1" titulo="Prácticas culinarias") La limpieza y organización son claves para prevenir la contaminación cruzada. Mantener las mesadas, tablas de trabajo y utensilios limpios y separados para alimentos crudos y cocidos es fundamental. El lavado de manos frecuente, especialmente antes de manipular alimentos, así como el uso de guantes en situaciones que lo requieran, también son medidas cruciales. Evitar la acumulación de residuos, alimentos o utensilios sucios en el área de trabajo y respetar la cadena de frío son aspectos a tener en cuenta para mantener un entorno higiénico.
 
@@ -498,7 +497,7 @@
           p(numero="4" titulo="Congelación") La congelación a -18°C o menos es una técnica eficiente para preservar alimentos por largos períodos. Es importante descongelar los alimentos de manera segura, evitando la recongelación, que puede afectar su calidad y seguridad. Es recomendable utilizar métodos de descongelación controlados, como la heladera o el microondas, evitando la descongelación a temperatura ambiente.
           
           p(numero="5" titulo="Cadena de frío") La cadena de frío debe mantenerse intacta durante todo el proceso de manipulación y transporte. Se debe evitar el corte de la cadena de frío, lo que podría generar la proliferación de microorganismos. Es crucial utilizar equipos de refrigeración y transporte adecuados que garanticen la temperatura adecuada durante todo el proceso. 
-      .col-lg-4
+      .col-lg-4.mb-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/images/tema2/img_29.png', alt='')
 
