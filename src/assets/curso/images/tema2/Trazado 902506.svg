@@ -1,9 +1,0 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1240" height="770" viewBox="0 0 1240 770">
-  <defs>
-    <radialGradient id="radial-gradient" cx="0.5" cy="0.5" r="0.5" gradientUnits="objectBoundingBox">
-      <stop offset="0" stop-color="#fff"/>
-      <stop offset="1" stop-color="#ece1ca"/>
-    </radialGradient>
-  </defs>
-  <path id="Trazado_902506" data-name="Trazado 902506" d="M19,0H1221a19,19,0,0,1,19,19V751a19,19,0,0,1-19,19H19A19,19,0,0,1,0,751V19A19,19,0,0,1,19,0Z" fill="url(#radial-gradient)"/>
-</svg>

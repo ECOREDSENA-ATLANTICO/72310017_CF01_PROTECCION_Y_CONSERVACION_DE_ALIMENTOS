@@ -30,7 +30,10 @@
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-5
             .col-md-7.mb-4.mb-md-0
-              h4 Definición de higiene alimentaria
+              .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+                .col-lg-10.bg-color-1.px-3.py-2
+                  .h3.mx-5.mb-0.mt-1 Definición de higiene alimentaria
+
               p La higiene alimentaria comprende un conjunto de condiciones y medidas necesarias para garantizar la seguridad e inocuidad de los alimentos en todas las etapas de la cadena alimentaria. Esto incluye desde la producción, procesamiento, y almacenamiento, hasta la distribución y consumo final.
 
             .col-md-5
@@ -40,7 +43,11 @@
         .tarjeta.bg-01.p-4
           .row.justify-content-center.align-items-center.my-lg-4.p-5
             .col-md-7.mb-4.mb-md-0
-              h4 Importancia de la Higiene y Seguridad Alimentaria.
+      
+              .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+                .col-lg-10.bg-color-1.px-3.py-2
+                  .h3.mx-5.mb-0.mt-1 Importancia de la Higiene y Seguridad Alimentaria.
+
               ul.lista-ul
                 li 
                   i.lista-ul__vineta
@@ -59,7 +66,10 @@
         .tarjeta.bg-01.p-4
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-5
             .col-md-7.mb-4.mb-md-0
-              h4 Principios Básicos.
+              .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+                .col-lg-10.bg-color-1.px-3.py-2
+                  .h3.mx-5.mb-0.mt-1 Principios Básicos.
+
               ul.lista-ul
                 li 
                   i.lista-ul__vineta
@@ -84,7 +94,7 @@
 
     p.mb-5 La clasificación de los alimentos es fundamental para comprender su comportamiento y asegurar su calidad. Este apartado aborda la categorización de los alimentos desde diferentes perspectivas: composición química, tiempo de vida útil, función nutritiva y origen. El conocimiento de estos criterios permite un análisis más profundo de las características de los alimentos y su impacto en la salud y la alimentación:
 
-    .row.align-items-center.justify-content-center.mb-0
+    .row.align-items-center.justify-content-center.mb-0.fondo_1
       .col-md-12.mb-4
         .titulo-sexto.color-acento-contenido.mb-0
             h5 Figura 1. 
@@ -100,7 +110,17 @@
 
     p.mb-4 Por diferentes factores que llegan a causar su deterioro y en algunos casos generar contaminación, dichos factores se dividen en agentes físicos, químicos, biológicos y prácticas indeseables; conozcamos a que hace referencia cada uno de estos:
 
-    h4 Agentes físicos
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Agentes físicos
+    
+    //- .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+    //-   .col-lg-12.bg-color-1.px-3.py-2
+    //-     .icon
+    //-       img(src="@/assets/curso/images/tema1/img_28.png")
+    //-     .h3.mx-5.mb-0 Agentes físicos
+
+
     p Los agentes físicos <b>suelen actuar durante los procesos de cosecha y los tratamientos posteriores</b>. En general, por sí mismos, no suelen alterar las características nutricionales de los alimentos, pero sí su palatabilidad. El hecho más importante es que <b>pueden significar una vía de entrada a las otras alteraciones</b>. Se destacan:
 
     .row.mb-5
@@ -135,7 +155,10 @@
           h5 Presencia de sustancias extrañas 
           p Debido a una inadecuada manipulación sin la aplicación de las buenas prácticas de manufactura que permite la presencia de materiales no deseables en los alimentos como cabellos, plásticos, tierra, etc.
     
-    h4 Agentes químicos
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Agentes químicos
+
     p Los agentes químicos se manifiestan especialmente durante los procesos de almacenamiento de los alimentos. <b>Su efecto puede afectar de forma notable la comestibilidad del alimento</b>: pardeamiento, enranciamiento, presencia de químicos no autorizados, etc.
 
     .row.justify-content-center.mb-5
@@ -166,7 +189,10 @@
             h4.mb-3.text-center Presencia de químicos no autorizados 
             p.mb-0 Los cuales se presentan en los alimentos al realizar el proceso de limpieza y desinfección sin seguir correctamente los protocolos. <br>Este proceso deja residuos de detergentes y/o desinfectantes, al cosechar las frutas, verduras y hortalizas en tiempos no apropiados con residuos de fungicidas, herbicidas o químicos utilizados durante la producción primaria, al ordeñar o sacrificar los animales sin dejar los tiempos de retiro necesarios en caso de ser vacunados, obteniendo la leche y carne con residuos de antibióticos o medicamentos.
  
-    h4 Agentes biológicos
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Agentes biológicos
+
     p Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
 
     .row.justify-content-center.mb-5
@@ -189,7 +215,7 @@
 
     p.mb-5 Otro grupo son los mohos, importantes por la producción de toxinas y por su resistencia a las condiciones más extremas; finalmente, las levaduras, con las transformaciones rápidas más relevantes desde el punto de vista fermentativo.
     
-    .row.align-items-center.justify-content-center.mb-3.fondo_4
+    .row.align-items-center.justify-content-center.mb-3.fondo_1_1
       .col-md-6.mb-4
         .titulo-sexto.color-acento-contenido.mb-0
             h5 Figura 2. 
@@ -206,7 +232,10 @@
         p Por debajo de los 5ºC el crecimiento microbiano es muy lento (la temperatura normal de un refrigerador familiar es entre 1 y 4ºC) y por debajo de la temperatura de congelación (-18ºC) no existe desarrollo, aunque muchos sobrevivirán y volverán a multiplicarse en el momento de descongelación del alimento.
 
 
-    h4 Factores que favorecen la proliferación microbiana
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Factores que favorecen la proliferación microbiana
+
     p.mb-5 Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
     
     .row.justify-content-center.mb-5
@@ -256,7 +285,9 @@
           .col-lg-12.p-4.ps-5 
             p.m-0.mt-4 Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
-    h4.mb-5 Prácticas indeseables
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Prácticas indeseables
     
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-12.mb-3

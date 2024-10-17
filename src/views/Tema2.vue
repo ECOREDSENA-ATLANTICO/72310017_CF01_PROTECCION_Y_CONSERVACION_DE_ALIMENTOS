@@ -83,37 +83,66 @@
         .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 3. 
             span Temas que deben incluirse en las guías de BPM
-        figure
-          img.mb-3(src='@/assets/curso/images/tema2/img_9.svg', alt='Texto que describa la imagen').mx-auto
-          figcaption Fuente: Elaboración Propia.
 
+        ImagenInfografica.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/images/tema2/img_9.svg', alt='Texto que describa la imagen').mb-3.mx-auto
+              figcaption Fuente: Elaboración Propia.
 
-    h4.mb-4 Campos de aplicación
+          .tarjeta.color-acento-botones.p-3(x="40%" y="17%" numero="A")
+            .h5.mb-2.texto-color-acento-botones Personal
+            p.text-dark.text-small La dirección debe establecer responsabilidades claras para los manipuladores y demás trabajadores de la cocina, enfocadas en la sanidad, higiene personal y capacitación. Esto implica exámenes médicos pre-ocupacionales y chequeos periódicos para detectar y prevenir enfermedades infecciosas. Se deben establecer normas estrictas para la higiene personal, incluyendo el lavado de manos frecuente, el uso de uniformes limpios, la prohibición de fumar o comer en áreas de trabajo y el manejo adecuado de utensilios y equipos.  El personal debe recibir capacitación constante sobre las normas de higiene, seguridad alimentaria y manipulación de alimentos.  Las BPM en personal buscan prevenir la transmisión de enfermedades a través de la mano de obra, asegurando la inocuidad de los alimentos.
+
+          .tarjeta.color-acento-botones.p-3(x="60%" y="17%" numero="B")
+            .h5.mb-2.texto-color-acento-botones Operaciones sanitarias
+            p.text-dark.text-small Se deben implementar normas y principios básicos para el saneamiento e higiene del edificio, las dependencias, el equipamiento y los utensilios.  Esto incluye controlar la calidad y potabilidad del agua y del aire, asegurando su adecuada ventilación y circulación. Se deben establecer procedimientos eficientes para la gestión de desperdicios y desechos, incluyendo su recolección, almacenamiento y eliminación, para evitar la proliferación de plagas y la contaminación ambiental.  Se deben implementar medidas para controlar la presencia de plagas, como insectos y roedores, asegurando la limpieza y desinfección de las instalaciones para evitar la contaminación. 
+
+          .tarjeta.color-acento-botones.p-3(x="68%" y="46%" numero="C")
+            .h5.mb-2.texto-color-acento-botones Edificio y terreno
+            p.text-dark.text-small Se deben implementar normas y principios básicos para el saneamiento e higiene del edificio, las dependencias, el equipamiento y los utensilios.  Esto incluye controlar la calidad y potabilidad del agua y del aire, asegurando su adecuada ventilación y circulación. Se deben establecer procedimientos eficientes para la gestión de desperdicios y desechos, incluyendo su recolección, almacenamiento y eliminación, para evitar la proliferación de plagas y la contaminación ambiental.  Se deben implementar medidas para controlar la presencia de plagas, como insectos y roedores, asegurando la limpieza y desinfección de las instalaciones para evitar la contaminación. 
+
+          .tarjeta.color-acento-botones.p-3(x="60%" y="72%" numero="D")
+            .h5.mb-2.texto-color-acento-botones Equipamiento y utensilios
+            p.text-dark.text-small El diseño de los equipos y utensilios empleados en la cocina debe facilitar su limpieza y mantenimiento, previniendo la contaminación de los alimentos.  Los materiales de los equipos y utensilios deben ser no porosos, resistentes a la corrosión, al calor y fáciles de limpiar. Se deben establecer reglas para el manejo higiénico de los equipos y utensilios, incluyendo su limpieza y desinfección regular. 
+
+          .tarjeta.color-acento-botones.p-3(x="40%" y="72%" numero="E")
+            .h5.mb-2.texto-color-acento-botones Procesos y controles
+            p.text-dark.text-small El diseño de los equipos y utensilios empleados en la cocina debe facilitar su limpieza y mantenimiento, previniendo la contaminación de los alimentos.  Los materiales de los equipos y utensilios deben ser no porosos, resistentes a la corrosión, al calor y fáciles de limpiar. Se deben establecer reglas para el manejo higiénico de los equipos y utensilios, incluyendo su limpieza y desinfección regular. 
+
+          .tarjeta.color-acento-botones.p-3(x="31%" y="46%" numero="F")
+            .h5.mb-2.texto-color-acento-botones Registros
+            p.text-dark.text-small Los registros son un elemento fundamental para el control de las buenas prácticas.  Se deben llevar registros de: limpieza y desinfección de las instalaciones, equipos y personal, inspección de la materia prima, productos y preparaciones, temperatura y condiciones de transporte de los alimentos y cualquier otra información relevante para la gestión de la seguridad alimentaria.
+
+    .row.justify-content-center.align-items-center.fondo_2_2
+
+      .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+        .col-lg-10.bg-color-1.px-3.py-2
+          .h3.mx-5.mb-0.mt-1 Campos de aplicación
     
-    .row.justify-content-center.align-items-center
       .col-md-8    
-          ul.lista-ul--color.lista-ul--separador
-            li 
-              i.fas.fa-check
-              | A todas las fábricas y establecimientos donde se procesan los alimentos; los equipos, utensilios y el personal manipulador de alimentos.
-            li 
-              i.fas.fa-check
-              | A todas las actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos en el territorio nacional.
-            li 
-              i.fas.fa-check
-              | A los alimentos y materias primas para alimentos que se fabriquen, envasen, expendan, exporten o importen, para el consumo humano.
-            li 
-              i.fas.fa-check
-              | A las actividades de vigilancia y control que ejerzan las autoridades sanitarias sobre la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, importación, exportación y comercialización de alimentos, sobre los alimentos y materias primas para alimentos.
+        ul.lista-ul--color.lista-ul--separador
+          li 
+            i.fas.fa-check
+            | A todas las fábricas y establecimientos donde se procesan los alimentos; los equipos, utensilios y el personal manipulador de alimentos.
+          li 
+            i.fas.fa-check
+            | A todas las actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos en el territorio nacional.
+          li 
+            i.fas.fa-check
+            | A los alimentos y materias primas para alimentos que se fabriquen, envasen, expendan, exporten o importen, para el consumo humano.
+          li 
+            i.fas.fa-check
+            | A las actividades de vigilancia y control que ejerzan las autoridades sanitarias sobre la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, importación, exportación y comercialización de alimentos, sobre los alimentos y materias primas para alimentos.
       .col-md-4
         figure
           img(src='@/assets/curso/images/tema2/img_10.png', alt='Texto que describa la imagen') 
-      
     
-    h4.mb-4 Disposiciones del personal
 
-    
-    .row.justify-content-center.align-items-center.mb-5
+      .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+        .col-lg-10.bg-color-1.px-3.py-2
+          .h3.mx-5.mb-0.mt-1 Disposiciones del personal
+      
       .col-lg-12.mb-3
         .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -121,12 +150,15 @@
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Las disposiciones referentes al personal son la base para garantizar la seguridad alimentaria, asegurando que los manipuladores de alimentos trabajen con higiene y responsabilidad, protegiendo a los consumidores de posibles enfermedades. Estas normas cubren aspectos cruciales como los exámenes médicos, la higiene personal y el uso adecuado de ropa reglamentaria.
-            
-    
-    h4.mb-4 Exámenes médicos
+          
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Exámenes médicos
     p.mb-5 La dirección debe garantizar que los manipuladores de alimentos se sometan a un examen médico pre-ocupacional y a chequeos periódicos regulares. Estos exámenes buscan identificar y prevenir la presencia de enfermedades infecciosas como diarrea, vómitos, faringitis o fiebre, así como la portación sana de enfermedades, heridas o llagas infectadas. En caso de detectar alguna afección, la actividad del manipulador podría suspenderse hasta la recuperación o, en su defecto, continuar con el trabajo bajo medidas de higiene reforzadas.
     
-    h4.mb-4 Higiene
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Higiene
     p.mb-4 La higiene del personal es crucial para la seguridad alimentaria. La dirección debe promover y supervisar la aplicación de normas básicas de higiene para los cocineros:
   
     .row.justify-content-center.mb-4.align-items-center
@@ -148,7 +180,9 @@
         figure
           img(src='@/assets/curso/images/tema2/img_12.png', alt='Texto que describa la imagen') 
       
-    h4.mb-4 Ropa reglamentaria
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Ropa reglamentaria
     p.mb-4 Lla ropa de trabajo de los manipuladores debe ser limpia y estar en buen estado, y debe cambiarse al inicio de cada jornada por un uniforme reglamentario. Se debe evitar usar la ropa de trabajo fuera del área de trabajo para prevenir la contaminación de los alimentos. El uso de elementos de profilaxis como guantes, barbijos y cofias debe ser regulado para minimizar el riesgo de contaminación. Estos elementos deben ser de un solo uso, cambiarse cuando estén sucios o dañados, y utilizarse de manera correcta para evitar la contaminación. 
   
     .row.justify-content-center
@@ -158,7 +192,9 @@
             .col-lg-12.p-4.ps-5
               p.mb-0 Recuerda que las buenas prácticas de higiene del personal son vitales para garantizar la seguridad alimentaria. La dirección debe implementar políticas claras y promover la cultura de la higiene para asegurar la calidad e inocuidad de los alimentos.
       
-    h4.mb-4 Disposiciones referentes a las instalaciones y edificio 
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a las instalaciones y edificio 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-3
@@ -190,7 +226,9 @@
         figure
           img(src="@/assets/curso/images/tema2/img_14.png", alt="alt")
 
-    h4.mb-4 Disposiciones referentes a los utensilios, recipientes, envases y envolturas
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a los utensilios, recipientes, envases y envolturas
     p Los utensilios, recipientes, envases y envolturas utilizados en la cocina deben cumplir con estrictos requisitos de higiene para asegurar la inocuidad de los alimentos. Según la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social de Colombia, es imperativo que estos elementos se encuentren en perfecto estado de conservación e higiene para prevenir la contaminación cruzada (Ministerio de Salud y Protección Social, 2013, Art. 5).
 
     .row.justify-content-center.align-items-center.mb-5
@@ -216,7 +254,9 @@
             | <b>Herramientas de limpieza:</b> las esponjas de fibra natural o sintética se recomiendan para la limpieza de utensilios, mientras que las esponjas de virutas de acero deben evitarse, ya que pueden desprender partículas que contaminen los alimentos.
     
 
-    h4.mb-4 Disposiciones referentes a proveedores 
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a proveedores 
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-3
@@ -228,7 +268,9 @@
             p.mb-0 Se debe realizar una visita técnico-profesional al establecimiento del proveedor para evaluar las condiciones de la infraestructura, higiene y métodos de conservación que utiliza. El proveedor debe contar con el registro de su establecimiento como elaborador y/o distribuidor de alimentos, así como con la habilitación correspondiente del municipio o departamento.
           
 
-    h4.mb-4 Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad 
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad 
   
     .row.justify-content-center.align-items-center.mb-5
       .col-md-3
@@ -270,12 +312,17 @@
           img(src="@/assets/curso/images/tema2/img_18.png", alt="alt")
 
 
-    h4.mb-5 Disposiciones referentes al transporte: garantizando la seguridad de los alimentos en movimiento
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Disposiciones referentes al transporte: garantizando la seguridad de los alimentos en movimiento
+    
     figure
       img(src='@/assets/curso/images/tema2/img_19.png', alt='Texto que describa la imagen').mx-auto.mb-5
     p El transporte de alimentos es una parte crucial de la cadena alimentaria, y es crucial asegurar que se realiza de forma segura para preservar la calidad e inocuidad de los productos. Una de las mayores falencias en este ámbito es la falta de vehículos adecuados y la falta de higiene durante el transporte. Sin embargo, existen esfuerzos para mejorar la situación mediante la implementación de nuevos vehículos con sistemas de refrigeración adecuados. 
 
-    h4.mb-4 Requisitos para el transporte
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Requisitos para el transporte
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         ul.lista-ul--color.lista-ul--separador
@@ -335,7 +382,9 @@
             b Limpieza y desinfección 
           p Limpiar y desinfectar el vehículo con frecuencia, especialmente después de cada transporte, para evitar la acumulación de contaminantes.
 
-    h4.mb-4 Disposiciones referentes al almacenamiento en la cocina
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Disposiciones referentes al almacenamiento en la cocina
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-4
@@ -427,7 +476,9 @@
             i.fas.fa-check
             |	<b>Control de stock</b> <br>Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
             
-    h4.mb-4 Disposiciones referentes a la manipulación de alimentos
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a la manipulación de alimentos
     .row.justify-content-center.mb-4    
       .col-lg-12
           .cajon.bg-3.g_18.mb-5.mb-lg-0

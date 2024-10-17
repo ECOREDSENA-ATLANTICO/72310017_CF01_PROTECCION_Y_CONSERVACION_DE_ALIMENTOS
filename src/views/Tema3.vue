@@ -25,25 +25,82 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 La preservación de alimentos es un proceso fundamental que atraviesa todos los eslabones de la cadena alimentaria, desde la producción hasta el consumo. Su importancia radica en la capacidad de extender la vida útil de los productos, protegiéndolos del deterioro y asegurando su inocuidad, lo cual garantiza un acceso seguro y confiable a alimentos frescos y saludables para todos. Este proceso no solo busca evitar el desperdicio, sino que también permite distribuir los alimentos de manera eficiente a nivel nacional e internacional, abriendo posibilidades de acceso a productos frescos y saludables en diferentes regiones.
 
-    h4.mb-4 Técnicas de preservación de alimentos
+    .row.align-items-center.justify-content-center.fondo_2_2
+      .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+        .col-lg-10.bg-color-1.px-3.py-2
+          .h3.mx-5.mb-0.mt-1 Técnicas de preservación de alimentos
 
-    p.mb-4 Las técnicas de preservación de alimentos se basan en la aplicación de métodos que ralentizan o detienen el crecimiento de microorganismos y enzimas que provocan el deterioro de los alimentos. A continuación se describen las técnicas más comunes:
-            
-    .row.align-items-center.justify-content-center.mb-3
-      .col-md-12.mb-4
-        //- .titulo-sexto.color-acento-contenido.mb-3
-        //-     h5 Figura 3. 
-        //-     span Temas que deben incluirse en las guías de BPM
-        figure
-          img.mb-3(src='@/assets/curso/images/tema3/img_3.png', alt='Texto que describa la imagen').mx-auto
-          figcaption Fuente: Elaboración Propia.
+      p.mb-4 Las técnicas de preservación de alimentos se basan en la aplicación de métodos que ralentizan o detienen el crecimiento de microorganismos y enzimas que provocan el deterioro de los alimentos. A continuación se describen las técnicas más comunes:
+              
+      .row.align-items-center.justify-content-center.mb-3
+        .col-md-12.mb-4
+          ImagenInfografica.color-acento-botones
+            template(v-slot:imagen)
+              figure
+                img(src='@/assets/curso/images/tema3/img_3.png', alt='Texto que describa la imagen').mb-3.mx-auto
+                figcaption Fuente: Elaboración Propia.
+
+            .tarjeta.color-acento-botones.p-3(x="43%" y="15%" numero="1")
+              .h5.mb-2.texto-color-acento-botones 1. Refrigeración
+              p.text-dark.text-small Mantener los alimentos a una temperatura baja (entre 0 y 4°C) para ralentizar el crecimiento de microorganismos. Ideal para productos perecederos como carnes, pescados, frutas, verduras y lácteos.
+              img(src='@/assets/curso/images/tema3/img_22.png', alt='Texto que describa la imagen').mx-auto
+
+            .tarjeta.color-acento-botones.p-3(x="57%" y="15%" numero="2")
+              .h5.mb-2.texto-color-acento-botones 2. Congelación
+              p.text-dark.text-small Reducir la temperatura a -18°C o menos, deteniendo el desarrollo bacteriano. Excelente para conservar frutas, verduras, carnes y pescados por largos períodos, manteniendo su sabor y textura.
+              img(src='@/assets/curso/images/tema3/img_23.png', alt='Texto que describa la imagen').mx-auto
+
+            .tarjeta.color-acento-botones.p-3(x="66%" y="34%" numero="3")
+              .h5.mb-2.texto-color-acento-botones 3. Pasteurización
+              p.text-dark.text-small Utiliza calor para destruir los microorganismos patógenos presentes en alimentos líquidos como la leche y los jugos. Se aplica a temperaturas específicas durante un tiempo determinado, garantizando la inocuidad del producto sin alterar su sabor y nutrientes.
+              img(src='@/assets/curso/images/tema3/img_24.png', alt='Texto que describa la imagen').mx-auto
+
+            .tarjeta.color-acento-botones.p-3(x="66%" y="58%" numero="4")
+              .h5.mb-2.texto-color-acento-botones 4. Enlatado
+              p.text-dark.text-small Consiste en sellar herméticamente los alimentos en envases y someterlos a un tratamiento térmico (calor) para destruir microorganismos y enzimas. El enlatado se emplea para productos como frutas, verduras, carnes y pescados, extendiendo su vida útil a largos períodos. Es esencial asegurar el correcto sellado y tratamiento térmico para evitar el crecimiento de bacterias anaerobias como el <em class="text-dark">Clostridium botulinumem</em>.
+              img(src='@/assets/curso/images/tema3/img_25.png', alt='Texto que describa la imagen').mx-auto
+
+            .tarjeta.color-acento-botones.p-3(x="57%" y="77%" numero="5")
+              .h5.mb-2.texto-color-acento-botones 5. Deshidratación
+              p.text-dark.text-small Elimina el agua del alimento para inhibir el crecimiento microbiano. Útil para frutas, verduras, carnes y pescados, disminuyendo su peso y volumen, facilitando su almacenamiento y transporte. Se debe controlar la uniformidad del proceso de deshidratación para evitar zonas húmedas que puedan comprometer la seguridad del producto.
+              img(src='@/assets/curso/images/tema3/img_26.png', alt='Texto que describa la imagen').mx-auto
+
+            .tarjeta.color-acento-botones.p-3(x="43%" y="76%" numero="6")
+              .h5.mb-2.texto-color-acento-botones 6. Salado y Curado
+              p.text-dark.text-small Utilizan sal y otros agentes curativos para deshidratar y preservar alimentos, especialmente productos cárnicos. La sal inhibe el crecimiento microbiano y proporciona un sabor característico. Es importante medir cuidadosamente las concentraciones de sal para asegurar una adecuada conservación sin afectar negativamente el sabor.
+              img(src='@/assets/curso/images/tema3/img_27.png', alt='Texto que describa la imagen').mx-auto
+
+            .tarjeta.color-acento-botones.p-3(x="34%" y="58%" numero="7")
+              .h5.mb-2.texto-color-acento-botones 7. Fermentación
+              p.text-dark.text-small Es un proceso biológico en el cual microorganismos como bacterias, levaduras o mohos transforman componentes del alimento, mejorando su conservación. La fermentación se utiliza para productos como el yogur, el queso, la cerveza, el vino y algunos vegetales, aportando sabores específicos y beneficios probióticos. Se requiere un control estricto del ambiente de fermentación, incluyendo temperatura, pH y tiempo.
+              img(src='@/assets/curso/images/tema3/img_28.png', alt='Texto que describa la imagen').mx-auto
+
+            .tarjeta.color-acento-botones.p-3(x="33%" y="34%" numero="8")
+              .h5.mb-2.texto-color-acento-botones 8. Otros metodos
+              ul.lista-ul
+                li.text-dark.text-small 
+                  i.lista-ul__vineta.text-dark
+                  | <b class="text-dark">Ahumado:</b> Utilizar humo de madera para dar sabor y conservarlo.
+
+                li.text-dark.text-small 
+                  i.lista-ul__vineta.text-dark
+                  | <b class="text-dark">Embutido:</b> Envolver carnes en tripas o envoltorios para su conservación.
+                li.text-dark.text-small 
+                  i.lista-ul__vineta.text-dark
+                  | <b class="text-dark">Acidez:</b> El uso de vinagre o ácido cítrico para inhibir el crecimiento bacteriano.
+
+                li.text-dark.text-small 
+                  i.lista-ul__vineta.text-dark
+                  | <b class="text-dark">Conservación en Aceite:</b> Sumergir alimentos en aceite para preservarlos.
+              
+              img(src='@/assets/curso/images/tema3/img_29.png', alt='Texto que describa la imagen').mx-auto
 
 
     Separador
     #t_3_2.titulo-segundo
       .h2(data-aos="fade-right") 3.2  Recomendaciones generales
 
-    .row.align-items-center.justify-content-center.mb-3
+    .row.align-items-center.justify-content-center.mb-3.fondo_6
       .col-md-8
         p.mb-3 Para asegurar la prevención y control del deterioro de los alimentos, la <b>Resolución 2674 de 2013</b> y las Buenas Prácticas de Manufactura (BPM) proporcionan lineamientos claros sobre almacenamiento, transporte, manipulación, limpieza y desinfección en el contexto colombiano.
         
@@ -127,7 +184,7 @@
 
     Separador
     #t_3_3.titulo-segundo
-      .h2(data-aos="fade-right") 3.3   Control de plagas
+      .h2(data-aos="fade-right") 3.3 Control de plagas
 
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-3
@@ -138,7 +195,9 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Para asegurar la inocuidad alimentaria y prevenir la proliferación de microorganismos en la cocina, es crucial establecer medidas rigurosas de limpieza y desinfección, así como un manejo efectivo de desechos y un control de plagas, todo ello conforme a la <b>Resolución 2674 de 2013</b> del Ministerio de Salud y Protección Social de Colombia. A continuación, se exponen las disposiciones en un lenguaje técnico accesible y formativo:
 
-    h4.mb-4 Disposiciones referentes a la limpieza y la desinfección para evitar la proliferación de plagas
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a la limpieza y la desinfección para evitar la proliferación de plagas
 
     p.mb-4 La limpieza y desinfección en la cocina son procesos planeados y esenciales para mantener la inocuidad. Esto debe considerarse desde el diseño de las instalaciones, aunque muchas cocinas existentes no fueron diseñadas con este enfoque preventivo. La clave está en la pulcritud durante las preparaciones, asegurando que los cocineros mantengan orden y limpieza en sus áreas de trabajo, como estanterías y mesadas, mientras el personal de limpieza se encarga de áreas generales como paredes, pisos y equipos (Ministerio de Salud y Protección Social, 2013).
         
@@ -177,7 +236,9 @@
               i.fas.fa-check
               | <b>Secado:</b> es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
 
-    h4.mb-4 Secuencia y frecuencia
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Secuencia y frecuencia
 
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8
