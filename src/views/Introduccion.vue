@@ -29,7 +29,7 @@
           .cajon.color-acento-contenido.g_18.mb-4.mb-lg-0
             .row
               .col-lg-12.p-4.ps-5 
-                p.m-0.mt-4 Desde la antigüedad, las enfermedades transmitidas por alimentos han sido reconocidas, como se refleja en escrituras antiguas y leyes dictadas por figuras históricas como Moisés. Estas regulaciones no solo establecían qué alimentos eran seguros para el consumo, sino también la importancia de prácticas higiénicas, como el lavado de manos. A pesar de que antiguamente se atribuían las intoxicaciones alimentarias a productos químicos venenosos, a veces deliberadamente incorporados, en el siglo XIX se descubrieron enfermedades alimentarias causadas por microorganismos. Actualmente, sabemos que los alimentos contaminados pueden parecer normales en aspecto, olor y sabor, lo que subraya la necesidad de métodos de conservación efectivos.
+                p Desde la antigüedad, las enfermedades transmitidas por alimentos han sido reconocidas, como se refleja en escrituras antiguas y leyes dictadas por figuras históricas como Moisés. Estas regulaciones no solo establecían qué alimentos eran seguros para el consumo, sino también la importancia de prácticas higiénicas, como el lavado de manos. A pesar de que antiguamente se atribuían las intoxicaciones alimentarias a productos químicos venenosos, a veces deliberadamente incorporados, en el siglo XIX se descubrieron enfermedades alimentarias causadas por microorganismos. Actualmente, sabemos que los alimentos contaminados pueden parecer normales en aspecto, olor y sabor, lo que subraya la necesidad de métodos de conservación efectivos.
 
         .col-md-4
           figure

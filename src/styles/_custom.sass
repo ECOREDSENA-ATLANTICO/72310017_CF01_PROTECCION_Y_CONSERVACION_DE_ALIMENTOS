@@ -394,3 +394,112 @@ table, th, td
 
 .pasos-a.color-acento-contenido .pasos-a__numero::after
   border-left-color: #A79162 !important
+
+
+      
+/* Configuración para pantallas grandes */
+@media (max-width: 1024px) 
+  .tarjeta_hover 
+    width: 48% /* Dos columnas en la primera fila */
+    margin-bottom: 20px /* Espacio entre las filas */
+  
+  /* Para que la tercera tarjeta ocupe toda la fila siguiente */
+  .tarjeta_hover:nth-child(3) 
+    width: 50%
+
+  .tarjeta_figura
+    .col-md-6:first-child
+      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+    
+    .col-md-6:last-child
+      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+    
+  .text_completo
+    .quitar_figura
+      display: none
+
+    .col-7 
+      width: 79% !important
+      
+  .fondo_6
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+  .fondo_2_2
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+  .fondo_2_3
+    .col-md-3
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-9
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+  
+  .fondo_2_4
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+    
+  .fondo_2_5
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      width: 20% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+      
+  .fondo_2_6
+    .col-md-5
+      order: 0 /* Mueve la columna de la imagen hacia arriba */
+      // width: 20% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-7
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+@media (max-width: 430px) 
+  .fondo_2_5
+    .col-md-8
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-4
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+  .text_completo
+    .col-7 
+      width: 58.333333% !important
+    
+  .tarjeta_hover
+    width: 100% /* Ocupaar todo el ancho en pantallas pequenas */
+    /* Para que la tercera tarjeta ocupe toda la fila siguiente */
+
+  .tarjeta_hover:nth-child(3) 
+    width: 100%
+
+.lista-ul--color
+  padding-left: 0 /* Elimina el padding izquierdo por defecto */
+  list-style: none /* Elimina los puntos de la lista */
+
+.lista-ul--color li
+  display: flex /* Usa Flexbox para alinear elementos en línea */
+  align-items: flex-start /* Alinea los elementos al inicio */
+  margin-bottom: 10px /* Espacio entre los elementos de la lista */
+
+.lista-ul--color li i
+  margin-right: 10px /* Espacio entre el ícono y el texto */
+  flex-shrink: 0 /* Evita que el ícono se reduzca */
+

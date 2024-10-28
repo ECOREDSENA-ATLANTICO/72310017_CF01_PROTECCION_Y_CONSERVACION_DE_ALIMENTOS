@@ -27,8 +27,8 @@
 
     .tarjeta.tarjeta.fondo_1_2.p-4.slyder_1.bg-01
       SlyderA(tipo="b")
-        .tarjeta.bg-01.p-4
-          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-5
+        .tarjeta.bg-01.p-2
+          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.fondo_2_6
             .col-md-7.mb-4.mb-md-0
               h3.mb-2 Definición de higiene alimentaria
 
@@ -38,8 +38,8 @@
               figure
               img(src='@/assets/curso/images/tema1/img_2.png', alt='Texto que describa la imagen')
 
-        .tarjeta.bg-01.p-4
-          .row.justify-content-center.align-items-center.my-lg-4.p-5
+        .tarjeta.bg-01.p-2
+          .row.justify-content-center.align-items-center.my-lg-4.p-3.fondo_2_6
             .col-md-7.mb-4.mb-md-0
       
               h3.mb-2 Importancia de la Higiene y Seguridad Alimentaria.
@@ -59,8 +59,8 @@
               figure
                 img(src='@/assets/curso/images/tema1/img_5.png', alt='Texto que describa la imagen')
 
-        .tarjeta.bg-01.p-4
-          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-5
+        .tarjeta.bg-01.p-2
+          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.fondo_2_6
             .col-md-7.mb-4.mb-md-0
               h3.mb-2 Principios Básicos.
 
@@ -155,8 +155,8 @@
 
     p Los agentes químicos se manifiestan especialmente durante los procesos de almacenamiento de los alimentos. <b>Su efecto puede afectar de forma notable la comestibilidad del alimento</b>: pardeamiento, enranciamiento, presencia de químicos no autorizados, etc.
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+    .row.justify-content-center.mb-3
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-2.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -165,7 +165,7 @@
             h4.mb-3.text-center Pardeamiento no enzimático o reacción de maillard
             p.mb-0 Se incluyen una serie de reacciones complejas entre azúcares y compuestos nitrogenados (proteínas), las cuales generan pigmentos marrones.  <br>En algunos casos se producen de manera tecnológica (fritos y tostados), pero en otras es espontáneo. El calor y la desecación lo favorecen.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-2.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -174,7 +174,7 @@
             h4.mb-3.text-center Enranciamiento
             p.mb-0 Proceso por el cual un alimento con alto contenido en grasas o aceites se altera con el tiempo adquiriendo un sabor desagradable.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-2.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -205,11 +205,11 @@
     .cajon.bg-3.g_18.mb-5.mb-lg-0
       .row.mb-4
         .col-lg-12.p-4.ps-5 
-          p.m-0.mt-4 Cabe destacar que, sin embargo, no todos los efectos son negativos, pues diversos alimentos son producidos total o parcialmente por ellos: como los alimentos fermentados. En algunas ocasiones, los microorganismos ya se encuentran en el alimento, en otras, son oportunistas que se encuentran de diversas maneras en el medio que nos rodea (aire, agua, etc.) Entre los más perjudiciales están las bacterias, tanto por su abundancia como por su elevada tasa de reproducción. Pueden producir toxinas (<em>Clostridium</em>) o ser infecciosas por ellas mismas (Salmonella, <em>Listeria</em>).
+          p Cabe destacar que, sin embargo, no todos los efectos son negativos, pues diversos alimentos son producidos total o parcialmente por ellos: como los alimentos fermentados. En algunas ocasiones, los microorganismos ya se encuentran en el alimento, en otras, son oportunistas que se encuentran de diversas maneras en el medio que nos rodea (aire, agua, etc.) Entre los más perjudiciales están las bacterias, tanto por su abundancia como por su elevada tasa de reproducción. Pueden producir toxinas (<em>Clostridium</em>) o ser infecciosas por ellas mismas (Salmonella, <em>Listeria</em>).
 
     p.mb-5 Otro grupo son los mohos, importantes por la producción de toxinas y por su resistencia a las condiciones más extremas; finalmente, las levaduras, con las transformaciones rápidas más relevantes desde el punto de vista fermentativo.
     
-    .row.align-items-center.justify-content-center.mb-3.fondo_1_1
+    .row.align-items-center.justify-content-center.mb-3.fondo_1_1.tarjeta_figura
       .col-md-6.mb-4
         .titulo-sexto.color-acento-contenido.mb-0
             h5 Figura 2. 
@@ -233,8 +233,8 @@
     p.mb-5 Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
     
     .row.justify-content-center.mb-5
-      .col-lg-12.position-relative
-        .avatar
+      .col-lg-12.position-relative.text_completo
+        .avatar.quitar_figura
           figure
             img(src="@/assets/curso/images/tema1/img_22.png", alt="alt").img250
         .crd.crd--avatarHorizontal.crd--first.py-4
@@ -273,11 +273,11 @@
               h5 Nutrientes
               p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
-    .row.justify-content-center.mb-5
+    .row.justify-content-center.mb-3
       .cajon.bg-4.g_18.mb-5.mb-lg-0
         .row.mb-4
           .col-lg-12.p-4.ps-5 
-            p.m-0.mt-4 Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
+            p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2

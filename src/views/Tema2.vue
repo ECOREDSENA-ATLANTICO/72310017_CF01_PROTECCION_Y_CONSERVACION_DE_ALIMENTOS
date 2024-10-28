@@ -11,6 +11,7 @@
         img.mb-3(src='@/assets/curso/images/tema2/img_1.png', alt='Texto que describa la imagen').mx-autoplay
 
     Separador
+
     #t_2_1.titulo-segundo
       .h2(data-aos="fade-right") 2.1 Historia de las Buenas Prácticas de Manufactura (BPM)
 
@@ -18,7 +19,7 @@
 
     .row.justify-content-center.fondo_5
       .col-lg-10
-        PasosA.color-acento-contenido.mb-5()
+        PasosA.color-acento-contenido.mb-3()
           .row
             .col-lg
               h3 Principios del siglo XX
@@ -63,18 +64,18 @@
     #t_2_2.titulo-segundo
       .h2(data-aos="fade-right") 2.2 Principios de las BPM
 
-    .row.justify-content-center.fondo_6.mb-5
-      .col-md-8
+    .row.justify-content-center.fondo_6.mb-2
+      .col-md-8.mb-3
         .cajon.bg-4.g_18.mb-5.mb-lg-0
           .row.mb-4
             .col-lg-12.p-4.ps-5 
-              p.m-0.mt-4 Las Buenas Prácticas de Manufactura (BPM) o <em>Good manufacturing Practices</em> (GMP), son un conjunto de herramientas que se implementan en todas las actividades que involucren manipulación de alimentos. El objetivo central es la obtención de productos seguros para el consumo humano. Los ejes principales del BPM o GMP en inglés, <em>Good Manufacturing Pactices</em>, son las metodologías utilizadas para la manipulación de alimentos y la higiene y seguridad de éstos, evitando que sean un vehículo de las enfermedades transmitidas por alimentos (ETA).
+              p Las Buenas Prácticas de Manufactura (BPM) o <em>Good manufacturing Practices</em> (GMP), son un conjunto de herramientas que se implementan en todas las actividades que involucren manipulación de alimentos. El objetivo central es la obtención de productos seguros para el consumo humano. Los ejes principales del BPM o GMP en inglés, <em>Good Manufacturing Pactices</em>, son las metodologías utilizadas para la manipulación de alimentos y la higiene y seguridad de éstos, evitando que sean un vehículo de las enfermedades transmitidas por alimentos (ETA).
 
         p.mb-3 Las Buenas Prácticas de Manufactura (BPM) se constituyen como regulaciones de carácter obligatorio en Colombia y en gran cantidad de países; buscan evitar la presencia de riesgos de índole físico, químico y biológico durante el proceso de manufactura de alimentos, que pudieran repercutir en afectaciones a la salud del consumidor.
 
         p.mb-3 Una guía de buenas prácticas de manufactura debe contemplar los siguientes temas, sin omitir ninguno de ellos:
 
-      .col-md-4
+      .col-md-4.mb-3
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/images/tema2/img_8.png', alt='')
     
@@ -114,13 +115,12 @@
             .h5.mb-2.texto-color-acento-botones Registros
             p.text-dark.text-small Los registros son un elemento fundamental para el control de las buenas prácticas.  Se deben llevar registros de: limpieza y desinfección de las instalaciones, equipos y personal, inspección de la materia prima, productos y preparaciones, temperatura y condiciones de transporte de los alimentos y cualquier otra información relevante para la gestión de la seguridad alimentaria.
 
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .col-lg-10.bg-color-1.px-3.py-2
+        .h3.mx-5.mb-0.mt-1 Campos de aplicación
+  
     .row.justify-content-center.align-items-center.fondo_2_2
-
-      .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-        .col-lg-10.bg-color-1.px-3.py-2
-          .h3.mx-5.mb-0.mt-1 Campos de aplicación
-    
-      .col-md-8    
+      .col-md-8.mb-3    
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check
@@ -134,11 +134,10 @@
           li 
             i.fas.fa-check
             | A las actividades de vigilancia y control que ejerzan las autoridades sanitarias sobre la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, importación, exportación y comercialización de alimentos, sobre los alimentos y materias primas para alimentos.
-      .col-md-4
+      .col-md-4.mb-3
         figure
           img(src='@/assets/curso/images/tema2/img_10.png', alt='Texto que describa la imagen') 
     
-
       .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
         .col-lg-10.bg-color-1.px-3.py-2
           .h3.mx-5.mb-0.mt-1 Disposiciones del personal
@@ -161,21 +160,21 @@
         .h3.mx-5.mb-0.mt-1 Higiene
     p.mb-4 La higiene del personal es crucial para la seguridad alimentaria. La dirección debe promover y supervisar la aplicación de normas básicas de higiene para los cocineros:
   
-    .row.justify-content-center.mb-4.align-items-center
+    .row.justify-content-center.mb-4.align-items-center.fondo_2_3
       .col-md-9    
           ul.lista-ul--color.lista-ul--separador
             li 
               i.fas.fa-check
-              | <b>Presentación personal:</b> los cocineros deben presentarse a trabajar con higiene personal impecable, incluyendo una ducha y lavado periódico del cabello, afeitado o barba recortada, cabello recogido, uñas limpias y cortadas sin esmalte, entre otros.
+              | Presentación personal: los cocineros deben presentarse a trabajar con higiene personal impecable, incluyendo una ducha y lavado periódico del cabello, afeitado o barba recortada, cabello recogido, uñas limpias y cortadas sin esmalte, entre otros.
             li 
               i.fas.fa-check
-              | <b>Prácticas prohibidas:</b> se deben prohibir las conductas no sanitarias como el uso de joyas, maquillaje, fumar, comer, masticar chicle, escupir, tocarse la nariz o la boca, estornudar o toser sobre los alimentos, arrojar sobras o dejar papeles en el piso.
+              | Prácticas prohibidas: se deben prohibir las conductas no sanitarias como el uso de joyas, maquillaje, fumar, comer, masticar chicle, escupir, tocarse la nariz o la boca, estornudar o toser sobre los alimentos, arrojar sobras o dejar papeles en el piso.
             li 
               i.fas.fa-check
-              | <b>Orden y limpieza:</b> los cocineros son responsables del orden y la limpieza dentro de su área de trabajo. Es importante mantener el área limpia, libre de restos de comida, papeles o utensilios sucios.
+              | Orden y limpieza: los cocineros son responsables del orden y la limpieza dentro de su área de trabajo. Es importante mantener el área limpia, libre de restos de comida, papeles o utensilios sucios.
             li 
               i.fas.fa-check
-              | <b>Lavado de manos:</b> el lavado de manos debe ser una práctica constante y realizarse antes de manipular alimentos, después de usar el baño, de tocar productos contaminados o desechos, al ingresar a trabajar y al cambiar de tarea. Se debe usar jabón y agua limpia para un lavado efectivo.
+              | Lavado de manos: el lavado de manos debe ser una práctica constante y realizarse antes de manipular alimentos, después de usar el baño, de tocar productos contaminados o desechos, al ingresar a trabajar y al cambiar de tarea. Se debe usar jabón y agua limpia para un lavado efectivo.
       .col-md-3
         figure
           img(src='@/assets/curso/images/tema2/img_12.png', alt='Texto que describa la imagen') 
@@ -232,7 +231,7 @@
 
     p.mb-3 Los utensilios, recipientes, envases y envolturas utilizados en la cocina deben cumplir con estrictos requisitos de higiene para asegurar la inocuidad de los alimentos. Según la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social de Colombia, es imperativo que estos elementos se encuentren en perfecto estado de conservación e higiene para prevenir la contaminación cruzada (Ministerio de Salud y Protección Social, 2013, Art. 5).
 
-    .row.justify-content-center.align-items-center.mb-5
+    .row.justify-content-center.align-items-center.mb-5.fondo_2_4
       .col-md-4
         figure
           img(src='@/assets/curso/images/tema2/img_15.png', alt='Texto que describa la imagen').mx-auto.mb-4 
@@ -240,19 +239,19 @@
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check
-            |	<b>Diferenciación de utensilios:</b> se debe diferenciar entre utensilios para alimentos dulces y salados, lo cual puede hacerse mediante un sistema de colores o etiquetas. Esta práctica ayuda a minimizar el riesgo de alteraciones en el sabor y potenciales contaminaciones.
+            |	Diferenciación de utensilios: se debe diferenciar entre utensilios para alimentos dulces y salados, lo cual puede hacerse mediante un sistema de colores o etiquetas. Esta práctica ayuda a minimizar el riesgo de alteraciones en el sabor y potenciales contaminaciones.
           li 
             i.fas.fa-check
-            |	<b>Uso y limpieza:</b> es fundamental no utilizar recipientes que hayan contenido alimentos crudos para almacenar o manipular alimentos cocidos sin una limpieza meticulosa previa con detergente apropiado. Esto se alinea con las prácticas de higiene recomendadas en las BPM.
+            |	Uso y limpieza: es fundamental no utilizar recipientes que hayan contenido alimentos crudos para almacenar o manipular alimentos cocidos sin una limpieza meticulosa previa con detergente apropiado. Esto se alinea con las prácticas de higiene recomendadas en las BPM.
           li 
             i.fas.fa-check
-            |	<b>Condiciones físicas:</b> todos los utensilios deben estar libres de óxidos, completamente secos y libres de restos de agua. Los utensilios dañados, como aquellos con rajaduras, se deben descartar para evitar el riesgo de contaminación física (Ministerio de Salud y Protección Social, 2013, Art. 12).
+            |	Condiciones físicas: todos los utensilios deben estar libres de óxidos, completamente secos y libres de restos de agua. Los utensilios dañados, como aquellos con rajaduras, se deben descartar para evitar el riesgo de contaminación física (Ministerio de Salud y Protección Social, 2013, Art. 12).
           li 
             i.fas.fa-check
-            |	<b>Materiales prohibidos:</b> el uso de utensilios de madera no está permitido debido a la dificultad para limpiarlos adecuadamente y el riesgo potencial de albergar microorganismos.
+            |	Materiales prohibidos: el uso de utensilios de madera no está permitido debido a la dificultad para limpiarlos adecuadamente y el riesgo potencial de albergar microorganismos.
           li 
             i.fas.fa-check
-            | <b>Herramientas de limpieza:</b> las esponjas de fibra natural o sintética se recomiendan para la limpieza de utensilios, mientras que las esponjas de virutas de acero deben evitarse, ya que pueden desprender partículas que contaminen los alimentos.
+            | Herramientas de limpieza: las esponjas de fibra natural o sintética se recomiendan para la limpieza de utensilios, mientras que las esponjas de virutas de acero deben evitarse, ya que pueden desprender partículas que contaminen los alimentos.
     
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
@@ -271,13 +270,13 @@
 
     .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad 
+        .h3.mx-5.mb-3.mt-1 Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad 
   
-    .row.justify-content-center.align-items-center.mb-2
-      .col-md-3
+    .row.justify-content-center.align-items-center.mb-3.fondo_2_3
+      .col-md-3.mb-3
         figure
           img(src='@/assets/curso/images/tema2/img_17.png', alt='Texto que describa la imagen').mx-auto
-      .col-md-9
+      .col-md-9.mb-3
         p.mb-4 <b>Control de origen y procedencia:</b> es fundamental documentar el origen y procedencia de todos los productos y materias primas que se utilizan en la cocina. Cada producto debe contar con su etiqueta correspondiente, la cual debe incluir la fecha de elaboración, vencimiento, la descripción de los ingredientes, el registro del producto y del establecimiento. Mientras el producto se utiliza en la cocina, la etiqueta debe mantenerse visible. 
         .cajon.bg-3.g_18.mb-5.mb-lg-0
           .row.mb-4
@@ -299,13 +298,13 @@
             ul.lista-ul--color.lista-ul--separador
               li 
                 i.fas.fa-check
-                |	<b>Control cuantitativo:</b> verificar que la cantidad recibida coincida con la cantidad indicada en la factura, la nota de remito o la entrega.
+                |	Control cuantitativo: verificar que la cantidad recibida coincida con la cantidad indicada en la factura, la nota de remito o la entrega.
               li 
                 i.fas.fa-check
-                |	<b>Control cualitativo:</b> evaluar el color, olor, sabor y textura de la materia prima, así como su estado general y el embalaje. Se debe medir la temperatura de la materia prima utilizando un termómetro higienizado.
+                |	Control cualitativo: evaluar el color, olor, sabor y textura de la materia prima, así como su estado general y el embalaje. Se debe medir la temperatura de la materia prima utilizando un termómetro higienizado.
               li 
                 i.fas.fa-check
-                |	<b>Documentación:</b> verificar que la materia prima cuente con la rotulación correcta, incluyendo el origen, el registro del establecimiento y la fecha de elaboración y vencimiento.
+                |	Documentación: verificar que la materia prima cuente con la rotulación correcta, incluyendo el origen, el registro del establecimiento y la fecha de elaboración y vencimiento.
 
       .col-lg-4.mb-3
         figure
@@ -313,11 +312,12 @@
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Disposiciones referentes al transporte: garantizando la seguridad de los alimentos en movimiento
+        .h3.mx-5.mb-2.mt-1 Disposiciones referentes al transporte: garantizando la seguridad de los alimentos en movimiento
     
     figure
-      img(src='@/assets/curso/images/tema2/img_19.png', alt='Texto que describa la imagen').mx-auto.mb-5
-    p El transporte de alimentos es una parte crucial de la cadena alimentaria, y es crucial asegurar que se realiza de forma segura para preservar la calidad e inocuidad de los productos. Una de las mayores falencias en este ámbito es la falta de vehículos adecuados y la falta de higiene durante el transporte. Sin embargo, existen esfuerzos para mejorar la situación mediante la implementación de nuevos vehículos con sistemas de refrigeración adecuados. 
+      img(src='@/assets/curso/images/tema2/img_19.png', alt='Texto que describa la imagen').mx-auto.mb-4
+
+    p.mb-3 El transporte de alimentos es una parte crucial de la cadena alimentaria, y es crucial asegurar que se realiza de forma segura para preservar la calidad e inocuidad de los productos. Una de las mayores falencias en este ámbito es la falta de vehículos adecuados y la falta de higiene durante el transporte. Sin embargo, existen esfuerzos para mejorar la situación mediante la implementación de nuevos vehículos con sistemas de refrigeración adecuados. 
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2
@@ -327,17 +327,17 @@
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check
-            |	<b>Adecuación del vehículo:</b> los medios de transporte que se utilizan para transportar alimentos deben ser adecuados para el tipo de producto que transportan, especialmente si se trata de productos frescos, procesados o semi-procesados. Los vehículos deben ser construidos con materiales que permitan una limpieza, desinfección y desinfestación efectiva. La higiene del vehículo, tanto interna como externa, debe ser extrema.
+            |	Adecuación del vehículo: los medios de transporte que se utilizan para transportar alimentos deben ser adecuados para el tipo de producto que transportan, especialmente si se trata de productos frescos, procesados o semi-procesados. Los vehículos deben ser construidos con materiales que permitan una limpieza, desinfección y desinfestación efectiva. La higiene del vehículo, tanto interna como externa, debe ser extrema.
           li 
             i.fas.fa-check
-            |	<b>Higiene del personal:</b> el personal que se encarga del transporte de los alimentos debe mantener altos estándares de higiene, incluyendo la limpieza y desinfección personal.
+            |	Higiene del personal: el personal que se encarga del transporte de los alimentos debe mantener altos estándares de higiene, incluyendo la limpieza y desinfección personal.
     
       .col-lg-4
         figure
           img(src="@/assets/curso/images/tema2/img_20.png", alt="alt")
 
     .row.justify-content-center.mb-5
-      .col-xl-6.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-6.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.tarjeta_figura
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -346,7 +346,7 @@
             h4.mb-3.text-center Transporte de alimentos no perecederos
             p.mb-0 El transporte de alimentos no perecederos generalmente no presenta mayores dificultades. Sin embargo, cuando se trata de grandes volúmenes, es fundamental que los productos estén paletizados para optimizar el espacio y el tiempo, así como para reducir el riesgo de daños y roturas. 
 
-      .col-xl-6.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0
+      .col-xl-6.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.tarjeta_figura
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
@@ -385,11 +385,11 @@
       .col-lg-10.bg-color-1.px-3.py-2
         .h3.mx-5.mb-0.mt-1 Disposiciones referentes al almacenamiento en la cocina
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-4
+    .row.justify-content-center.align-items-center.mb-3.fondo_2_4
+      .col-md-4.mb-3
         figure
           img(src="@/assets/curso/images/tema2/img_23.png", alt="alt")
-      .col-lg-8
+      .col-md-8.mb-3
         .cajon.bg-3.g_18.mb-5.mb-lg-0
           .row.mb-4
             .col-lg-12.p-4.ps-5
@@ -401,30 +401,30 @@
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check
-            |	<b>Almacenamiento de alimentos no perecederos:</b> los productos no perecederos deben almacenarse en un depósito a temperatura ambiente, con baja humedad relativa (ambiente fresco y seco), ventilado e iluminado.
+            |	Almacenamiento de alimentos no perecederos: los productos no perecederos deben almacenarse en un depósito a temperatura ambiente, con baja humedad relativa (ambiente fresco y seco), ventilado e iluminado.
           li 
             i.fas.fa-check
-            |	<b>Almacenamiento de alimentos perecederos:</b> los productos perecederos deben almacenarse inmediatamente en el sector correspondiente.
+            |	Almacenamiento de alimentos perecederos: los productos perecederos deben almacenarse inmediatamente en el sector correspondiente.
     
 
     h4.mb-5.text-center  En una cocina podemos distinguir tres tipos de almacenamientos, a saber:
 
-    .row.justify-content-center.mb-5
-      .col-lg-4
+    .row.justify-content-center.mb-3
+      .col-lg-4.mb-3
         .tarjeta.color-primario.p-4.h-100
           figure
             img(src="@/assets/curso/images/tema2/img_24.png", alt="alt").w-50.mx-auto.mb-3
           h4.mb-3 Refrigeración
           p La temperatura de refrigeración no debe superar los 4°C para asegurar una buena conservación de los productos.
       
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta.color-primario.p-4.h-100
           figure
             img(src="@/assets/curso/images/tema2/img_25.png", alt="alt").w-50.mx-auto.mb-3
           h4.mb-3 Congelación
           p La temperatura de congelación no debe superar los -18°C para una conservación a largo plazo.
       
-      .col-lg-4
+      .col-lg-4.mb-3
         .tarjeta.color-primario.p-4.h-100
           figure
             img(src="@/assets/curso/images/tema2/img_26.png", alt="alt").w-50.mx-auto.mb-3
@@ -437,16 +437,16 @@
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check
-            |	<b>Dimensión del área de almacenamiento</b> <br>el tamaño del área de almacenamiento debe ajustarse a la cantidad de alimentos perecederos que se manejan. En algunos casos, se requieren varias cámaras de refrigeración y congelación. En otros casos, una o dos cámaras deben ser sectorizadas para un mejor funcionamiento
+            |	Dimensión del área de almacenamiento: el tamaño del área de almacenamiento debe ajustarse a la cantidad de alimentos perecederos que se manejan. En algunos casos, se requieren varias cámaras de refrigeración y congelación. En otros casos, una o dos cámaras deben ser sectorizadas para un mejor funcionamiento
           li 
             i.fas.fa-check
-            |	<b>Ubicación de los productos</b> <br>se debe tener especial cuidado al ubicar los diferentes productos para evitar la contaminación cruzada:
+            |	Ubicación de los productos: se debe tener especial cuidado al ubicar los diferentes productos para evitar la contaminación cruzada:
           li 
             i.fas.fa-check
-            |	<b>Separación de productos</b> <br>los productos para devolución deben estar correctamente identificados en cajas cerradas y ubicados por lotes con el nombre del proveedor para su devolución.
+            |	Separación de productos: los productos para devolución deben estar correctamente identificados en cajas cerradas y ubicados por lotes con el nombre del proveedor para su devolución.
           li 
             i.fas.fa-check
-            |	<b>Ubicación de productos de limpieza</b> <br>los productos de limpieza deben almacenarse en un sector específico, alejado de los alimentos.
+            |	Ubicación de productos de limpieza: los productos de limpieza deben almacenarse en un sector específico, alejado de los alimentos.
             
       .col-md-4
         figure
@@ -461,19 +461,19 @@
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check
-            |	<b>Inspección</b> <br>Se debe revisar el aislamiento de las puertas del almacén para asegurar su cierre hermético.
+            |	Inspección: Se debe revisar el aislamiento de las puertas del almacén para asegurar su cierre hermético.
           li 
             i.fas.fa-check
-            |	<b>Limpieza</b> <br>Las estanterías y paredes deben lavarse de acuerdo al plan de limpieza.
+            |	Limpieza: Las estanterías y paredes deben lavarse de acuerdo al plan de limpieza.
           li 
             i.fas.fa-check
-            |	<b>Manejo de envases</b> <br>No se deben almacenar alimentos en latas o frascos con tapas abiertas. Al abrirlos, los alimentos deben protegerse en un contenedor plástico con tapa y se debe eliminar el embalaje original.
+            |	Manejo de envases: No se deben almacenar alimentos en latas o frascos con tapas abiertas. Al abrirlos, los alimentos deben protegerse en un contenedor plástico con tapa y se debe eliminar el embalaje original.
           li 
             i.fas.fa-check
-            |	<b>Rotación de inventario</b> <br>Las estanterías deben tener suficiente espacio para la rotación de los productos, evitando su vencimiento.
+            |	Rotación de inventario: Las estanterías deben tener suficiente espacio para la rotación de los productos, evitando su vencimiento.
           li 
             i.fas.fa-check
-            |	<b>Control de stock</b> <br>Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
+            |	Control de stock: Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
             
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .col-lg-10.bg-color-1.px-3.py-2
@@ -501,11 +501,11 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/images/tema2/img_29.png', alt='')
 
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-3
+    .row.justify-content-center.align-items-center.mb-3.fondo_2_3
+      .col-md-3.mb-3
         figure
           img(src='@/assets/curso/images/tema2/img_30.png', alt='')
-      .col-lg-9
+      .col-md-9.mb-3
         h4 Sobre el manipulador de alimentos
         p La higiene personal del manipulador de alimentos es un aspecto fundamental para prevenir la contaminación. Es necesario lavarse las manos con frecuencia y seguir buenas prácticas de higiene, como el uso de guantes en situaciones que lo requieran. También se debe evitar tocarse la boca, la nariz o los ojos durante la manipulación de alimentos y mantener la ropa de trabajo limpia y adecuada. Los manipuladores deben recibir capacitación sobre las normas de seguridad alimentaria y buenas prácticas para garantizar que sus acciones contribuyen a la inocuidad de los alimentos.
         .cajon.bg-4.g_18.mb-5.mb-lg-0
