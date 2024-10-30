@@ -79,7 +79,7 @@
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/images/tema2/img_8.png', alt='')
     
-    .row.align-items-center.justify-content-center.mb-3
+    .row.align-items-center.justify-content-center.mb-5
       .col-md-9.mb-4
         .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 3. 
@@ -114,12 +114,13 @@
           .tarjeta.color-acento-botones.p-3(x="31%" y="46%" numero="F")
             .h5.mb-2.texto-color-acento-botones Registros
             p.text-dark.text-small Los registros son un elemento fundamental para el control de las buenas prácticas.  Se deben llevar registros de: limpieza y desinfección de las instalaciones, equipos y personal, inspección de la materia prima, productos y preparaciones, temperatura y condiciones de transporte de los alimentos y cualquier otra información relevante para la gestión de la seguridad alimentaria.
-
-    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Campos de aplicación
   
-    .row.justify-content-center.align-items-center.fondo_2_2
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Campos de aplicación
+          img.pst(src='@/assets/curso/images/titulos/img_19.png', alt='')  
+
+    .row.justify-content-center.align-items-center.fondo_2_2.mb-3
       .col-md-8.mb-3    
         ul.lista-ul--color.lista-ul--separador
           li 
@@ -137,27 +138,32 @@
       .col-md-4.mb-3
         figure
           img(src='@/assets/curso/images/tema2/img_10.png', alt='Texto que describa la imagen') 
-    
-      .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-        .col-lg-10.bg-color-1.px-3.py-2
-          .h3.mx-5.mb-0.mt-1 Disposiciones del personal
       
-      .col-lg-12.mb-3
+      .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+        .div.mb-5(data-aos="fade-right")
+          h3.bgr_3.position-relative Disposiciones del personal
+            img.pst(src='@/assets/curso/images/titulos/img_4.png', alt='')  
+            
+      .col-lg-12.mb-5
         .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
             :style="{'background-image': `url(${require('@/assets/curso/images/tema2/img_11.png')})`}"
           )
           .bloque-texto-g__texto.p-4
             p.mb-0 Las disposiciones referentes al personal son la base para garantizar la seguridad alimentaria, asegurando que los manipuladores de alimentos trabajen con higiene y responsabilidad, protegiendo a los consumidores de posibles enfermedades. Estas normas cubren aspectos cruciales como los exámenes médicos, la higiene personal y el uso adecuado de ropa reglamentaria.
-          
+
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Exámenes médicos
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Exámenes médicos
+          img.pst(src='@/assets/curso/images/titulos/img_5.png', alt='')  
+
     p.mb-5 La dirección debe garantizar que los manipuladores de alimentos se sometan a un examen médico pre-ocupacional y a chequeos periódicos regulares. Estos exámenes buscan identificar y prevenir la presencia de enfermedades infecciosas como diarrea, vómitos, faringitis o fiebre, así como la portación sana de enfermedades, heridas o llagas infectadas. En caso de detectar alguna afección, la actividad del manipulador podría suspenderse hasta la recuperación o, en su defecto, continuar con el trabajo bajo medidas de higiene reforzadas.
-    
+
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Higiene
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Higiene
+          img.pst(src='@/assets/curso/images/titulos/img_6.png', alt='')  
+
     p.mb-4 La higiene del personal es crucial para la seguridad alimentaria. La dirección debe promover y supervisar la aplicación de normas básicas de higiene para los cocineros:
   
     .row.justify-content-center.mb-4.align-items-center.fondo_2_3
@@ -178,23 +184,26 @@
       .col-md-3
         figure
           img(src='@/assets/curso/images/tema2/img_12.png', alt='Texto que describa la imagen') 
-      
+             
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Ropa reglamentaria
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Ropa reglamentaria
+          img.pst(src='@/assets/curso/images/titulos/img_7.png', alt='')  
+          
     p.mb-4 Lla ropa de trabajo de los manipuladores debe ser limpia y estar en buen estado, y debe cambiarse al inicio de cada jornada por un uniforme reglamentario. Se debe evitar usar la ropa de trabajo fuera del área de trabajo para prevenir la contaminación de los alimentos. El uso de elementos de profilaxis como guantes, barbijos y cofias debe ser regulado para minimizar el riesgo de contaminación. Estos elementos deben ser de un solo uso, cambiarse cuando estén sucios o dañados, y utilizarse de manera correcta para evitar la contaminación. 
   
     .row.justify-content-center
-      .col-md-12
+      .col-md-12.mb-4
         .cajon.bg-4.g_18.mb-5.mb-lg-0
           .row.mb-4
             .col-lg-12.p-4.ps-5
               p.mb-0 Recuerda que las buenas prácticas de higiene del personal son vitales para garantizar la seguridad alimentaria. La dirección debe implementar políticas claras y promover la cultura de la higiene para asegurar la calidad e inocuidad de los alimentos.
       
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a las instalaciones y edificio 
-
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Disposiciones referentes a las instalaciones y edificio 
+          img.pst(src='@/assets/curso/images/titulos/img_8.png', alt='')  
+          
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-3
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
@@ -225,10 +234,11 @@
         figure
           img(src="@/assets/curso/images/tema2/img_14.png", alt="alt")
 
-    .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a los utensilios, recipientes, envases y envolturas
-
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Disposiciones referentes a los utensilios, recipientes, envases y envolturas
+          img.pst(src='@/assets/curso/images/titulos/img_9.png', alt='')  
+          
     p.mb-3 Los utensilios, recipientes, envases y envolturas utilizados en la cocina deben cumplir con estrictos requisitos de higiene para asegurar la inocuidad de los alimentos. Según la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social de Colombia, es imperativo que estos elementos se encuentren en perfecto estado de conservación e higiene para prevenir la contaminación cruzada (Ministerio de Salud y Protección Social, 2013, Art. 5).
 
     .row.justify-content-center.align-items-center.mb-5.fondo_2_4
@@ -253,11 +263,11 @@
             i.fas.fa-check
             | Herramientas de limpieza: las esponjas de fibra natural o sintética se recomiendan para la limpieza de utensilios, mientras que las esponjas de virutas de acero deben evitarse, ya que pueden desprender partículas que contaminen los alimentos.
     
-
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a proveedores 
-
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Disposiciones referentes a proveedores
+          img.pst(src='@/assets/curso/images/titulos/img_10.png', alt='')  
+          
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-3
         .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
@@ -267,11 +277,11 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Se debe realizar una visita técnico-profesional al establecimiento del proveedor para evaluar las condiciones de la infraestructura, higiene y métodos de conservación que utiliza. El proveedor debe contar con el registro de su establecimiento como elaborador y/o distribuidor de alimentos, así como con la habilitación correspondiente del municipio o departamento.
           
-
-    .row.align-items-center.justify-content-star.mb-3.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-3.mt-1 Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad 
-  
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad
+          img.pst(src='@/assets/curso/images/titulos/img_11.png', alt='')  
+          
     .row.justify-content-center.align-items-center.mb-3.fondo_2_3
       .col-md-3.mb-3
         figure
@@ -309,19 +319,22 @@
       .col-lg-4.mb-3
         figure
           img(src="@/assets/curso/images/tema2/img_18.png", alt="alt")
-
+            
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-2.mt-1 Disposiciones referentes al transporte: garantizando la seguridad de los alimentos en movimiento
-    
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Disposiciones referentes al transporte: garantizando la seguridad de los alimentos en movimiento
+          img.pst(src='@/assets/curso/images/titulos/img_12.png', alt='')  
+
     figure
       img(src='@/assets/curso/images/tema2/img_19.png', alt='Texto que describa la imagen').mx-auto.mb-4
 
-    p.mb-3 El transporte de alimentos es una parte crucial de la cadena alimentaria, y es crucial asegurar que se realiza de forma segura para preservar la calidad e inocuidad de los productos. Una de las mayores falencias en este ámbito es la falta de vehículos adecuados y la falta de higiene durante el transporte. Sin embargo, existen esfuerzos para mejorar la situación mediante la implementación de nuevos vehículos con sistemas de refrigeración adecuados. 
+    p.mb-5 El transporte de alimentos es una parte crucial de la cadena alimentaria, y es crucial asegurar que se realiza de forma segura para preservar la calidad e inocuidad de los productos. Una de las mayores falencias en este ámbito es la falta de vehículos adecuados y la falta de higiene durante el transporte. Sin embargo, existen esfuerzos para mejorar la situación mediante la implementación de nuevos vehículos con sistemas de refrigeración adecuados. 
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Requisitos para el transporte
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Requisitos para el transporte
+          img.pst(src='@/assets/curso/images/titulos/img_13.png', alt='')  
+
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8
         ul.lista-ul--color.lista-ul--separador
@@ -382,9 +395,10 @@
           p Limpiar y desinfectar el vehículo con frecuencia, especialmente después de cada transporte, para evitar la acumulación de contaminantes.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Disposiciones referentes al almacenamiento en la cocina
-
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Disposiciones referentes al almacenamiento en la cocina
+          img.pst(src='@/assets/curso/images/titulos/img_14.png', alt='')  
+    
     .row.justify-content-center.align-items-center.mb-3.fondo_2_4
       .col-md-4.mb-3
         figure
@@ -452,7 +466,7 @@
         figure
           img(src='@/assets/curso/images/tema2/img_27.png', alt='Texto que describa la imagen') 
     
-    .row.justify-content-center.align-items-center.mb-4
+    .row.justify-content-center.align-items-center.mb-5
       .col-md-4
         figure
           img(src='@/assets/curso/images/tema2/img_28.png', alt='Texto que describa la imagen') 
@@ -476,8 +490,10 @@
             |	Control de stock: Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
             
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Disposiciones referentes a la manipulación de alimentos
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Disposiciones referentes a la manipulación de alimentos
+          img.pst(src='@/assets/curso/images/titulos/img_15.png', alt='') 
+
     .row.justify-content-center.mb-4    
       .col-lg-12
           .cajon.bg-3.g_18.mb-5.mb-lg-0
@@ -488,15 +504,15 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-8.mb-4
         LineaTiempoD
-          p(numero="1" titulo="Prácticas culinarias") La limpieza y organización son claves para prevenir la contaminación cruzada. Mantener las mesadas, tablas de trabajo y utensilios limpios y separados para alimentos crudos y cocidos es fundamental. El lavado de manos frecuente, especialmente antes de manipular alimentos, así como el uso de guantes en situaciones que lo requieran, también son medidas cruciales. Evitar la acumulación de residuos, alimentos o utensilios sucios en el área de trabajo y respetar la cadena de frío son aspectos a tener en cuenta para mantener un entorno higiénico.
+          p(numero="a" titulo="Prácticas culinarias") La limpieza y organización son claves para prevenir la contaminación cruzada. Mantener las mesadas, tablas de trabajo y utensilios limpios y separados para alimentos crudos y cocidos es fundamental. El lavado de manos frecuente, especialmente antes de manipular alimentos, así como el uso de guantes en situaciones que lo requieran, también son medidas cruciales. Evitar la acumulación de residuos, alimentos o utensilios sucios en el área de trabajo y respetar la cadena de frío son aspectos a tener en cuenta para mantener un entorno higiénico.
 
-          p(numero="2" titulo="Cocción") La cocción es un proceso fundamental para eliminar los microorganismos presentes en los alimentos. Es esencial que la temperatura alcance los 75°C en el centro del alimento durante el tiempo adecuado para asegurar su inocuidad. Al cocinar, se debe tener cuidado con las temperaturas de cocción, el tiempo de cocción y la distribución uniforme del calor para garantizar que todos los puntos del alimento alcancen la temperatura segura. 
+          p(numero="b" titulo="Cocción") La cocción es un proceso fundamental para eliminar los microorganismos presentes en los alimentos. Es esencial que la temperatura alcance los 75°C en el centro del alimento durante el tiempo adecuado para asegurar su inocuidad. Al cocinar, se debe tener cuidado con las temperaturas de cocción, el tiempo de cocción y la distribución uniforme del calor para garantizar que todos los puntos del alimento alcancen la temperatura segura. 
 
-          p(numero="3" titulo="Enfriamiento") El enfriamiento rápido de los alimentos después de la cocción es crucial para evitar la proliferación bacteriana. Mantener los alimentos refrigerados a una temperatura de 4°C o menos previene el crecimiento de microorganismos. Se debe evitar el enfriamiento lento y la exposición a temperaturas ambiente, especialmente en zonas de riesgo.
+          p(numero="c" titulo="Enfriamiento") El enfriamiento rápido de los alimentos después de la cocción es crucial para evitar la proliferación bacteriana. Mantener los alimentos refrigerados a una temperatura de 4°C o menos previene el crecimiento de microorganismos. Se debe evitar el enfriamiento lento y la exposición a temperaturas ambiente, especialmente en zonas de riesgo.
           
-          p(numero="4" titulo="Congelación") La congelación a -18°C o menos es una técnica eficiente para preservar alimentos por largos períodos. Es importante descongelar los alimentos de manera segura, evitando la recongelación, que puede afectar su calidad y seguridad. Es recomendable utilizar métodos de descongelación controlados, como la heladera o el microondas, evitando la descongelación a temperatura ambiente.
+          p(numero="d" titulo="Congelación") La congelación a -18°C o menos es una técnica eficiente para preservar alimentos por largos períodos. Es importante descongelar los alimentos de manera segura, evitando la recongelación, que puede afectar su calidad y seguridad. Es recomendable utilizar métodos de descongelación controlados, como la heladera o el microondas, evitando la descongelación a temperatura ambiente.
           
-          p(numero="5" titulo="Cadena de frío") La cadena de frío debe mantenerse intacta durante todo el proceso de manipulación y transporte. Se debe evitar el corte de la cadena de frío, lo que podría generar la proliferación de microorganismos. Es crucial utilizar equipos de refrigeración y transporte adecuados que garanticen la temperatura adecuada durante todo el proceso. 
+          p(numero="e" titulo="Cadena de frío") La cadena de frío debe mantenerse intacta durante todo el proceso de manipulación y transporte. Se debe evitar el corte de la cadena de frío, lo que podría generar la proliferación de microorganismos. Es crucial utilizar equipos de refrigeración y transporte adecuados que garanticen la temperatura adecuada durante todo el proceso. 
       .col-lg-4.mb-4
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/images/tema2/img_29.png', alt='')

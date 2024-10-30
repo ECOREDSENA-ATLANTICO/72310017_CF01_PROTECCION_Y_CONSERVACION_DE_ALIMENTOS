@@ -102,19 +102,13 @@
     #t_1_3.titulo-segundo
       .h2(data-aos="fade-right") 1.3  Factores que influyen en la calidad e inocuidad de los alimentos
 
-    p.mb-4 Por diferentes factores que llegan a causar su deterioro y en algunos casos generar contaminación, dichos factores se dividen en agentes físicos, químicos, biológicos y prácticas indeseables; conozcamos a que hace referencia cada uno de estos:
+    p.mb-5 Por diferentes factores que llegan a causar su deterioro y en algunos casos generar contaminación, dichos factores se dividen en agentes físicos, químicos, biológicos y prácticas indeseables; conozcamos a que hace referencia cada uno de estos:
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Agentes físicos
-    
-    //- .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-    //-   .col-lg-12.bg-color-1.px-3.py-2
-    //-     .icon
-    //-       img(src="@/assets/curso/images/tema1/img_28.png")
-    //-     .h3.mx-5.mb-0 Agentes físicos
-
-
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Agentes físicos
+          img.pst(src='@/assets/curso/images/tema1/img_28.png', alt='')
+          
     p Los agentes físicos <b>suelen actuar durante los procesos de cosecha y los tratamientos posteriores</b>. En general, por sí mismos, no suelen alterar las características nutricionales de los alimentos, pero sí su palatabilidad. El hecho más importante es que <b>pueden significar una vía de entrada a las otras alteraciones</b>. Se destacan:
 
     .row.mb-5
@@ -150,12 +144,13 @@
           p Debido a una inadecuada manipulación sin la aplicación de las buenas prácticas de manufactura que permite la presencia de materiales no deseables en los alimentos como cabellos, plásticos, tierra, etc.
     
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Agentes químicos
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Agentes químicos
+          img.pst(src='@/assets/curso/images/titulos/img_0.png', alt='')          
 
     p Los agentes químicos se manifiestan especialmente durante los procesos de almacenamiento de los alimentos. <b>Su efecto puede afectar de forma notable la comestibilidad del alimento</b>: pardeamiento, enranciamiento, presencia de químicos no autorizados, etc.
 
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-5
       .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-2.tarjeta_hover
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
@@ -182,10 +177,11 @@
           .crd_hover_txt--body
             h4.mb-3.text-center Presencia de químicos no autorizados 
             p.mb-0 Los cuales se presentan en los alimentos al realizar el proceso de limpieza y desinfección sin seguir correctamente los protocolos. <br>Este proceso deja residuos de detergentes y/o desinfectantes, al cosechar las frutas, verduras y hortalizas en tiempos no apropiados con residuos de fungicidas, herbicidas o químicos utilizados durante la producción primaria, al ordeñar o sacrificar los animales sin dejar los tiempos de retiro necesarios en caso de ser vacunados, obteniendo la leche y carne con residuos de antibióticos o medicamentos.
- 
+
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Agentes biológicos
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Agentes biológicos
+          img.pst(src='@/assets/curso/images/titulos/img_1.png', alt='')          
 
     p Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
 
@@ -209,7 +205,7 @@
 
     p.mb-5 Otro grupo son los mohos, importantes por la producción de toxinas y por su resistencia a las condiciones más extremas; finalmente, las levaduras, con las transformaciones rápidas más relevantes desde el punto de vista fermentativo.
     
-    .row.align-items-center.justify-content-center.mb-3.fondo_1_1.tarjeta_figura
+    .row.align-items-center.justify-content-center.mb-5.fondo_1_1.tarjeta_figura
       .col-md-6.mb-4
         .titulo-sexto.color-acento-contenido.mb-0
             h5 Figura 2. 
@@ -225,10 +221,10 @@
         p No deje nunca los alimentos en la <b>“zona de peligro”</b> durante más de 2 horas. A medida que la temperatura aumenta el crecimiento disminuye, de forma que al superar los 65ºC los microorganismos comienzan a alterarse y a partir de 100ºC (temperatura de ebullición del agua) son destruidos.
         p Por debajo de los 5ºC el crecimiento microbiano es muy lento (la temperatura normal de un refrigerador familiar es entre 1 y 4ºC) y por debajo de la temperatura de congelación (-18ºC) no existe desarrollo, aunque muchos sobrevivirán y volverán a multiplicarse en el momento de descongelación del alimento.
 
-
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Factores que favorecen la proliferación microbiana
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Factores que favorecen la proliferación microbiana
+          img.pst(src='@/assets/curso/images/titulos/img_2.png', alt='')          
 
     p.mb-5 Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
     
@@ -273,16 +269,17 @@
               h5 Nutrientes
               p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-5
       .cajon.bg-4.g_18.mb-5.mb-lg-0
         .row.mb-4
           .col-lg-12.p-4.ps-5 
             p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Prácticas indeseables
-    
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Prácticas indeseables
+          img.pst(src='@/assets/curso/images/titulos/img_3.png', alt='')          
+
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-12.mb-3
         .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5

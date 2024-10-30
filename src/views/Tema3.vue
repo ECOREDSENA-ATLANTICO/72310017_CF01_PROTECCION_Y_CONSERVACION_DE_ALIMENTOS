@@ -25,10 +25,10 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 La preservación de alimentos es un proceso fundamental que atraviesa todos los eslabones de la cadena alimentaria, desde la producción hasta el consumo. Su importancia radica en la capacidad de extender la vida útil de los productos, protegiéndolos del deterioro y asegurando su inocuidad, lo cual garantiza un acceso seguro y confiable a alimentos frescos y saludables para todos. Este proceso no solo busca evitar el desperdicio, sino que también permite distribuir los alimentos de manera eficiente a nivel nacional e internacional, abriendo posibilidades de acceso a productos frescos y saludables en diferentes regiones.
 
-    .row.align-items-center.justify-content-center.fondo_2_2
-      .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-        .col-lg-10.bg-color-1.px-3.py-2
-          .h3.mx-5.mb-0.mt-1 Técnicas de preservación de alimentos
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Técnicas de preservación de alimentos
+          img.pst(src='@/assets/curso/images/titulos/img_16.png', alt='') 
 
       p.mb-4 Las técnicas de preservación de alimentos se basan en la aplicación de métodos que ralentizan o detienen el crecimiento de microorganismos y enzimas que provocan el deterioro de los alimentos. A continuación se describen las técnicas más comunes:
               
@@ -186,7 +186,7 @@
     #t_3_3.titulo-segundo
       .h2(data-aos="fade-right") 3.3 Control de plagas
 
-    .row.justify-content-center.align-items-center.mb-3
+    .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-4
         .bloque-texto-g.bloque-texto-g--inverso.color-negro.p-3.p-sm-4.p-md-5
           .bloque-texto-g__img(
@@ -195,13 +195,14 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 Para asegurar la inocuidad alimentaria y prevenir la proliferación de microorganismos en la cocina, es crucial establecer medidas rigurosas de limpieza y desinfección, así como un manejo efectivo de desechos y un control de plagas, todo ello conforme a la <b>Resolución 2674 de 2013</b> del Ministerio de Salud y Protección Social de Colombia. A continuación, se exponen las disposiciones en un lenguaje técnico accesible y formativo:
 
-    .row.align-items-center.justify-content-star.mb-2.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-2.mt-1 Disposiciones referentes a la limpieza y la desinfección para evitar la proliferación de plagas
+    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Disposiciones referentes a la limpieza y la desinfección para evitar la proliferación de plagas
+          img.pst(src='@/assets/curso/images/titulos/img_17.png', alt='') 
 
     p.mb-4.mt-2 La limpieza y desinfección en la cocina son procesos planeados y esenciales para mantener la inocuidad. Esto debe considerarse desde el diseño de las instalaciones, aunque muchas cocinas existentes no fueron diseñadas con este enfoque preventivo. La clave está en la pulcritud durante las preparaciones, asegurando que los cocineros mantengan orden y limpieza en sus áreas de trabajo, como estanterías y mesadas, mientras el personal de limpieza se encarga de áreas generales como paredes, pisos y equipos (Ministerio de Salud y Protección Social, 2013).
         
-    .row.justify-content-center.mb-3
+    .row.justify-content-center.mb-5
       .col-lg-6.mb-3
         .tarjeta.color-rosa.p-4.h-100
           figure
@@ -236,8 +237,9 @@
               | Secado: es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .col-lg-10.bg-color-1.px-3.py-2
-        .h3.mx-5.mb-0.mt-1 Secuencia y frecuencia
+      .div.mb-5(data-aos="fade-right")
+        h3.bgr_3.position-relative Secuencia y frecuencia
+          img.pst(src='@/assets/curso/images/titulos/img_17.png', alt='') 
 
     .row.justify-content-center.align-items-center.mb-3.fondo_2_4
       .col-md-8.mb-3
