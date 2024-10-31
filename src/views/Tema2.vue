@@ -124,16 +124,16 @@
       .col-md-8.mb-3    
         ul.lista-ul--color.lista-ul--separador
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             | A todas las fábricas y establecimientos donde se procesan los alimentos; los equipos, utensilios y el personal manipulador de alimentos.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             | A todas las actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos en el territorio nacional.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             | A los alimentos y materias primas para alimentos que se fabriquen, envasen, expendan, exporten o importen, para el consumo humano.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             | A las actividades de vigilancia y control que ejerzan las autoridades sanitarias sobre la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, importación, exportación y comercialización de alimentos, sobre los alimentos y materias primas para alimentos.
       .col-md-4.mb-3
         figure
@@ -170,16 +170,16 @@
       .col-md-9    
           ul.lista-ul--color.lista-ul--separador
             li 
-              i.fas.fa-check
+              i.fas.fa-check-circle
               | Presentación personal: los cocineros deben presentarse a trabajar con higiene personal impecable, incluyendo una ducha y lavado periódico del cabello, afeitado o barba recortada, cabello recogido, uñas limpias y cortadas sin esmalte, entre otros.
             li 
-              i.fas.fa-check
+              i.fas.fa-check-circle
               | Prácticas prohibidas: se deben prohibir las conductas no sanitarias como el uso de joyas, maquillaje, fumar, comer, masticar chicle, escupir, tocarse la nariz o la boca, estornudar o toser sobre los alimentos, arrojar sobras o dejar papeles en el piso.
             li 
-              i.fas.fa-check
+              i.fas.fa-check-circle
               | Orden y limpieza: los cocineros son responsables del orden y la limpieza dentro de su área de trabajo. Es importante mantener el área limpia, libre de restos de comida, papeles o utensilios sucios.
             li 
-              i.fas.fa-check
+              i.fas.fa-check-circle
               | Lavado de manos: el lavado de manos debe ser una práctica constante y realizarse antes de manipular alimentos, después de usar el baño, de tocar productos contaminados o desechos, al ingresar a trabajar y al cambiar de tarea. Se debe usar jabón y agua limpia para un lavado efectivo.
       .col-md-3
         figure
@@ -248,19 +248,19 @@
       .col-md-8    
         ul.lista-ul--color.lista-ul--separador
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Diferenciación de utensilios: se debe diferenciar entre utensilios para alimentos dulces y salados, lo cual puede hacerse mediante un sistema de colores o etiquetas. Esta práctica ayuda a minimizar el riesgo de alteraciones en el sabor y potenciales contaminaciones.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Uso y limpieza: es fundamental no utilizar recipientes que hayan contenido alimentos crudos para almacenar o manipular alimentos cocidos sin una limpieza meticulosa previa con detergente apropiado. Esto se alinea con las prácticas de higiene recomendadas en las BPM.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Condiciones físicas: todos los utensilios deben estar libres de óxidos, completamente secos y libres de restos de agua. Los utensilios dañados, como aquellos con rajaduras, se deben descartar para evitar el riesgo de contaminación física (Ministerio de Salud y Protección Social, 2013, Art. 12).
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Materiales prohibidos: el uso de utensilios de madera no está permitido debido a la dificultad para limpiarlos adecuadamente y el riesgo potencial de albergar microorganismos.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             | Herramientas de limpieza: las esponjas de fibra natural o sintética se recomiendan para la limpieza de utensilios, mientras que las esponjas de virutas de acero deben evitarse, ya que pueden desprender partículas que contaminen los alimentos.
     
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
@@ -307,13 +307,13 @@
           p(numero="4" titulo="Control de recepción") Es crucial realizar una inspección y control de las materias primas al momento de su recepción. Esta inspección debe incluir:
             ul.lista-ul--color.lista-ul--separador
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle
                 |	Control cuantitativo: verificar que la cantidad recibida coincida con la cantidad indicada en la factura, la nota de remito o la entrega.
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle
                 |	Control cualitativo: evaluar el color, olor, sabor y textura de la materia prima, así como su estado general y el embalaje. Se debe medir la temperatura de la materia prima utilizando un termómetro higienizado.
               li 
-                i.fas.fa-check
+                i.fas.fa-check-circle
                 |	Documentación: verificar que la materia prima cuente con la rotulación correcta, incluyendo el origen, el registro del establecimiento y la fecha de elaboración y vencimiento.
 
       .col-lg-4.mb-3
@@ -339,10 +339,10 @@
       .col-lg-8
         ul.lista-ul--color.lista-ul--separador
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Adecuación del vehículo: los medios de transporte que se utilizan para transportar alimentos deben ser adecuados para el tipo de producto que transportan, especialmente si se trata de productos frescos, procesados o semi-procesados. Los vehículos deben ser construidos con materiales que permitan una limpieza, desinfección y desinfestación efectiva. La higiene del vehículo, tanto interna como externa, debe ser extrema.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Higiene del personal: el personal que se encarga del transporte de los alimentos debe mantener altos estándares de higiene, incluyendo la limpieza y desinfección personal.
     
       .col-lg-4
@@ -414,10 +414,10 @@
 
         ul.lista-ul--color.lista-ul--separador
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Almacenamiento de alimentos no perecederos: los productos no perecederos deben almacenarse en un depósito a temperatura ambiente, con baja humedad relativa (ambiente fresco y seco), ventilado e iluminado.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Almacenamiento de alimentos perecederos: los productos perecederos deben almacenarse inmediatamente en el sector correspondiente.
     
 
@@ -450,16 +450,16 @@
       .col-md-8    
         ul.lista-ul--color.lista-ul--separador
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Dimensión del área de almacenamiento: el tamaño del área de almacenamiento debe ajustarse a la cantidad de alimentos perecederos que se manejan. En algunos casos, se requieren varias cámaras de refrigeración y congelación. En otros casos, una o dos cámaras deben ser sectorizadas para un mejor funcionamiento
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Ubicación de los productos: se debe tener especial cuidado al ubicar los diferentes productos para evitar la contaminación cruzada:
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Separación de productos: los productos para devolución deben estar correctamente identificados en cajas cerradas y ubicados por lotes con el nombre del proveedor para su devolución.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Ubicación de productos de limpieza: los productos de limpieza deben almacenarse en un sector específico, alejado de los alimentos.
             
       .col-md-4
@@ -474,19 +474,19 @@
         h4 Reglas generales para un buen almacenamiento:    
         ul.lista-ul--color.lista-ul--separador
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Inspección: Se debe revisar el aislamiento de las puertas del almacén para asegurar su cierre hermético.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Limpieza: Las estanterías y paredes deben lavarse de acuerdo al plan de limpieza.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Manejo de envases: No se deben almacenar alimentos en latas o frascos con tapas abiertas. Al abrirlos, los alimentos deben protegerse en un contenedor plástico con tapa y se debe eliminar el embalaje original.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Rotación de inventario: Las estanterías deben tener suficiente espacio para la rotación de los productos, evitando su vencimiento.
           li 
-            i.fas.fa-check
+            i.fas.fa-check-circle
             |	Control de stock: Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
             
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
