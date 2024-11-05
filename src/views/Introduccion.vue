@@ -15,25 +15,25 @@
       
       .row.justify-content-justify.align-items-justify.fondo.mb-3
         figure.mb-3(data-aos="fade-right")
-          img.img-t.m-auto(src='@/assets/curso/images/introduccion/img_1.png', alt='Imagen Decorativa')
+          img.img-t.m-auto(src='@/assets/curso/temas/introduccion/img_1.png', alt='Imagen Decorativa')
 
           //- .video
           //- <iframe width="560" height="315" src="https://www.youtube.com/embed/fYBTaOYlEvE" title="Producción pecuaria agroecológica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       p La protección y conservación de los alimentos tienen como objetivo estudiar los métodos de manipulación higiénica de alimentos, bebidas, utensilios y equipos utilizados en su preparación, asegurando su calidad. Conocer la clasificación de los alimentos es crucial para determinar su uso, aprovechar sus propiedades completamente y conservarlos adecuadamente, evitando su deterioro o contaminación. Comprender los factores y tipos de peligros que afectan la seguridad alimentaria permite identificar las maneras adecuadas de prevenir su deterioro.
 
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-8 
+      .row.justify-content-center.align-items-center.mb-2.tarjeta_ordenadas
+        .col-md-8.mb-2 
           p Este recurso busca proporcionar información sobre la clasificación de los alimentos y los diferentes tipos de peligros que los afectan, permitiendo al aprendiz contextualizar la manera adecuada de manipular los alimentos según sus características. Asimismo, se ofrecerá conocimiento sobre los factores y peligros que pueden deteriorar y/o contaminar los alimentos, de modo que el aprendiz pueda identificar las causas potenciales de deterioro y cómo prevenirlas.
 
-          .cajon.color-acento-contenido.g_18.mb-4.mb-lg-0
+          .cajon.color-acento-contenido.g_18.mb-2.mb-lg-0
             .row
               .col-lg-12.p-4.ps-5 
                 p Desde la antigüedad, las enfermedades transmitidas por alimentos han sido reconocidas, como se refleja en escrituras antiguas y leyes dictadas por figuras históricas como Moisés. Estas regulaciones no solo establecían qué alimentos eran seguros para el consumo, sino también la importancia de prácticas higiénicas, como el lavado de manos. A pesar de que antiguamente se atribuían las intoxicaciones alimentarias a productos químicos venenosos, a veces deliberadamente incorporados, en el siglo XIX se descubrieron enfermedades alimentarias causadas por microorganismos. Actualmente, sabemos que los alimentos contaminados pueden parecer normales en aspecto, olor y sabor, lo que subraya la necesidad de métodos de conservación efectivos.
 
-        .col-md-4
+        .col-md-4.mb-2
           figure
-            img.img-t.m-auto(src='@/assets/curso/images/introduccion/img_2.png', alt='Imagen Decorativa')
+            img.img-t.m-auto(src='@/assets/curso/temas/introduccion/img_2.png', alt='Imagen Decorativa')
 
       p 
 

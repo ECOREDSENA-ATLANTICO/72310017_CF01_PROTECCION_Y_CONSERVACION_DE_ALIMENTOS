@@ -9,35 +9,35 @@ export default {
     imagenesDecorativasBanner: [
       {
         clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
       },
       {
         clases: ['banner-principal-decorativo-2'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-2.svg'),
       },
       {
         clases: ['banner-principal-decorativo-3'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-3.svg'),
       },
       {
         clases: ['banner-principal-decorativo-4'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-4.svg'),
       },
       {
         clases: ['banner-principal-decorativo-5'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-5.svg'),
       },
       {
         clases: ['banner-principal-decorativo-6'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-6.svg'),
       },
       {
         clases: ['banner-principal-decorativo-7'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-7.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-7.svg'),
       },
       {
         clases: ['banner-principal-decorativo-8'],
-        imagen: require('@/assets/curso/portada/banner-principal-decorativo-8.png'),
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-8.svg'),
       },
     ],
   },
@@ -172,31 +172,29 @@ export default {
       referencia:
         'INVIMA. Dirección de alimentos y bebidas. (2015). Manual de Inspección, Vigilancia y Control Sanitario de Alimentos y Bebidas basado en riesgo para las entidades territoriales de Salud.',
       tipo: 'Manual.',
-      link:
-        'https://ibague.gov.co/portal/admin/archivos/publicaciones/2018/21857-DOC-20181009.pdf',
+      descarga: '/downloads/21857-DOC-20181009.pdf',
     },
     {
       tema: 'Buenas prácticas de manipulación y preservación de alimentos.',
       referencia:
         'Ministerio de salud, Colombia. (2013). Resolución 2674 de 2013.',
       tipo: 'Resolución oficial.',
-      link: 'https://foman.com.co/wp-content/uploads/2016/01/2674.pdf',
+      descarga: '/downloads/2674.pdf',
     },
     {
       tema: 'Buenas prácticas de manipulación y preservación de alimentos.',
       referencia:
         'Rodríguez Gómez, J. M. (s.f.). Consecuencias higiénicas de alteración.',
       tipo: 'Capítulo de libro.',
-      link:
-        'http://www.aeemt.com/contenidos_socios/Recursos/Documentos_interes/Consecuencia_Higienica_Alteracion_Alimentos_2012.pdf',
+      descarga:
+        '/downloads/Consecuencia_Higienica_Alteracion_Alimentos_2012.pdf',
     },
     {
       tema: 'Prevención y control del deterioro de los alimentos.',
       referencia:
         'In food quality. Education and culture. (s.f.). Microorganismos y alimentos.',
       tipo: 'Artículo.',
-      link:
-        'https://www.epralima.com/infoodquality/materiais_espanhol/Manuais/3.Microorganismos_y_alimentos.pdf',
+      descarga: '/downloads/3.Microorganismos_y_alimentos.pdf',
     },
 
     // {

@@ -57,25 +57,54 @@
   border-left-color: #EB6F2D !important
 
 .fondo_1_2
-  background-image: url('../assets/curso/images/tema1/img_3.png') !important
+  background-image: url('../assets/curso/temas/tema1/img_3.png') !important
   // background-repeat: no-repeat
 
 .fondo_1
-  background-image: url('../assets/curso/images/tema1/img_29.png') !important
-  // background-repeat: no-repeat
+  background-image: url('../assets/curso/temas/tema1/img_29.png') !important
+  background-repeat: round
+  background-size: cover
+  margin-left: calc(-50vw + 50%)
+  margin-right: calc(-50vw + 50%)
+  padding: 20px
+
+.fondo_1-content
+  max-width: 100%
+  margin: 0 290px
+
+.fondo_1_3
+  background-image: url('../assets/curso/temas/tema1/img_31.png') !important
+  background-repeat: no-repeat
+
+.fondo_1_4
+  background-image: url('../assets/curso/temas/tema1/img_32.png') !important
+  background-repeat: round
+
+.fondo_3_1
+  background-image: url('../assets/curso/temas/tema3/img_33.png') !important
+  background-repeat: round
+  background-size: cover
+  margin-left: calc(-50vw + 50%)
+  margin-right: calc(-50vw + 50%)
+  padding: 20px
+
+.fondo_3_1-content
+  max-width: 100%
+  margin: 0 305px
+
 
 .fondo_1_1
-  background-image: url('../assets/curso/images/tema1/img_30.png') !important
-  // background-repeat: no-repeat
+  background-image: url('../assets/curso/temas/tema1/img_30.png') !important
+  background-repeat: round
 
 .fondo_2
-  background-image: url('../assets/curso/images/tema1/img_27.png') !important
+  background-image: url('../assets/curso/temas/tema1/img_27.png') !important
   background-repeat: no-repeat
   background-position: top right
   background-size: auto
 
 .fondo_3
-  background-image: url('../assets/curso/images/tema1/img_11.png') !important
+  background-image: url('../assets/curso/temas/tema1/img_11.png') !important
   background-repeat: no-repeat
   background-position: top right
   background-size: auto
@@ -87,25 +116,25 @@
   background-color: #F5F0E4 !important
 
 .fondo_4
-  background-image: url('../assets/curso/images/tema1/img_20.png') !important
-  // background-repeat: no-repeat
+  background-image: url('../assets/curso/temas/tema1/img_20.png') !important
+  background-repeat: round
   // background-position: right
   // backgroind-color: #EB6F2D !important
 
 .fondo_5
-  background-image: url('../assets/curso/images/tema2/img_2.png') !important
-  background-repeat: no-repeat
+  background-image: url('../assets/curso/temas/tema2/img_2.png') !important
+  background-repeat: round
   background-position: top right
   background-size: auto
 
 .fondo_6
-  background-image: url('../assets/curso/images/tema2/img_31.png') !important
+  background-image: url('../assets/curso/temas/tema2/img_31.png') !important
   background-repeat: no-repeat
   background-position: bottom right
 
 .fondo_2_2
-  background-image: url('../assets/curso/images/tema1/img_20.png') !important
-  // background-repeat: no-repeat
+  background-image: url('../assets/curso/temas/tema1/img_20.png') !important
+  background-repeat: round
   // background-position: right
   // backgroind-color: #EB6F2D !important
 
@@ -350,9 +379,13 @@ table, th, td
 .color-rosa-claro
   background-color: #F5F0E4 !important
   
+.cajon.bg-6
+  background-color: #F5F0E4
+.cajon.bg-6::before
+  background-color: #D0B57A
 
 .bg-color-1
-  background-image: url("../assets/curso/images/tema1/img_28.png") !important
+  background-image: url("../assets/curso/temas/tema1/img_28.png") !important
   background-repeat: no-repeat 
   height: 82px  
 
@@ -396,6 +429,10 @@ table, th, td
   border-left-color: #A79162 !important
 
 
+@media (min-width: 992px)
+  .col-lg-7
+      flex: 0 0 auto
+      width: 48.333333%
       
 /* Configuración para pantallas grandes */
 @media (max-width: 1024px) 
@@ -410,10 +447,12 @@ table, th, td
   .tarjeta_figura
     .col-md-6:first-child
       width: 100% /* Ocupa todo el ancho en pantallas grandes */
+      img.w-75
+        width: 75%
     
     .col-md-6:last-child
       width: 100% /* Ocupa todo el ancho en pantallas grandes */
-    
+
   .text_completo
     .quitar_figura
       display: none
@@ -440,7 +479,7 @@ table, th, td
   .fondo_2_3
     .col-md-3
       order: -1 /* Mueve la columna de la imagen hacia arriba */
-      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 30% /* Ocupará todo el ancho en pantallas grandes */
 
     .col-md-9
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
@@ -448,7 +487,7 @@ table, th, td
   .fondo_2_4
     .col-md-4
       order: -1 /* Mueve la columna de la imagen hacia arriba */
-      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 40% /* Ocupará todo el ancho en pantallas grandes */
 
     .col-md-8
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
@@ -456,11 +495,10 @@ table, th, td
   .fondo_2_5
     .col-md-4
       order: -1 /* Mueve la columna de la imagen hacia arriba */
-      width: 20% /* Ocupará todo el ancho en pantallas grandes */
+      width: 30% /* Ocupará todo el ancho en pantallas grandes */
 
     .col-md-8
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
-
       
   .fondo_2_6
     .col-md-5
@@ -469,6 +507,71 @@ table, th, td
 
     .col-md-7
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
+  
+  .fondo_3_1-content
+    width: 90%
+    max-width: 90%
+    margin: 0px 60px
+  
+  .fondo_1-content
+    width: 90%
+    max-width: 90%
+    margin: 0px 45px
+
+  .tarjeta_ordenadas
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      width: 35% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+
+/* Configuración para pantallas grandes */
+@media (max-width: 768px) 
+  .responsive_tarjeta
+    width: 50%
+
+  .text_completo
+    .quitar_figura
+      display: none
+
+    .col-7 
+      width: 76% !important
+
+  .fondo_1_3
+    .col-lg-4
+      img
+        width: 50% !important
+
+  .fondo_1_4
+    .col-md-4
+      order: 1 /* Mueve la columna de la imagen hacia arriba */
+      width: 50% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+  .tarjeta_ordenadas
+    .col-md-4
+      order: -1 /* Mueve la columna de la imagen hacia arriba */
+      width: 50% /* Ocupará todo el ancho en pantallas grandes */
+
+    .col-md-8
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+  
+  .fondo_3_1
+    .col-md-10
+      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+
+  .fondo_1-content
+    width: 90%
+    max-width: 90%
+    margin: 0px 36px
+
+  .tarjeta_hover      
+    p 
+      font-size: 12px
 
 @media (max-width: 430px) 
   .fondo_2_5
@@ -490,6 +593,12 @@ table, th, td
   .tarjeta_hover:nth-child(3) 
     width: 100%
 
+  .fondo_1-content
+    width: 100%
+    max-width: 100%
+    margin: 0px -12px
+
+
 .lista-ul--color
   padding-left: 0 /* Elimina el padding izquierdo por defecto */
   list-style: none /* Elimina los puntos de la lista */
@@ -508,10 +617,14 @@ table, th, td
   border-radius: 20px
   display: inline
   padding: 10px
-  padding-left: 50px
+  padding-left: 69px
 
 .pst
   position: absolute
   width: 70px
   top: -13px
-  left: -25px
+  left: -9px
+
+.cajon
+  p
+    margin-bottom: 0px
