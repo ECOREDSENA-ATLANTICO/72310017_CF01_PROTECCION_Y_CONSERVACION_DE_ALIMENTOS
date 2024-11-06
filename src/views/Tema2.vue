@@ -120,7 +120,7 @@
 
     .fondo_2_1_3.p-4
       .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
-        .div.mb-5(data-aos="fade-right")
+        .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Campos de aplicación
             img.pst(src='@/assets/curso/temas/titulos/img_5.svg', alt='')  
 
@@ -144,7 +144,7 @@
             img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen') 
         
       .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
-        .div.mb-5(data-aos="fade-right")
+        .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Disposiciones del personal
             img.pst(src='@/assets/curso/temas/titulos/img_6.svg', alt='')  
             
@@ -158,14 +158,14 @@
               p.mb-0 Las disposiciones referentes al personal son la base para garantizar la seguridad alimentaria, asegurando que los manipuladores de alimentos trabajen con higiene y responsabilidad, protegiendo a los consumidores de posibles enfermedades. Estas normas cubren aspectos cruciales como los exámenes médicos, la higiene personal y el uso adecuado de ropa reglamentaria.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Exámenes médicos
           img.pst(src='@/assets/curso/temas/titulos/img_7.svg', alt='')  
 
     p.mb-5 La dirección debe garantizar que los manipuladores de alimentos se sometan a un examen médico pre-ocupacional y a chequeos periódicos regulares. Estos exámenes buscan identificar y prevenir la presencia de enfermedades infecciosas como diarrea, vómitos, faringitis o fiebre, así como la portación sana de enfermedades, heridas o llagas infectadas. En caso de detectar alguna afección, la actividad del manipulador podría suspenderse hasta la recuperación o, en su defecto, continuar con el trabajo bajo medidas de higiene reforzadas.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Higiene
           img.pst(src='@/assets/curso/temas/titulos/img_8.svg', alt='')  
 
@@ -191,14 +191,14 @@
           img(src='@/assets/curso/temas/tema2/img_12.png', alt='Texto que describa la imagen').mb-3 
              
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Ropa reglamentaria
           img.pst(src='@/assets/curso/temas/titulos/img_9.svg', alt='')  
           
     p.mb-4 Lla ropa de trabajo de los manipuladores debe ser limpia y estar en buen estado, y debe cambiarse al inicio de cada jornada por un uniforme reglamentario. Se debe evitar usar la ropa de trabajo fuera del área de trabajo para prevenir la contaminación de los alimentos. El uso de elementos de profilaxis como guantes, barbijos y cofias debe ser regulado para minimizar el riesgo de contaminación. Estos elementos deben ser de un solo uso, cambiarse cuando estén sucios o dañados, y utilizarse de manera correcta para evitar la contaminación. 
   
     .row.justify-content-center
-      .col-md-12.mb-4
+      .col-md-12.mb-2
         .cajon.bg-4.g_18.mb-5.mb-lg-0
           .row.mb-4
             .col-lg-12.p-4.ps-5
@@ -206,7 +206,7 @@
       
     .fondo_2_1_4.p-4
       .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
-        .div.mb-5(data-aos="fade-right")
+        .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Disposiciones referentes a las instalaciones y edificio 
             img.pst(src='@/assets/curso/temas/titulos/img_10.svg', alt='')  
             
@@ -241,7 +241,7 @@
           img(src="@/assets/curso/temas/tema2/img_14.png", alt="alt")
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a los utensilios, recipientes, envases y envolturas
           img.pst(src='@/assets/curso/temas/titulos/img_11.svg', alt='')  
           
@@ -270,7 +270,7 @@
             | Herramientas de limpieza: las esponjas de fibra natural o sintética se recomiendan para la limpieza de utensilios, mientras que las esponjas de virutas de acero deben evitarse, ya que pueden desprender partículas que contaminen los alimentos.
     
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a proveedores
           img.pst(src='@/assets/curso/temas/titulos/img_12.svg', alt='')  
           
@@ -284,7 +284,7 @@
             p.mb-0 Se debe realizar una visita técnico-profesional al establecimiento del proveedor para evaluar las condiciones de la infraestructura, higiene y métodos de conservación que utiliza. El proveedor debe contar con el registro de su establecimiento como elaborador y/o distribuidor de alimentos, así como con la habilitación correspondiente del municipio o departamento.
           
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad
           img.pst(src='@/assets/curso/temas/titulos/img_13.svg', alt='')  
           
@@ -327,7 +327,7 @@
           img(src="@/assets/curso/temas/tema2/img_18.png", alt="alt")
             
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes al transporte: garantizando la seguridad de los alimentos en movimiento
           img.pst(src='@/assets/curso/temas/titulos/img_14.svg', alt='')  
 
@@ -337,7 +337,7 @@
     p.mb-5 El transporte de alimentos es una parte crucial de la cadena alimentaria, y es crucial asegurar que se realiza de forma segura para preservar la calidad e inocuidad de los productos. Una de las mayores falencias en este ámbito es la falta de vehículos adecuados y la falta de higiene durante el transporte. Sin embargo, existen esfuerzos para mejorar la situación mediante la implementación de nuevos vehículos con sistemas de refrigeración adecuados. 
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Requisitos para el transporte
           img.pst(src='@/assets/curso/temas/titulos/img_15.svg', alt='')  
 
@@ -403,7 +403,7 @@
               p Limpiar y desinfectar el vehículo con frecuencia, especialmente después de cada transporte, para evitar la acumulación de contaminantes.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes al almacenamiento en la cocina
           img.pst(src='@/assets/curso/temas/titulos/img_16.svg', alt='')  
     
@@ -502,7 +502,7 @@
                 |	Control de stock: Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
                 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a la manipulación de alimentos
           img.pst(src='@/assets/curso/temas/titulos/img_17.svg', alt='') 
 

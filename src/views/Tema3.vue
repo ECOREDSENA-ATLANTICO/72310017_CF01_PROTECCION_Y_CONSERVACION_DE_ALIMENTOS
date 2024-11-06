@@ -27,7 +27,7 @@
 
     .fondo_3_1.p-4
       .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
-        .div.mb-5(data-aos="fade-right")
+        .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Técnicas de preservación de alimentos
             img.pst(src='@/assets/curso/temas/titulos/img_18.svg', alt='') 
 
@@ -198,7 +198,7 @@
             p.mb-0 Para asegurar la inocuidad alimentaria y prevenir la proliferación de microorganismos en la cocina, es crucial establecer medidas rigurosas de limpieza y desinfección, así como un manejo efectivo de desechos y un control de plagas, todo ello conforme a la <b>Resolución 2674 de 2013</b> del Ministerio de Salud y Protección Social de Colombia. A continuación, se exponen las disposiciones en un lenguaje técnico accesible y formativo:
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a la limpieza y la desinfección para evitar la proliferación de plagas
           img.pst(src='@/assets/curso/temas/titulos/img_19.svg', alt='') 
 
@@ -239,7 +239,7 @@
               | Secado: es crucial dejar las superficies lo más secas posible para prevenir la multiplicación de microorganismos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Secuencia y frecuencia
           img.pst(src='@/assets/curso/temas/titulos/img_20.svg', alt='') 
 

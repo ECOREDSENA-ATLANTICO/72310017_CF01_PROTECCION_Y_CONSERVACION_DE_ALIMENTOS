@@ -106,7 +106,7 @@
     p.mb-5 Por diferentes factores que llegan a causar su deterioro y en algunos casos generar contaminación, dichos factores se dividen en agentes físicos, químicos, biológicos y prácticas indeseables; conozcamos a que hace referencia cada uno de estos:
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Agentes físicos
           img.pst(src='@/assets/curso/temas/titulos/img_0.svg', alt='')
           
@@ -146,7 +146,7 @@
     
     .fondo_1_1_2.p-4.mb-3
       .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
-        .div.mb-5(data-aos="fade-right")
+        .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Agentes químicos
             img.pst(src='@/assets/curso/temas/titulos/img_1.svg', alt='')          
 
@@ -182,7 +182,7 @@
               p.mb-0 Los cuales se presentan en los alimentos al realizar el proceso de limpieza y desinfección sin seguir correctamente los protocolos. <br>Este proceso deja residuos de detergentes y/o desinfectantes, al cosechar las frutas, verduras y hortalizas en tiempos no apropiados con residuos de fungicidas, herbicidas o químicos utilizados durante la producción primaria, al ordeñar o sacrificar los animales sin dejar los tiempos de retiro necesarios en caso de ser vacunados, obteniendo la leche y carne con residuos de antibióticos o medicamentos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Agentes biológicos
           img.pst(src='@/assets/curso/temas/titulos/img_2.svg', alt='')          
 
@@ -228,7 +228,7 @@
           p Por debajo de los 5ºC el crecimiento microbiano es muy lento (la temperatura normal de un refrigerador familiar es entre 1 y 4ºC) y por debajo de la temperatura de congelación (-18ºC) no existe desarrollo, aunque muchos sobrevivirán y volverán a multiplicarse en el momento de descongelación del alimento.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Factores que favorecen la proliferación microbiana
           img.pst(src='@/assets/curso/temas/titulos/img_3.svg', alt='')          
 
@@ -283,7 +283,7 @@
               p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
+      .div.mb-3(data-aos="fade-right")
         h3.bgr_3.position-relative Prácticas indeseables
           img.pst(src='@/assets/curso/temas/titulos/img_4.svg', alt='')          
 
