@@ -25,7 +25,7 @@ export default {
           id: 1,
           texto:
             'Estás preparando una ensalada. Debes lavar la lechuga y cortar las verduras. ¿Qué haces con la tabla de cortar?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -59,7 +59,7 @@ export default {
           id: 2,
           texto:
             'Vas a preparar una torta y descubres que la leche se venció hace dos días. ¿Qué haces?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -90,7 +90,7 @@ export default {
           id: 3,
           texto:
             'Terminaste de preparar un pollo asado y necesitas guardar las sobras. ¿Cómo lo haces?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -122,7 +122,7 @@ export default {
           id: 4,
           texto:
             'Debes limpiar la cocina después de preparar un almuerzo. ¿Qué haces?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -155,7 +155,7 @@ export default {
           id: 5,
           texto:
             'Estás en un restaurante y ves que un mesero está preparando una ensalada con las manos sin lavar. ¿Qué haces?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_1.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -182,7 +182,7 @@ export default {
           id: 6,
           texto:
             '¿Cuál de los siguientes materiales NO se recomienda para las paredes de una cocina?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_3.png'),
           barajarRespuestas: true,
           opciones: [
             { id: 'a', texto: 'Azulejos.', esCorrecta: false },
@@ -201,7 +201,7 @@ export default {
           id: 7,
           texto:
             '¿Cuál de los siguientes elementos NO es un factor que influye en la distribución adecuada de una cocina?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_2.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -228,7 +228,7 @@ export default {
           id: 8,
           texto:
             '¿Cuál de los siguientes métodos NO es una práctica adecuada para la prevención de contaminación cruzada?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_4.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -262,7 +262,7 @@ export default {
           id: 9,
           texto:
             '¿Cuál de las siguientes afirmaciones es CORRECTA respecto a los techos de una cocina?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_3.png'),
           barajarRespuestas: true,
           opciones: [
             {
@@ -297,7 +297,7 @@ export default {
           id: 10,
           texto:
             '¿Cuál de las siguientes acciones NO es una medida de control de plagas en una cocina?',
-          imagen: require('@/assets/componentes/pregunta_1.svg'),
+          imagen: require('@/assets/componentes/img_1.png'),
           barajarRespuestas: true,
           opciones: [
             {

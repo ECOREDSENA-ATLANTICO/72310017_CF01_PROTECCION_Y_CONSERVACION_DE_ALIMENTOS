@@ -15,71 +15,73 @@
     #t_2_1.titulo-segundo
       .h2(data-aos="fade-right") 2.1 Historia de las Buenas Prácticas de Manufactura (BPM)
 
-    p.mb-5 Las Buenas Prácticas de Manufactura (BPM) tienen sus raíces en una historia marcada por incidentes de salud pública relacionados con la seguridad de los alimentos y medicamentos.
+    p.mb-2 Las Buenas Prácticas de Manufactura (BPM) tienen sus raíces en una historia marcada por incidentes de salud pública relacionados con la seguridad de los alimentos y medicamentos.
 
-    .row.justify-content-center.fondo_5
-      .col-lg-10
-        PasosA.color-acento-contenido.mb-3()
-          .row
-            .col-lg
-              h3 Principios del siglo XX
-              p La creciente industrialización de la producción de alimentos y medicamentos, especialmente en Estados Unidos, llevó a condiciones insalubres y prácticas poco higiénicas que ponían en riesgo la salud de los consumidores. 
-            .col-auto
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema2/img_3.png', alt='').img125
+    .fondo_2_1_1.p-4
+      .row.fondo_titulo_content.justify-content-center(data-aos="zoom-in-down")
+        .col-lg-10.order_linea_tiempo
+          PasosA.color-acento-contenido.mb-3()
+            .row
+              .col-lg
+                h3 Principios del siglo XX
+                p La creciente industrialización de la producción de alimentos y medicamentos, especialmente en Estados Unidos, llevó a condiciones insalubres y prácticas poco higiénicas que ponían en riesgo la salud de los consumidores. 
+              .col-auto
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema2/img_3.png', alt='').img125
 
-          .row
-            .col-auto
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema2/img_4.png', alt='').img125
-            .col-lg
-              h3 1906/ Publicación del libro "La Jungla"
-              p La creciente industrialización de la producción de alimentos y medicamentos, especialmente en Estados Unidos, llevó a condiciones insalubres y prácticas poco higiénicas que ponían en riesgo la salud de los consumidores. 
+            .row
+              .col-auto
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema2/img_4.png', alt='').img125
+              .col-lg
+                h3 1906/ Publicación del libro "La Jungla"
+                p La creciente industrialización de la producción de alimentos y medicamentos, especialmente en Estados Unidos, llevó a condiciones insalubres y prácticas poco higiénicas que ponían en riesgo la salud de los consumidores. 
 
-          .row
-            .col-lg
-              h3 1938/ Acta de Alimentos, Medicamentos y Cosméticos
-              p Esta acta promulgada en Estados Unidos, fue una respuesta directa a la crisis generada por "La Jungla". Esta ley estableció requisitos de inocuidad para los alimentos y medicamentos, incluyendo la inspección de las instalaciones y los procesos de producción, la eliminación de prácticas peligrosas y la introducción de sistemas de control de calidad. 
-            .col-auto
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema2/img_5.png', alt='').img125
+            .row
+              .col-lg
+                h3 1938/ Acta de Alimentos, Medicamentos y Cosméticos
+                p Esta acta promulgada en Estados Unidos, fue una respuesta directa a la crisis generada por "La Jungla". Esta ley estableció requisitos de inocuidad para los alimentos y medicamentos, incluyendo la inspección de las instalaciones y los procesos de producción, la eliminación de prácticas peligrosas y la introducción de sistemas de control de calidad. 
+              .col-auto
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema2/img_5.png', alt='').img125
 
-          .row
-            .col-auto
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema2/img_6.png', alt='').img125
-            .col-lg
-              h3 1962/ Concepto de BPM 
-              p Tras un caso de graves efectos adversos de un medicamento: "Talidomida" se desencadenó un cambio de paradigma en la regulación de la industria farmacéutica. A partir de ese momento, se comenzó a implementar de manera más formalizada el concepto de buenas prácticas en la fabricación de medicamentos, estableciendo guías que posteriormente influyeron en la elaboración de regulaciones globales para todos los procesos relacionados con la alimentación y la salud.
+            .row
+              .col-auto
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema2/img_6.png', alt='').img125
+              .col-lg
+                h3 1962/ Concepto de BPM 
+                p Tras un caso de graves efectos adversos de un medicamento: "Talidomida" se desencadenó un cambio de paradigma en la regulación de la industria farmacéutica. A partir de ese momento, se comenzó a implementar de manera más formalizada el concepto de buenas prácticas en la fabricación de medicamentos, estableciendo guías que posteriormente influyeron en la elaboración de regulaciones globales para todos los procesos relacionados con la alimentación y la salud.
 
-          .row
-            .col-lg
-              h3 1969. El <em>Codex Alimentarius</em>
-              p Se concretó una recopilación de estándares internacionales para alimentos, que adoptó las BPM como un principio fundamental para la seguridad alimentaria, sentando las bases para la estandarización de prácticas de higiene y seguridad en todo el mundo.
-            .col-auto
-              figure(data-aos="zoom-in")
-                img(src='@/assets/curso/temas/tema2/img_7.png', alt='').img125
+            .row
+              .col-lg
+                h3 1969. El <em>Codex Alimentarius</em>
+                p Se concretó una recopilación de estándares internacionales para alimentos, que adoptó las BPM como un principio fundamental para la seguridad alimentaria, sentando las bases para la estandarización de prácticas de higiene y seguridad en todo el mundo.
+              .col-auto
+                figure(data-aos="zoom-in")
+                  img(src='@/assets/curso/temas/tema2/img_7.png', alt='').img125
 
     Separador
     #t_2_2.titulo-segundo
       .h2(data-aos="fade-right") 2.2 Principios de las BPM
 
-    .row.justify-content-center.fondo_6.mb-2
-      .col-md-8.mb-3
-        .cajon.bg-4.g_18.mb-5.mb-lg-0
-          .row.mb-4
-            .col-lg-12.p-4.ps-5 
-              p Las Buenas Prácticas de Manufactura (BPM) o <em>Good manufacturing Practices</em> (GMP), son un conjunto de herramientas que se implementan en todas las actividades que involucren manipulación de alimentos. El objetivo central es la obtención de productos seguros para el consumo humano. Los ejes principales del BPM o GMP en inglés, <em>Good Manufacturing Pactices</em>, son las metodologías utilizadas para la manipulación de alimentos y la higiene y seguridad de éstos, evitando que sean un vehículo de las enfermedades transmitidas por alimentos (ETA).
+    .fondo_2_1_2.p-4
+      .row.fondo_titulo_content.justify-content-center.mb-2
+        .col-md-8.mb-3
+          .cajon.bg-4.g_18.mb-5.mb-lg-0
+            .row.mb-4
+              .col-lg-12.p-4.ps-5 
+                p Las Buenas Prácticas de Manufactura (BPM) o <em>Good manufacturing Practices</em> (GMP), son un conjunto de herramientas que se implementan en todas las actividades que involucren manipulación de alimentos. El objetivo central es la obtención de productos seguros para el consumo humano. Los ejes principales del BPM o GMP en inglés, <em>Good Manufacturing Pactices</em>, son las metodologías utilizadas para la manipulación de alimentos y la higiene y seguridad de éstos, evitando que sean un vehículo de las enfermedades transmitidas por alimentos (ETA).
 
-        p.mb-3 Las Buenas Prácticas de Manufactura (BPM) se constituyen como regulaciones de carácter obligatorio en Colombia y en gran cantidad de países; buscan evitar la presencia de riesgos de índole físico, químico y biológico durante el proceso de manufactura de alimentos, que pudieran repercutir en afectaciones a la salud del consumidor.
+          p.mb-3 Las Buenas Prácticas de Manufactura (BPM) se constituyen como regulaciones de carácter obligatorio en Colombia y en gran cantidad de países; buscan evitar la presencia de riesgos de índole físico, químico y biológico durante el proceso de manufactura de alimentos, que pudieran repercutir en afectaciones a la salud del consumidor.
 
-        p.mb-3 Una guía de buenas prácticas de manufactura debe contemplar los siguientes temas, sin omitir ninguno de ellos:
+          p.mb-3 Una guía de buenas prácticas de manufactura debe contemplar los siguientes temas, sin omitir ninguno de ellos:
 
-      .col-md-4.mb-3
-        figure(data-aos="zoom-in")
-          img(src='@/assets/curso/temas/tema2/img_8.png', alt='')
+        .col-md-4.mb-3
+          figure(data-aos="zoom-in")
+            img(src='@/assets/curso/temas/tema2/img_8.png', alt='')
     
-    .row.align-items-center.justify-content-center.mb-5
+    .row.align-items-center.justify-content-center.mb-3
       .col-md-9.mb-4
         .titulo-sexto.color-acento-contenido.mb-3
             h5 Figura 3. 
@@ -114,55 +116,58 @@
           .tarjeta.color-acento-botones.p-3(x="31%" y="46%" numero="F")
             .h5.mb-2.texto-color-acento-botones Registros
             p.text-dark.text-small Los registros son un elemento fundamental para el control de las buenas prácticas.  Se deben llevar registros de: limpieza y desinfección de las instalaciones, equipos y personal, inspección de la materia prima, productos y preparaciones, temperatura y condiciones de transporte de los alimentos y cualquier otra información relevante para la gestión de la seguridad alimentaria.
-  
-    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
-        h3.bgr_3.position-relative Campos de aplicación
-          img.pst(src='@/assets/curso/temas/titulos/img_19.png', alt='')  
 
-    .row.justify-content-center.align-items-center.fondo_2_2.mb-3
-      .col-md-8.mb-4    
-        ul.lista-ul--color.lista-ul--separador
-          li 
-            i.fas.fa-check-circle
-            | A todas las fábricas y establecimientos donde se procesan los alimentos; los equipos, utensilios y el personal manipulador de alimentos.
-          li 
-            i.fas.fa-check-circle
-            | A todas las actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos en el territorio nacional.
-          li 
-            i.fas.fa-check-circle
-            | A los alimentos y materias primas para alimentos que se fabriquen, envasen, expendan, exporten o importen, para el consumo humano.
-          li 
-            i.fas.fa-check-circle
-            | A las actividades de vigilancia y control que ejerzan las autoridades sanitarias sobre la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, importación, exportación y comercialización de alimentos, sobre los alimentos y materias primas para alimentos.
-      .col-md-4.mb-4
-        figure
-          img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen') 
-      
-      .row.align-items-center.justify-content-star.mb-2.ps-2(data-aos="zoom-in-down")
+
+    .fondo_2_1_3.p-4
+      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+        .div.mb-5(data-aos="fade-right")
+          h3.bgr_3.position-relative Campos de aplicación
+            img.pst(src='@/assets/curso/temas/titulos/img_5.svg', alt='')  
+
+      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-3
+        .col-md-8.mb-4    
+          ul.lista-ul--color.lista-ul--separador
+            li 
+              i.fas.fa-check-circle
+              | A todas las fábricas y establecimientos donde se procesan los alimentos; los equipos, utensilios y el personal manipulador de alimentos.
+            li 
+              i.fas.fa-check-circle
+              | A todas las actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución y comercialización de alimentos en el territorio nacional.
+            li 
+              i.fas.fa-check-circle
+              | A los alimentos y materias primas para alimentos que se fabriquen, envasen, expendan, exporten o importen, para el consumo humano.
+            li 
+              i.fas.fa-check-circle
+              | A las actividades de vigilancia y control que ejerzan las autoridades sanitarias sobre la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, importación, exportación y comercialización de alimentos, sobre los alimentos y materias primas para alimentos.
+        .col-md-4.mb-4
+          figure
+            img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen') 
+        
+      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-5(data-aos="fade-right")
           h3.bgr_3.position-relative Disposiciones del personal
-            img.pst(src='@/assets/curso/temas/titulos/img_4.png', alt='')  
+            img.pst(src='@/assets/curso/temas/titulos/img_6.svg', alt='')  
             
-      .col-lg-12.mb-5
-        .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img_11.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 Las disposiciones referentes al personal son la base para garantizar la seguridad alimentaria, asegurando que los manipuladores de alimentos trabajen con higiene y responsabilidad, protegiendo a los consumidores de posibles enfermedades. Estas normas cubren aspectos cruciales como los exámenes médicos, la higiene personal y el uso adecuado de ropa reglamentaria.
+      .row.fondo_titulo_content.align-items-center.justify-content-center.mb-3
+        .col-lg-12.mb-5
+          .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img_11.png')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              p.mb-0 Las disposiciones referentes al personal son la base para garantizar la seguridad alimentaria, asegurando que los manipuladores de alimentos trabajen con higiene y responsabilidad, protegiendo a los consumidores de posibles enfermedades. Estas normas cubren aspectos cruciales como los exámenes médicos, la higiene personal y el uso adecuado de ropa reglamentaria.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Exámenes médicos
-          img.pst(src='@/assets/curso/temas/titulos/img_5.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_7.svg', alt='')  
 
     p.mb-5 La dirección debe garantizar que los manipuladores de alimentos se sometan a un examen médico pre-ocupacional y a chequeos periódicos regulares. Estos exámenes buscan identificar y prevenir la presencia de enfermedades infecciosas como diarrea, vómitos, faringitis o fiebre, así como la portación sana de enfermedades, heridas o llagas infectadas. En caso de detectar alguna afección, la actividad del manipulador podría suspenderse hasta la recuperación o, en su defecto, continuar con el trabajo bajo medidas de higiene reforzadas.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Higiene
-          img.pst(src='@/assets/curso/temas/titulos/img_6.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_8.svg', alt='')  
 
     p.mb-4 La higiene del personal es crucial para la seguridad alimentaria. La dirección debe promover y supervisar la aplicación de normas básicas de higiene para los cocineros:
   
@@ -188,7 +193,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Ropa reglamentaria
-          img.pst(src='@/assets/curso/temas/titulos/img_7.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_9.svg', alt='')  
           
     p.mb-4 Lla ropa de trabajo de los manipuladores debe ser limpia y estar en buen estado, y debe cambiarse al inicio de cada jornada por un uniforme reglamentario. Se debe evitar usar la ropa de trabajo fuera del área de trabajo para prevenir la contaminación de los alimentos. El uso de elementos de profilaxis como guantes, barbijos y cofias debe ser regulado para minimizar el riesgo de contaminación. Estos elementos deben ser de un solo uso, cambiarse cuando estén sucios o dañados, y utilizarse de manera correcta para evitar la contaminación. 
   
@@ -199,19 +204,20 @@
             .col-lg-12.p-4.ps-5
               p.mb-0 Recuerda que las buenas prácticas de higiene del personal son vitales para garantizar la seguridad alimentaria. La dirección debe implementar políticas claras y promover la cultura de la higiene para asegurar la calidad e inocuidad de los alimentos.
       
-    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
-        h3.bgr_3.position-relative Disposiciones referentes a las instalaciones y edificio 
-          img.pst(src='@/assets/curso/temas/titulos/img_8.png', alt='')  
-          
-    .row.justify-content-center.align-items-center.mb-5
-      .col-lg-12.mb-3
-        .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
-          .bloque-texto-g__img(
-            :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img_13.png')})`}"
-          )
-          .bloque-texto-g__texto.p-4
-            p.mb-0 El diseño y mantenimiento de las instalaciones de cocina son cruciales para asegurar un ambiente seguro e higiénico en el cual procesar alimentos. Tal y como estipula la normativa, estas instalaciones deben facilitar una limpieza efectiva y minimizar el riesgo de contaminación (Ministerio de Salud y Protección Social, 2013, Art. 7).
+    .fondo_2_1_4.p-4
+      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+        .div.mb-5(data-aos="fade-right")
+          h3.bgr_3.position-relative Disposiciones referentes a las instalaciones y edificio 
+            img.pst(src='@/assets/curso/temas/titulos/img_10.svg', alt='')  
+            
+      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-5
+        .col-lg-12.mb-3
+          .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
+            .bloque-texto-g__img(
+              :style="{'background-image': `url(${require('@/assets/curso/temas/tema2/img_13.png')})`}"
+            )
+            .bloque-texto-g__texto.p-4
+              p.mb-0 El diseño y mantenimiento de las instalaciones de cocina son cruciales para asegurar un ambiente seguro e higiénico en el cual procesar alimentos. Tal y como estipula la normativa, estas instalaciones deben facilitar una limpieza efectiva y minimizar el riesgo de contaminación (Ministerio de Salud y Protección Social, 2013, Art. 7).
               
     h4.text-center.mb-4 Se deben tener en cuenta los siguientes elementos: 
 
@@ -237,7 +243,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a los utensilios, recipientes, envases y envolturas
-          img.pst(src='@/assets/curso/temas/titulos/img_9.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_11.svg', alt='')  
           
     p.mb-3 Los utensilios, recipientes, envases y envolturas utilizados en la cocina deben cumplir con estrictos requisitos de higiene para asegurar la inocuidad de los alimentos. Según la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social de Colombia, es imperativo que estos elementos se encuentren en perfecto estado de conservación e higiene para prevenir la contaminación cruzada (Ministerio de Salud y Protección Social, 2013, Art. 5).
 
@@ -266,7 +272,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a proveedores
-          img.pst(src='@/assets/curso/temas/titulos/img_10.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_12.svg', alt='')  
           
     .row.justify-content-center.align-items-center.mb-5
       .col-lg-12.mb-3
@@ -280,7 +286,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad
-          img.pst(src='@/assets/curso/temas/titulos/img_11.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_13.svg', alt='')  
           
     .row.justify-content-center.align-items-center.mb-3.fondo_2_3
       .col-md-3.mb-3
@@ -323,7 +329,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes al transporte: garantizando la seguridad de los alimentos en movimiento
-          img.pst(src='@/assets/curso/temas/titulos/img_12.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_14.svg', alt='')  
 
     figure
       img(src='@/assets/curso/temas/tema2/img_19.png', alt='Texto que describa la imagen').mx-auto.mb-4
@@ -333,7 +339,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Requisitos para el transporte
-          img.pst(src='@/assets/curso/temas/titulos/img_13.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_15.svg', alt='')  
 
     .row.justify-content-center.align-items-center.mb-3.tarjeta_ordenadas
       .col-md-8.mb-3
@@ -368,37 +374,38 @@
             h4.mb-3.text-center Transporte de alimentos perecederos
             p.mb-0 El transporte de alimentos perecederos es un proceso que requiere un cuidado especial, especialmente en cuanto a la temperatura. Es fundamental controlar la temperatura del vehículo para evitar un corte de la cadena de frío, lo que podría afectar la vida útil del alimento y aumentar el riesgo de contaminación. Un corte en la cadena de frío puede provocar la multiplicación de microorganismos patógenos y en algunos casos, puede ocasionar una intoxicación alimentaria.
 
-    .row.justify-content-center.align-items-center.mb-2.fondo_1_3 
-      h4.mb-5.text-center Recomendaciones para el transporte de alimentos perecederos:
-      .row.justify-content-center.mb-5
-        .col-md-4.mb-4.responsive_tarjeta
-          .tarjeta-numerada.bg-06.p-5.h-100
-            .tarjeta-numerada__numero
-              .h2 1
-            p 
-              b Control de temperatura
-            p Utilizar sistemas de refrigeración adecuados para mantener la temperatura del vehículo dentro de los rangos establecidos para el tipo de producto que se transporta.
+    .fondo_2_1_5.p-4
+      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-2 
+        h4.mb-5.text-center Recomendaciones para el transporte de alimentos perecederos:
+        .row.justify-content-center.mb-5
+          .col-md-4.mb-4.responsive_tarjeta
+            .tarjeta-numerada.bg-06.p-5.h-100
+              .tarjeta-numerada__numero
+                .h2 1
+              p 
+                b Control de temperatura
+              p Utilizar sistemas de refrigeración adecuados para mantener la temperatura del vehículo dentro de los rangos establecidos para el tipo de producto que se transporta.
 
-        .col-md-4.mb-4.responsive_tarjeta
-          .tarjeta-numerada.bg-07.p-5.h-100
-            .tarjeta-numerada__numero
-              .h2 2
-            p 
-              b Manejo cuidadoso
-            p Manipular los productos con cuidado para evitar golpes o movimientos bruscos que puedan afectar su calidad.
+          .col-md-4.mb-4.responsive_tarjeta
+            .tarjeta-numerada.bg-07.p-5.h-100
+              .tarjeta-numerada__numero
+                .h2 2
+              p 
+                b Manejo cuidadoso
+              p Manipular los productos con cuidado para evitar golpes o movimientos bruscos que puedan afectar su calidad.
 
-        .col-md-4.mb-4.responsive_tarjeta
-          .tarjeta-numerada.bg-08.p-5.h-100
-            .tarjeta-numerada__numero
-              .h2 3
-            p 
-              b Limpieza y desinfección 
-            p Limpiar y desinfectar el vehículo con frecuencia, especialmente después de cada transporte, para evitar la acumulación de contaminantes.
+          .col-md-4.mb-4.responsive_tarjeta
+            .tarjeta-numerada.bg-08.p-5.h-100
+              .tarjeta-numerada__numero
+                .h2 3
+              p 
+                b Limpieza y desinfección 
+              p Limpiar y desinfectar el vehículo con frecuencia, especialmente después de cada transporte, para evitar la acumulación de contaminantes.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes al almacenamiento en la cocina
-          img.pst(src='@/assets/curso/temas/titulos/img_14.png', alt='')  
+          img.pst(src='@/assets/curso/temas/titulos/img_16.svg', alt='')  
     
     .row.justify-content-center.align-items-center.mb-3.fondo_2_4
       .col-md-4.mb-4
@@ -421,82 +428,83 @@
             i.fas.fa-check-circle
             |	Almacenamiento de alimentos perecederos: los productos perecederos deben almacenarse inmediatamente en el sector correspondiente.
     
-    .row.justify-content-center.align-items-center.mb-2.fondo_1_3 
+    .fondo_2_1_6.p-4
+      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-0
 
-      h4.mb-5.text-center  En una cocina podemos distinguir tres tipos de almacenamientos, a saber:
+        h4.mb-5.text-center  En una cocina podemos distinguir tres tipos de almacenamientos, a saber:
 
-      .col-md-10
-        .row.justify-content-center.mb-3
-          .col-lg-4.mb-3.responsive_tarjeta
-            .tarjeta.color-primario.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/tema2/img_24.png", alt="alt").w-50.mx-auto.mb-3
-              h4.mb-3 Refrigeración
-              p La temperatura de refrigeración no debe superar los 4°C para asegurar una buena conservación de los productos.
-          
-          .col-lg-4.mb-3.responsive_tarjeta
-            .tarjeta.color-primario.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/tema2/img_25.png", alt="alt").w-50.mx-auto.mb-3
-              h4.mb-3 Congelación
-              p La temperatura de congelación no debe superar los -18°C para una conservación a largo plazo.
-          
-          .col-lg-4.mb-3.responsive_tarjeta
-            .tarjeta.color-primario.p-4.h-100
-              figure
-                img(src="@/assets/curso/temas/tema2/img_26.png", alt="alt").w-50.mx-auto.mb-3
-              h4.mb-3 Temperatura ambiente
-              p Para productos secos y vinos, la temperatura de almacenamiento no debe superar los 22°C. El ambiente debe ser seco y alejado de fuentes de calor. 
+        .col-md-10
+          .row.justify-content-center.mb-1
+            .col-lg-4.mb-3.responsive_tarjeta
+              .tarjeta.color-primario.p-4.h-100
+                figure
+                  img(src="@/assets/curso/temas/tema2/img_24.png", alt="alt").w-50.mx-auto.mb-3
+                h4.mb-3 Refrigeración
+                p La temperatura de refrigeración no debe superar los 4°C para asegurar una buena conservación de los productos.
+            
+            .col-lg-4.mb-3.responsive_tarjeta
+              .tarjeta.color-primario.p-4.h-100
+                figure
+                  img(src="@/assets/curso/temas/tema2/img_25.png", alt="alt").w-50.mx-auto.mb-3
+                h4.mb-3 Congelación
+                p La temperatura de congelación no debe superar los -18°C para una conservación a largo plazo.
+            
+            .col-lg-4.mb-3.responsive_tarjeta
+              .tarjeta.color-primario.p-4.h-100
+                figure
+                  img(src="@/assets/curso/temas/tema2/img_26.png", alt="alt").w-50.mx-auto.mb-3
+                h4.mb-3 Temperatura ambiente
+                p Para productos secos y vinos, la temperatura de almacenamiento no debe superar los 22°C. El ambiente debe ser seco y alejado de fuentes de calor. 
 
-
-    .row.justify-content-center.align-items-center.mb-2.fondo_1_4            
-      .row.justify-content-center.align-items-center.mb-4
-        .col-md-8.mb-3    
-          ul.lista-ul--color.lista-ul--separador
-            li 
-              i.fas.fa-check-circle
-              |	Dimensión del área de almacenamiento: el tamaño del área de almacenamiento debe ajustarse a la cantidad de alimentos perecederos que se manejan. En algunos casos, se requieren varias cámaras de refrigeración y congelación. En otros casos, una o dos cámaras deben ser sectorizadas para un mejor funcionamiento
-            li 
-              i.fas.fa-check-circle
-              |	Ubicación de los productos: se debe tener especial cuidado al ubicar los diferentes productos para evitar la contaminación cruzada:
-            li 
-              i.fas.fa-check-circle
-              |	Separación de productos: los productos para devolución deben estar correctamente identificados en cajas cerradas y ubicados por lotes con el nombre del proveedor para su devolución.
-            li 
-              i.fas.fa-check-circle
-              |	Ubicación de productos de limpieza: los productos de limpieza deben almacenarse en un sector específico, alejado de los alimentos.
-              
-        .col-md-4.mb-3
-          figure
-            img(src='@/assets/curso/temas/tema2/img_27.png', alt='Texto que describa la imagen').mx-auto
-      
-      .row.justify-content-center.align-items-center.mb-2
-        .col-md-4.mb-3
-          figure
-            img(src='@/assets/curso/temas/tema2/img_28.png', alt='Texto que describa la imagen') 
-        .col-md-8.mb-3
-          h4 Reglas generales para un buen almacenamiento:    
-          ul.lista-ul--color.lista-ul--separador
-            li 
-              i.fas.fa-check-circle
-              |	Inspección: Se debe revisar el aislamiento de las puertas del almacén para asegurar su cierre hermético.
-            li 
-              i.fas.fa-check-circle
-              |	Limpieza: Las estanterías y paredes deben lavarse de acuerdo al plan de limpieza.
-            li 
-              i.fas.fa-check-circle
-              |	Manejo de envases: No se deben almacenar alimentos en latas o frascos con tapas abiertas. Al abrirlos, los alimentos deben protegerse en un contenedor plástico con tapa y se debe eliminar el embalaje original.
-            li 
-              i.fas.fa-check-circle
-              |	Rotación de inventario: Las estanterías deben tener suficiente espacio para la rotación de los productos, evitando su vencimiento.
-            li 
-              i.fas.fa-check-circle
-              |	Control de stock: Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
-              
+    .fondo_2_1_7.p-4
+      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-2            
+        .row.justify-content-center.align-items-center.mb-4
+          .col-md-8.mb-3    
+            ul.lista-ul--color.lista-ul--separador
+              li 
+                i.fas.fa-check-circle
+                |	Dimensión del área de almacenamiento: el tamaño del área de almacenamiento debe ajustarse a la cantidad de alimentos perecederos que se manejan. En algunos casos, se requieren varias cámaras de refrigeración y congelación. En otros casos, una o dos cámaras deben ser sectorizadas para un mejor funcionamiento
+              li 
+                i.fas.fa-check-circle
+                |	Ubicación de los productos: se debe tener especial cuidado al ubicar los diferentes productos para evitar la contaminación cruzada:
+              li 
+                i.fas.fa-check-circle
+                |	Separación de productos: los productos para devolución deben estar correctamente identificados en cajas cerradas y ubicados por lotes con el nombre del proveedor para su devolución.
+              li 
+                i.fas.fa-check-circle
+                |	Ubicación de productos de limpieza: los productos de limpieza deben almacenarse en un sector específico, alejado de los alimentos.
+                
+          .col-md-4.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img_27.png', alt='Texto que describa la imagen').mx-auto
+        
+        .row.justify-content-center.align-items-center.mb-2
+          .col-md-4.mb-3
+            figure
+              img(src='@/assets/curso/temas/tema2/img_28.png', alt='Texto que describa la imagen') 
+          .col-md-8.mb-3
+            h4 Reglas generales para un buen almacenamiento:    
+            ul.lista-ul--color.lista-ul--separador
+              li 
+                i.fas.fa-check-circle
+                |	Inspección: Se debe revisar el aislamiento de las puertas del almacén para asegurar su cierre hermético.
+              li 
+                i.fas.fa-check-circle
+                |	Limpieza: Las estanterías y paredes deben lavarse de acuerdo al plan de limpieza.
+              li 
+                i.fas.fa-check-circle
+                |	Manejo de envases: No se deben almacenar alimentos en latas o frascos con tapas abiertas. Al abrirlos, los alimentos deben protegerse en un contenedor plástico con tapa y se debe eliminar el embalaje original.
+              li 
+                i.fas.fa-check-circle
+                |	Rotación de inventario: Las estanterías deben tener suficiente espacio para la rotación de los productos, evitando su vencimiento.
+              li 
+                i.fas.fa-check-circle
+                |	Control de stock: Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
+                
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a la manipulación de alimentos
-          img.pst(src='@/assets/curso/temas/titulos/img_15.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_17.svg', alt='') 
 
     .row.justify-content-center.mb-4    
       .col-lg-12

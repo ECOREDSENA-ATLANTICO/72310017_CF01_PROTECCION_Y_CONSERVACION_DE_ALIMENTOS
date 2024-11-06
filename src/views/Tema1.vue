@@ -89,7 +89,7 @@
     p.mb-5 La clasificación de los alimentos es fundamental para comprender su comportamiento y asegurar su calidad. Este apartado aborda la categorización de los alimentos desde diferentes perspectivas: composición química, tiempo de vida útil, función nutritiva y origen. El conocimiento de estos criterios permite un análisis más profundo de las características de los alimentos y su impacto en la salud y la alimentación:
 
     .fondo_1.p-4
-      .row.fondo_1-content.align-items-center.justify-content-center.mb-0
+      .row.fondo_content.align-items-center.justify-content-center.mb-0
         .col-md-12.mb-4
           .titulo-sexto.color-acento-contenido.mb-0
               h5 Figura 1. 
@@ -108,7 +108,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Agentes físicos
-          img.pst(src='@/assets/curso/temas/tema1/img_28.png', alt='')
+          img.pst(src='@/assets/curso/temas/titulos/img_0.svg', alt='')
           
     p Los agentes físicos <b>suelen actuar durante los procesos de cosecha y los tratamientos posteriores</b>. En general, por sí mismos, no suelen alterar las características nutricionales de los alimentos, pero sí su palatabilidad. El hecho más importante es que <b>pueden significar una vía de entrada a las otras alteraciones</b>. Se destacan:
 
@@ -144,45 +144,47 @@
           h5 Presencia de sustancias extrañas 
           p Debido a una inadecuada manipulación sin la aplicación de las buenas prácticas de manufactura que permite la presencia de materiales no deseables en los alimentos como cabellos, plásticos, tierra, etc.
     
-    .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
-      .div.mb-5(data-aos="fade-right")
-        h3.bgr_3.position-relative Agentes químicos
-          img.pst(src='@/assets/curso/temas/titulos/img_0.png', alt='')          
+    .fondo_1_1_2.p-4.mb-3
+      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+        .div.mb-5(data-aos="fade-right")
+          h3.bgr_3.position-relative Agentes químicos
+            img.pst(src='@/assets/curso/temas/titulos/img_1.svg', alt='')          
 
-    p Los agentes químicos se manifiestan especialmente durante los procesos de almacenamiento de los alimentos. <b>Su efecto puede afectar de forma notable la comestibilidad del alimento</b>: pardeamiento, enranciamiento, presencia de químicos no autorizados, etc.
+        p.mb-4 Los agentes químicos se manifiestan especialmente durante los procesos de almacenamiento de los alimentos. <b>Su efecto puede afectar de forma notable la comestibilidad del alimento</b>: pardeamiento, enranciamiento, presencia de químicos no autorizados, etc.
 
-    .row.justify-content-center.mb-5
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-2.tarjeta_hover
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img_16.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3.text-center Pardeamiento no enzimático o reacción de maillard
-            p.mb-0 Se incluyen una serie de reacciones complejas entre azúcares y compuestos nitrogenados (proteínas), las cuales generan pigmentos marrones.  <br>En algunos casos se producen de manera tecnológica (fritos y tostados), pero en otras es espontáneo. El calor y la desecación lo favorecen.
+      .row.fondo_titulo_content.justify-content-center.mb-3
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-2.tarjeta_hover
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img_17.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3.text-center Enranciamiento
-            p.mb-0 Proceso por el cual un alimento con alto contenido en grasas o aceites se altera con el tiempo adquiriendo un sabor desagradable.
+        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img_16.png", alt="alt")
+            .crd_hover_txt--body
+              h4.mb-3.text-center Pardeamiento no enzimático o reacción de maillard
+              p.mb-0 Se incluyen una serie de reacciones complejas entre azúcares y compuestos nitrogenados (proteínas), las cuales generan pigmentos marrones.  <br>En algunos casos se producen de manera tecnológica (fritos y tostados), pero en otras es espontáneo. El calor y la desecación lo favorecen.
 
-      .col-xl-4.col-lg-7.col-md-9.col-11.mb-4.mb-xl-2.tarjeta_hover
-        .crd_hover_txt(data-aos="flip-left")
-          .crd_hover_txt--img
-            figure
-              img(src="@/assets/curso/temas/tema1/img_18.png", alt="alt")
-          .crd_hover_txt--body
-            h4.mb-3.text-center Presencia de químicos no autorizados 
-            p.mb-0 Los cuales se presentan en los alimentos al realizar el proceso de limpieza y desinfección sin seguir correctamente los protocolos. <br>Este proceso deja residuos de detergentes y/o desinfectantes, al cosechar las frutas, verduras y hortalizas en tiempos no apropiados con residuos de fungicidas, herbicidas o químicos utilizados durante la producción primaria, al ordeñar o sacrificar los animales sin dejar los tiempos de retiro necesarios en caso de ser vacunados, obteniendo la leche y carne con residuos de antibióticos o medicamentos.
+        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img_17.png", alt="alt")
+            .crd_hover_txt--body
+              h4.mb-3.text-center Enranciamiento
+              p.mb-0 Proceso por el cual un alimento con alto contenido en grasas o aceites se altera con el tiempo adquiriendo un sabor desagradable.
+
+        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+          .crd_hover_txt(data-aos="flip-left")
+            .crd_hover_txt--img
+              figure
+                img(src="@/assets/curso/temas/tema1/img_18.png", alt="alt")
+            .crd_hover_txt--body
+              h4.mb-3.text-center Presencia de químicos no autorizados 
+                p.mb-0 Los cuales se presentan en los alimentos al realizar el proceso de limpieza y desinfección sin seguir correctamente los protocolos. <br>Este proceso deja residuos de detergentes y/o desinfectantes, al cosechar las frutas, verduras y hortalizas en tiempos no apropiados con residuos de fungicidas, herbicidas o químicos utilizados durante la producción primaria, al ordeñar o sacrificar los animales sin dejar los tiempos de retiro necesarios en caso de ser vacunados, obteniendo la leche y carne con residuos de antibióticos o medicamentos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Agentes biológicos
-          img.pst(src='@/assets/curso/temas/titulos/img_1.png', alt='')          
+          img.pst(src='@/assets/curso/temas/titulos/img_2.svg', alt='')          
 
     p Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
 
@@ -199,33 +201,36 @@
         figure
           img(src="@/assets/curso/temas/tema1/img_19.png", alt="alt")
 
-    .cajon.bg-3.g_18.mb-5
-      .row.mb-4
-        .col-lg-12.p-4.ps-5 
-          p Cabe destacar que, sin embargo, no todos los efectos son negativos, pues diversos alimentos son producidos total o parcialmente por ellos: como los alimentos fermentados. En algunas ocasiones, los microorganismos ya se encuentran en el alimento, en otras, son oportunistas que se encuentran de diversas maneras en el medio que nos rodea (aire, agua, etc.) Entre los más perjudiciales están las bacterias, tanto por su abundancia como por su elevada tasa de reproducción. Pueden producir toxinas (<em>Clostridium</em>) o ser infecciosas por ellas mismas (Salmonella, <em>Listeria</em>).
+    .row.justify-content-center.mb-3(data-aos="zoom-in-down")
+      .col-md-12
+        .cajon.bg-3.g_18.mb-5
+          .row.mb-4
+            .col-lg-12.p-4.ps-5 
+              p Cabe destacar que, sin embargo, no todos los efectos son negativos, pues diversos alimentos son producidos total o parcialmente por ellos: como los alimentos fermentados. En algunas ocasiones, los microorganismos ya se encuentran en el alimento, en otras, son oportunistas que se encuentran de diversas maneras en el medio que nos rodea (aire, agua, etc.) Entre los más perjudiciales están las bacterias, tanto por su abundancia como por su elevada tasa de reproducción. Pueden producir toxinas (<em>Clostridium</em>) o ser infecciosas por ellas mismas (Salmonella, <em>Listeria</em>).
 
-    p.mb-5 Otro grupo son los mohos, importantes por la producción de toxinas y por su resistencia a las condiciones más extremas; finalmente, las levaduras, con las transformaciones rápidas más relevantes desde el punto de vista fermentativo.
+    p.mb-3 Otro grupo son los mohos, importantes por la producción de toxinas y por su resistencia a las condiciones más extremas; finalmente, las levaduras, con las transformaciones rápidas más relevantes desde el punto de vista fermentativo.
     
-    .row.align-items-center.justify-content-center.mb-5.fondo_1_1.tarjeta_figura
-      .col-md-6.mb-4
-        .titulo-sexto.color-acento-contenido.mb-0
-            h5 Figura 2. 
-            span Rangos de temperatura para la proliferación bacteriana  
+    .fondo_1_1_3.p-4
+      .row.fondo_content.align-items-center.justify-content-center.mb-5.tarjeta_figura
+        .col-md-6.mb-4
+          .titulo-sexto.color-acento-contenido.mb-0
+              h5 Figura 2. 
+              span Rangos de temperatura para la proliferación bacteriana  
 
-        figure
-          img.w-75.mb-3(src='@/assets/curso/temas/tema1/img_21.png', alt='Texto que describa la imagen').mx-auto
-          figcaption Fuente: https://0grados.com/factores-de-cuidado-en-camaras-de-refrigeracion-y-congelacion/
+          figure
+            img.w-75.mb-3(src='@/assets/curso/temas/tema1/img_21.png', alt='Texto que describa la imagen').mx-auto
+            figcaption Fuente: https://0grados.com/factores-de-cuidado-en-camaras-de-refrigeracion-y-congelacion/
 
-      .col-md-6
-        p La temperatura juega un papel fundamental en la proliferación de los microorganismos, para el crecimiento de la mayoría de los microorganismos la temperatura ideal oscila entre 36 - 37ºC, aunque el margen de crecimiento de los mismos está entre 5º y 65ºC (también conocido como zona de riesgo). A pesar de esto cuanto más cerca estamos de los 37ºC, mayor es la multiplicación de los mismos.
-        p Las bacterias se multiplican rápidamente entre 5ºC y 65ºC. Para mantener los alimentos fuera de esta <b>“zona de riesgo”</b>, es recomendable mantener los alimentos fríos y calientes a las temperaturas respectivas. Mantener los alimentos fríos en el refrigerador, en neveras o sobre hielo en la línea de servicio. Mantener los alimentos calientes en el horno, en platos calentados o en mesas de vapor precalentadas, bandejas calientes u ollas eléctricas de cocción lenta.
-        p No deje nunca los alimentos en la <b>“zona de peligro”</b> durante más de 2 horas. A medida que la temperatura aumenta el crecimiento disminuye, de forma que al superar los 65ºC los microorganismos comienzan a alterarse y a partir de 100ºC (temperatura de ebullición del agua) son destruidos.
-        p Por debajo de los 5ºC el crecimiento microbiano es muy lento (la temperatura normal de un refrigerador familiar es entre 1 y 4ºC) y por debajo de la temperatura de congelación (-18ºC) no existe desarrollo, aunque muchos sobrevivirán y volverán a multiplicarse en el momento de descongelación del alimento.
+        .col-md-6
+          p La temperatura juega un papel fundamental en la proliferación de los microorganismos, para el crecimiento de la mayoría de los microorganismos la temperatura ideal oscila entre 36 - 37ºC, aunque el margen de crecimiento de los mismos está entre 5º y 65ºC (también conocido como zona de riesgo). A pesar de esto cuanto más cerca estamos de los 37ºC, mayor es la multiplicación de los mismos.
+          p Las bacterias se multiplican rápidamente entre 5ºC y 65ºC. Para mantener los alimentos fuera de esta <b>“zona de riesgo”</b>, es recomendable mantener los alimentos fríos y calientes a las temperaturas respectivas. Mantener los alimentos fríos en el refrigerador, en neveras o sobre hielo en la línea de servicio. Mantener los alimentos calientes en el horno, en platos calentados o en mesas de vapor precalentadas, bandejas calientes u ollas eléctricas de cocción lenta.
+          p No deje nunca los alimentos en la <b>“zona de peligro”</b> durante más de 2 horas. A medida que la temperatura aumenta el crecimiento disminuye, de forma que al superar los 65ºC los microorganismos comienzan a alterarse y a partir de 100ºC (temperatura de ebullición del agua) son destruidos.
+          p Por debajo de los 5ºC el crecimiento microbiano es muy lento (la temperatura normal de un refrigerador familiar es entre 1 y 4ºC) y por debajo de la temperatura de congelación (-18ºC) no existe desarrollo, aunque muchos sobrevivirán y volverán a multiplicarse en el momento de descongelación del alimento.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Factores que favorecen la proliferación microbiana
-          img.pst(src='@/assets/curso/temas/titulos/img_2.png', alt='')          
+          img.pst(src='@/assets/curso/temas/titulos/img_3.svg', alt='')          
 
     p.mb-5 Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
     
@@ -270,16 +275,17 @@
               h5 Nutrientes
               p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
-    .row.justify-content-center.mb-5
-      .cajon.bg-4.g_18.mb-5.mb-lg-0
-        .row
-          .col-lg-12.p-4.ps-5 
-            p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
+    .row.justify-content-center.mb-5(data-aos="zoom-in-down")
+      .col-md-12
+        .cajon.bg-4.g_18.mb-5.mb-lg-0
+          .row
+            .col-lg-12.p-4.ps-5 
+              p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Prácticas indeseables
-          img.pst(src='@/assets/curso/temas/titulos/img_3.png', alt='')          
+          img.pst(src='@/assets/curso/temas/titulos/img_4.svg', alt='')          
 
     .row.justify-content-center.align-items-center.mb-2
       .col-lg-12.mb-3

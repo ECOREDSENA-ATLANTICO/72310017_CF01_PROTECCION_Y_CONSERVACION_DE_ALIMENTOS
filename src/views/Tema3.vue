@@ -26,10 +26,10 @@
             p.mb-0 La preservación de alimentos es un proceso fundamental que atraviesa todos los eslabones de la cadena alimentaria, desde la producción hasta el consumo. Su importancia radica en la capacidad de extender la vida útil de los productos, protegiéndolos del deterioro y asegurando su inocuidad, lo cual garantiza un acceso seguro y confiable a alimentos frescos y saludables para todos. Este proceso no solo busca evitar el desperdicio, sino que también permite distribuir los alimentos de manera eficiente a nivel nacional e internacional, abriendo posibilidades de acceso a productos frescos y saludables en diferentes regiones.
 
     .fondo_3_1.p-4
-      .row.fondo_3_1-content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-5(data-aos="fade-right")
           h3.bgr_3.position-relative Técnicas de preservación de alimentos
-            img.pst(src='@/assets/curso/temas/titulos/img_16.png', alt='') 
+            img.pst(src='@/assets/curso/temas/titulos/img_18.svg', alt='') 
 
         p.mb-4 Las técnicas de preservación de alimentos se basan en la aplicación de métodos que ralentizan o detienen el crecimiento de microorganismos y enzimas que provocan el deterioro de los alimentos. A continuación se describen las técnicas más comunes:
                 
@@ -101,29 +101,30 @@
     #t_3_2.titulo-segundo
       .h2(data-aos="fade-right") 3.2  Recomendaciones generales
 
-    .row.align-items-center.justify-content-center.mb-3.fondo_6.fondo_2_4
-      .col-md-8.mb-3
-        p.mb-3 Para asegurar la prevención y control del deterioro de los alimentos, la <b>Resolución 2674 de 2013</b> y las Buenas Prácticas de Manufactura (BPM) proporcionan lineamientos claros sobre almacenamiento, transporte, manipulación, limpieza y desinfección en el contexto colombiano.
-        
-        p.mb-3 Las BPM y la resolución enfatizan la necesidad de mantener una higiene rigurosa en todas las etapas del manejo de alimentos. Esto implica un control sistemático de los factores que puedan influir en la calidad e inocuidad alimentaria, incluyendo temperatura, humedad, y la prevención de la contaminación cruzada durante toda la cadena de producción (Ministerio de Salud y Protección Social, 2013).
+    .fondo_2_1_2.p-4.mb-3
+      .row.fondo_titulo_content.align-items-center.justify-content-center.mb-3(data-aos="zoom-in-down")
+        .col-md-8.mb-3
+          p.mb-3 Para asegurar la prevención y control del deterioro de los alimentos, la <b>Resolución 2674 de 2013</b> y las Buenas Prácticas de Manufactura (BPM) proporcionan lineamientos claros sobre almacenamiento, transporte, manipulación, limpieza y desinfección en el contexto colombiano.
+          
+          p.mb-3 Las BPM y la resolución enfatizan la necesidad de mantener una higiene rigurosa en todas las etapas del manejo de alimentos. Esto implica un control sistemático de los factores que puedan influir en la calidad e inocuidad alimentaria, incluyendo temperatura, humedad, y la prevención de la contaminación cruzada durante toda la cadena de producción (Ministerio de Salud y Protección Social, 2013).
 
-        .tarjeta.color-terciario.p-3
-          .row.justify-content-around.align-items-center
-            .col-auto
-              img(src="@/assets/curso/temas/tema3/img_12.png").img65
-            .col
-              .row.justify-content-between.align-items-center
-                .col.mb-3.mb-sm-0
-                  h4.mb-1 Normativa
-                  p.text-small.mb-0 Para conocer más acerca de la normativa que rige las buenas prácticas de manufactura consultar el siguiente link.
-                .col-sm-auto
-                  a.boton.color-acento-botones(:href="obtenerLink('/downloads/2674.pdf')" target="_blank")
-                    span Descargar
-                    i.fas.fa-file-download
+          .tarjeta.color-terciario.p-3
+            .row.justify-content-around.align-items-center
+              .col-auto
+                img(src="@/assets/curso/temas/tema3/img_12.png").img65
+              .col
+                .row.justify-content-between.align-items-center
+                  .col.mb-3.mb-sm-0
+                    h4.mb-1 Normativa
+                    p.text-small.mb-0 Para conocer más acerca de la normativa que rige las buenas prácticas de manufactura consultar el siguiente link.
+                  .col-sm-auto
+                    a.boton.color-acento-botones(:href="obtenerLink('/downloads/2674.pdf')" target="_blank")
+                      span Descargar
+                      i.fas.fa-file-download
 
-      .col-md-4.mb-3
-        figure
-          img(src='@/assets/curso/temas/tema3/img_13.png', alt='Texto que describa la imagen').img125
+        .col-md-4.mb-3
+          figure
+            img(src='@/assets/curso/temas/tema3/img_13.png', alt='Texto que describa la imagen').img125
 
     .row.justify-content-center.align-items-center.mb-3.fondo_2_5
       .col-md-4.mb-3
@@ -199,7 +200,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Disposiciones referentes a la limpieza y la desinfección para evitar la proliferación de plagas
-          img.pst(src='@/assets/curso/temas/titulos/img_17.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_19.svg', alt='') 
 
     p.mb-4.mt-2 La limpieza y desinfección en la cocina son procesos planeados y esenciales para mantener la inocuidad. Esto debe considerarse desde el diseño de las instalaciones, aunque muchas cocinas existentes no fueron diseñadas con este enfoque preventivo. La clave está en la pulcritud durante las preparaciones, asegurando que los cocineros mantengan orden y limpieza en sus áreas de trabajo, como estanterías y mesadas, mientras el personal de limpieza se encarga de áreas generales como paredes, pisos y equipos (Ministerio de Salud y Protección Social, 2013).
         
@@ -240,7 +241,7 @@
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-5(data-aos="fade-right")
         h3.bgr_3.position-relative Secuencia y frecuencia
-          img.pst(src='@/assets/curso/temas/titulos/img_17.png', alt='') 
+          img.pst(src='@/assets/curso/temas/titulos/img_20.svg', alt='') 
 
     .row.justify-content-center.align-items-center.mb-3.fondo_2_4
       .col-md-8.mb-3
@@ -260,27 +261,28 @@
         figure
           img(src="@/assets/curso/temas/tema3/img_18.png", alt="alt").mx-auto
           
-    .row.justify-content-center.mb-3
-      .col-md-4.mb-3.responsive_tarjeta
-        .tarjeta.color-primario.p-4.h-100
-          figure
-            img(src="@/assets/curso/temas/tema3/img_19.png", alt="alt").w-50.mx-auto.mb-3
-          h4.mb-3 Utensilios y Materiales de Limpieza
-          p Los utensilios de limpieza deben mantenerse ordenados, limpios y almacenados en un área separada de la cocina. Las esponjas y trapos requieren desinfección diaria para prevenir la contaminación. (Ministerio de Salud y Protección Social, 2013).
+    .fondo_2_1_5.p-4
+      .row.fondo_titulo_content.justify-content-center.mb-3(data-aos="zoom-in-down")
+        .col-md-4.mb-3.responsive_tarjeta
+          .tarjeta.color-primario.p-4.h-100
+            figure
+              img(src="@/assets/curso/temas/tema3/img_19.png", alt="alt").w-50.mx-auto.mb-3
+            h4.mb-3 Utensilios y Materiales de Limpieza
+            p Los utensilios de limpieza deben mantenerse ordenados, limpios y almacenados en un área separada de la cocina. Las esponjas y trapos requieren desinfección diaria para prevenir la contaminación. (Ministerio de Salud y Protección Social, 2013).
 
-      .col-md-4.mb-3.responsive_tarjeta
-        .tarjeta.color-primario.p-4.h-100
-          figure
-            img(src="@/assets/curso/temas/tema3/img_20.png", alt="alt").w-50.mx-auto.mb-3
-          h4.mb-3 Desinfestación
-          p El control de plagas es fundamental para prevenir la entrada y la proliferación de roedores, insectos y otros animales en la cocina. Se deben establecer barreras físicas, como rejillas y mosquiteros. La fumigación periódica por empresas especializadas es recomendable, asegurando la protección de alimentos y superficies de contacto directo durante el proceso.
+        .col-md-4.mb-3.responsive_tarjeta
+          .tarjeta.color-primario.p-4.h-100
+            figure
+              img(src="@/assets/curso/temas/tema3/img_20.png", alt="alt").w-50.mx-auto.mb-3
+            h4.mb-3 Desinfestación
+            p El control de plagas es fundamental para prevenir la entrada y la proliferación de roedores, insectos y otros animales en la cocina. Se deben establecer barreras físicas, como rejillas y mosquiteros. La fumigación periódica por empresas especializadas es recomendable, asegurando la protección de alimentos y superficies de contacto directo durante el proceso.
 
-      .col-md-4.mb-3.responsive_tarjeta
-        .tarjeta.color-primario.p-4.h-100
-          figure
-            img(src="@/assets/curso/temas/tema3/img_21.png", alt="alt").w-50.mx-auto.mb-3
-          h4.mb-3 Manejo de Desechos
-          p Un manejo adecuado de desechos es vital para evitar la contaminación y la atracción de plagas. Los cocineros deben recolectar desechos en recipientes con tapa y el personal de limpieza encargado de su evacuación. Estos tachos nunca deben dejarse llenos de un día para otro, cumpliendo así con una estrategia efectiva de eliminación de basura. (Ministerio de Salud y Protección Social, 2013).
+        .col-md-4.mb-3.responsive_tarjeta
+          .tarjeta.color-primario.p-4.h-100
+            figure
+              img(src="@/assets/curso/temas/tema3/img_21.png", alt="alt").w-50.mx-auto.mb-3
+            h4.mb-3 Manejo de Desechos
+            p Un manejo adecuado de desechos es vital para evitar la contaminación y la atracción de plagas. Los cocineros deben recolectar desechos en recipientes con tapa y el personal de limpieza encargado de su evacuación. Estos tachos nunca deben dejarse llenos de un día para otro, cumpliendo así con una estrategia efectiva de eliminación de basura. (Ministerio de Salud y Protección Social, 2013).
 
 
 </template>
