@@ -99,23 +99,7 @@
   margin-right: calc(-50vw + 50%)
   padding: 20px
   
-
-.fondo_2_1_2
-  background-image: url('../assets/curso/temas/tema2/img_31.png') !important
-  background-repeat: no-repeat
-  background-position: bottom center
-  margin-left: calc(-50vw + 50%)
-  margin-right: calc(-50vw + 50%)
-  padding: 20px
   
-.fondo_2_1_3
-  background-image: url('../assets/curso/temas/tema1/img_32.png') !important
-  background-repeat: no-repeat
-  background-position: bottom center
-  margin-left: calc(-50vw + 50%)
-  margin-right: calc(-50vw + 50%)
-  padding: 20px
- 
 .fondo_2_1_4
   background-image: url('../assets/curso/temas/tema2/img_33.png') !important
   background-repeat: no-repeat
@@ -123,50 +107,10 @@
   margin-left: calc(-50vw + 50%)
   margin-right: calc(-50vw + 50%)
   padding: 20px
- 
-.fondo_2_1_5
-  background-image: url('../assets/curso/temas/tema2/img_33.png') !important
-  background-repeat: no-repeat
-  background-position: top
-  margin-left: calc(-50vw + 50%)
-  margin-right: calc(-50vw + 50%)
-  padding: 20px
-
-.fondo_2_1_6
-  background-image: url('../assets/curso/temas/tema2/img_33.png') !important
-  background-repeat: no-repeat
-  background-position: top
-  margin-left: calc(-50vw + 50%)
-  margin-right: calc(-50vw + 50%)
-  padding: 20px
-
-.fondo_2_1_7
-  background-image: url('../assets/curso/temas/tema2/img_34.png') !important
-  background-repeat: no-repeat
-  background-position: top
-  margin-left: calc(-50vw + 50%)
-  margin-right: calc(-50vw + 50%)
-  padding: 20px
-
-
-
-
-
-
-
-
 
 .fondo_1_4
   background-image: url('../assets/curso/temas/tema1/img_32.png') !important
   background-repeat: round
-
-.fondo_3_1
-  background-image: url('../assets/curso/temas/tema3/img_33.png') !important
-  background-repeat: round
-  background-size: cover
-  margin-left: calc(-50vw + 50%)
-  margin-right: calc(-50vw + 50%)
-  padding: 20px
 
 .fondo_titulo_content
   max-width: 100%
@@ -211,8 +155,6 @@
 .fondo_2_2
   background-image: url('../assets/curso/temas/tema1/img_20.png') !important
   background-repeat: round
-  // background-position: right
-  // backgroind-color: #EB6F2D !important
 
 .slyder-a 
   background-color: #ffffff !important
@@ -516,6 +458,27 @@ table, th, td
       width: 48.333333%
       
 /* Configuración para pantallas grandes */
+@media (max-width: 2560px) 
+
+  .fondo_titulo_content
+    max-width: 100%
+    margin: 0 72px
+    
+  .fondo_content
+    max-width: 100%
+    margin: 0 72px
+
+/* Configuración para pantallas grandes */
+@media (max-width: 1440px) 
+
+  .fondo_titulo_content
+    max-width: 100%
+    margin: 0 72px
+    
+  .fondo_content
+    max-width: 100%
+    margin: 0 72px
+
 @media (max-width: 1024px) 
   .tarjeta_hover 
     width: 48% /* Dos columnas en la primera fila */
@@ -636,7 +599,7 @@ table, th, td
       width: 50% /* Ocupará todo el ancho en pantallas grandes */
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100% !important /* Ocupará todo el ancho en pantallas grandes */
 
   .fondo_1_4
     .col-md-4
@@ -687,6 +650,10 @@ table, th, td
     .col-md-4
       width: 100% /* Ocupará todo el ancho en pantallas grandes */
 
+
+  .responsive_tarjeta
+    width: 100%
+
   .text_completo
     .col-7 
       width: 58.333333% !important
@@ -735,33 +702,135 @@ table, th, td
   top: -13px
   left: -9px
 
-  /* Media Query para pantallas de 768px o menos */
-  @media (max-width: 768px) 
-    .bgr_3 
-      padding-left: 20px
-      padding: 8px
-      font-size: 1rem
+/* Media Query para pantallas de 768px o menos */
+@media (max-width: 767px) 
+  .bgr_3 
+    padding-left: 20px
+    padding: 8px
+    font-size: 1rem
 
-    .pst 
-      width: 50px
-      top: -5px
-      left: -5px
+  .pst 
+    width: 50px
+    top: -5px
+    left: -5px
 
-  /* Media Query específico para pantallas de 425px o menos */
-  @media (max-width: 425px) 
-    .bgr_3 
-      padding: 6px
-      padding-left: 10px
-      font-size: 0.9rem
-      display: flex
-      align-items: center
-      gap: 8px /* Espacio entre imagen y texto */
+/* Media Query específico para pantallas de 425px o menos */
+@media (max-width: 425px) 
+  .bgr_3 
+    padding: 6px
+    padding-left: 10px
+    font-size: 0.9rem
+    display: flex
+    align-items: center
+    gap: 8px /* Espacio entre imagen y texto */
 
-    .pst 
-      position: static /* Posición estática para flex alignment */
-      width: 30px      /* Tamaño más pequeño */
+  .pst 
+    position: static /* Posición estática para flex alignment */
+    width: 30px      /* Tamaño más pequeño */
       margin: 0        /* Sin margen adicional */
 
 .cajon
   p
     margin-bottom: 0px
+
+.bg_img
+  position: relative
+  p, figure, slyder-f .tarjeta
+    position: relative
+  &::before
+    content: ''
+    position: absolute
+    margin: 0
+    top: 0
+    left: -48px
+    width: calc(100% + 96px)
+    height: 100%
+    background-image: url(../assets/curso/temas/tema1/img_33.png) !important
+    background-repeat: no-repeat      
+  &_0
+    position: relative
+    p, figure, .cajon, 
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url(../assets/curso/temas/tema2/img_31.png) !important
+      background-repeat: no-repeat 
+  &_1
+    &::before
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url(../assets/curso/temas/tema1/img_33.png) !important
+      background-repeat: no-repeat
+  &_2
+    position: relative
+    p, figure, h5, span, .titulo-sexto
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)
+  &_3
+    position: relative
+    PasosA
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)
+  &_4
+    position: relative
+    div
+
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)
+  &_5
+    position: relative
+    .tarjeta
+      position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background-image: url(../assets/curso/temas/tema2/img_33.png) !important
+      background-repeat: no-repeat 
+  &_6
+    position: relative
+    // .tarjeta
+    //   position: relative
+    &::before
+      content: ''
+      position: absolute
+      margin: 0
+      top: 0
+      left: -48px
+      width: calc(100% + 96px)
+      height: 100%
+      background: linear-gradient(0deg, rgba(250,248,242,0) 0%, rgba(250,248,242,1) 15%, rgba(250,248,242,1) 85%, rgba(250,248,242,0) 100%)

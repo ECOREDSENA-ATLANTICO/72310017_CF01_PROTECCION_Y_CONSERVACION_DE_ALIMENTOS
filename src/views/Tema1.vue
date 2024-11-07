@@ -88,8 +88,8 @@
 
     p.mb-5 La clasificación de los alimentos es fundamental para comprender su comportamiento y asegurar su calidad. Este apartado aborda la categorización de los alimentos desde diferentes perspectivas: composición química, tiempo de vida útil, función nutritiva y origen. El conocimiento de estos criterios permite un análisis más profundo de las características de los alimentos y su impacto en la salud y la alimentación:
 
-    .fondo_1.p-4
-      .row.fondo_content.align-items-center.justify-content-center.mb-0
+    .bg_img_2
+      .row.align-items-center.justify-content-center.mb-0
         .col-md-12.mb-4
           .titulo-sexto.color-acento-contenido.mb-0
               h5 Figura 1. 
@@ -144,15 +144,15 @@
           h5 Presencia de sustancias extrañas 
           p Debido a una inadecuada manipulación sin la aplicación de las buenas prácticas de manufactura que permite la presencia de materiales no deseables en los alimentos como cabellos, plásticos, tierra, etc.
     
-    .fondo_1_1_2.p-4.mb-3
-      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+    .bg_img.mb-3
+      .row.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Agentes químicos
             img.pst(src='@/assets/curso/temas/titulos/img_1.svg', alt='')          
 
         p.mb-4 Los agentes químicos se manifiestan especialmente durante los procesos de almacenamiento de los alimentos. <b>Su efecto puede afectar de forma notable la comestibilidad del alimento</b>: pardeamiento, enranciamiento, presencia de químicos no autorizados, etc.
 
-      .row.fondo_titulo_content.justify-content-center.mb-3
+      .row.justify-content-center.mb-3
 
         .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
           .crd_hover_txt(data-aos="flip-left")
@@ -210,8 +210,8 @@
 
     p.mb-3 Otro grupo son los mohos, importantes por la producción de toxinas y por su resistencia a las condiciones más extremas; finalmente, las levaduras, con las transformaciones rápidas más relevantes desde el punto de vista fermentativo.
     
-    .fondo_1_1_3.p-4
-      .row.fondo_content.align-items-center.justify-content-center.mb-5.tarjeta_figura
+    .bg_img_2
+      .row.align-items-center.justify-content-center.mb-5.tarjeta_figura
         .col-md-6.mb-4
           .titulo-sexto.color-acento-contenido.mb-0
               h5 Figura 2. 

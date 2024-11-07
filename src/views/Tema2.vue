@@ -17,8 +17,8 @@
 
     p.mb-2 Las Buenas Prácticas de Manufactura (BPM) tienen sus raíces en una historia marcada por incidentes de salud pública relacionados con la seguridad de los alimentos y medicamentos.
 
-    .fondo_2_1_1.p-4
-      .row.fondo_titulo_content.justify-content-center(data-aos="zoom-in-down")
+    .bg_img_2
+      .row.justify-content-center(data-aos="zoom-in-down")
         .col-lg-10.order_linea_tiempo
           PasosA.color-acento-contenido.mb-3()
             .row
@@ -65,8 +65,8 @@
     #t_2_2.titulo-segundo
       .h2(data-aos="fade-right") 2.2 Principios de las BPM
 
-    .fondo_2_1_2.p-4
-      .row.fondo_titulo_content.justify-content-center.mb-2
+    .bg_img_0.fondo_2_1_2
+      .row.justify-content-center.mb-2
         .col-md-8.mb-3
           .cajon.bg-4.g_18.mb-5.mb-lg-0
             .row.mb-4
@@ -118,13 +118,13 @@
             p.text-dark.text-small Los registros son un elemento fundamental para el control de las buenas prácticas.  Se deben llevar registros de: limpieza y desinfección de las instalaciones, equipos y personal, inspección de la materia prima, productos y preparaciones, temperatura y condiciones de transporte de los alimentos y cualquier otra información relevante para la gestión de la seguridad alimentaria.
 
 
-    .fondo_2_1_3.p-4
-      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+    .bg_img_4.fondo_2_1_3
+      .row.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Campos de aplicación
             img.pst(src='@/assets/curso/temas/titulos/img_5.svg', alt='')  
 
-      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-3
+      .row.justify-content-center.align-items-center.mb-3
         .col-md-8.mb-4    
           ul.lista-ul--color.lista-ul--separador
             li 
@@ -143,12 +143,12 @@
           figure
             img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen') 
         
-      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+      .row.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Disposiciones del personal
             img.pst(src='@/assets/curso/temas/titulos/img_6.svg', alt='')  
             
-      .row.fondo_titulo_content.align-items-center.justify-content-center.mb-3
+      .row.align-items-center.justify-content-center.mb-3
         .col-lg-12.mb-5
           .bloque-texto-g.bloque-texto-g.color-secundario.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
@@ -204,13 +204,13 @@
             .col-lg-12.p-4.ps-5
               p.mb-0 Recuerda que las buenas prácticas de higiene del personal son vitales para garantizar la seguridad alimentaria. La dirección debe implementar políticas claras y promover la cultura de la higiene para asegurar la calidad e inocuidad de los alimentos.
       
-    .fondo_2_1_4.p-4
-      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+    .bg_img_5
+      .row.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Disposiciones referentes a las instalaciones y edificio 
             img.pst(src='@/assets/curso/temas/titulos/img_10.svg', alt='')  
             
-      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-5
+      .row.justify-content-center.align-items-center.mb-5
         .col-lg-12.mb-3
           .bloque-texto-g.bloque-texto-g--inverso.color-secundario.p-3.p-sm-4.p-md-5
             .bloque-texto-g__img(
@@ -374,8 +374,8 @@
             h4.mb-3.text-center Transporte de alimentos perecederos
             p.mb-0 El transporte de alimentos perecederos es un proceso que requiere un cuidado especial, especialmente en cuanto a la temperatura. Es fundamental controlar la temperatura del vehículo para evitar un corte de la cadena de frío, lo que podría afectar la vida útil del alimento y aumentar el riesgo de contaminación. Un corte en la cadena de frío puede provocar la multiplicación de microorganismos patógenos y en algunos casos, puede ocasionar una intoxicación alimentaria.
 
-    .fondo_2_1_5.p-4
-      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-2 
+    .bg_img_5.fondo_2_1_5
+      .row.justify-content-center.align-items-center.mb-2 
         h4.mb-5.text-center Recomendaciones para el transporte de alimentos perecederos:
         .row.justify-content-center.mb-5
           .col-md-4.mb-4.responsive_tarjeta
@@ -428,8 +428,8 @@
             i.fas.fa-check-circle
             |	Almacenamiento de alimentos perecederos: los productos perecederos deben almacenarse inmediatamente en el sector correspondiente.
     
-    .fondo_2_1_6.p-4
-      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-0
+    .bg_img_5
+      .row.justify-content-center.align-items-center.mb-0
 
         h4.mb-5.text-center  En una cocina podemos distinguir tres tipos de almacenamientos, a saber:
 
@@ -456,8 +456,8 @@
                 h4.mb-3 Temperatura ambiente
                 p Para productos secos y vinos, la temperatura de almacenamiento no debe superar los 22°C. El ambiente debe ser seco y alejado de fuentes de calor. 
 
-    .fondo_2_1_7.p-4
-      .row.fondo_titulo_content.justify-content-center.align-items-center.mb-2            
+    .bg_img_4.fondo_2_1_7
+      .row.justify-content-center.align-items-center.mb-2            
         .row.justify-content-center.align-items-center.mb-4
           .col-md-8.mb-3    
             ul.lista-ul--color.lista-ul--separador

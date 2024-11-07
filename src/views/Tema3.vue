@@ -25,8 +25,8 @@
           .bloque-texto-g__texto.p-4
             p.mb-0 La preservación de alimentos es un proceso fundamental que atraviesa todos los eslabones de la cadena alimentaria, desde la producción hasta el consumo. Su importancia radica en la capacidad de extender la vida útil de los productos, protegiéndolos del deterioro y asegurando su inocuidad, lo cual garantiza un acceso seguro y confiable a alimentos frescos y saludables para todos. Este proceso no solo busca evitar el desperdicio, sino que también permite distribuir los alimentos de manera eficiente a nivel nacional e internacional, abriendo posibilidades de acceso a productos frescos y saludables en diferentes regiones.
 
-    .fondo_3_1.p-4
-      .row.fondo_titulo_content.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
+    .bg_img_6.fondo_3_1
+      .row.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Técnicas de preservación de alimentos
             img.pst(src='@/assets/curso/temas/titulos/img_18.svg', alt='') 
@@ -101,8 +101,8 @@
     #t_3_2.titulo-segundo
       .h2(data-aos="fade-right") 3.2  Recomendaciones generales
 
-    .fondo_2_1_2.p-4.mb-3
-      .row.fondo_titulo_content.align-items-center.justify-content-center.mb-3(data-aos="zoom-in-down")
+    .bg_img_5.fondo_2_1_2.mb-3
+      .row.align-items-center.justify-content-center.mb-3(data-aos="zoom-in-down")
         .col-md-8.mb-3
           p.mb-3 Para asegurar la prevención y control del deterioro de los alimentos, la <b>Resolución 2674 de 2013</b> y las Buenas Prácticas de Manufactura (BPM) proporcionan lineamientos claros sobre almacenamiento, transporte, manipulación, limpieza y desinfección en el contexto colombiano.
           
@@ -261,8 +261,8 @@
         figure
           img(src="@/assets/curso/temas/tema3/img_18.png", alt="alt").mx-auto
           
-    .fondo_2_1_5.p-4
-      .row.fondo_titulo_content.justify-content-center.mb-3(data-aos="zoom-in-down")
+    .bg_img_5.fondo_2_1_5
+      .row.justify-content-center.mb-3(data-aos="zoom-in-down")
         .col-md-4.mb-3.responsive_tarjeta
           .tarjeta.color-primario.p-4.h-100
             figure
