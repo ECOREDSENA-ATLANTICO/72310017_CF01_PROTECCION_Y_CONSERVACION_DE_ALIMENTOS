@@ -142,7 +142,8 @@
         .col-md-4.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen') 
-        
+    
+    .bg_img_6.fondo_2_1_3
       .row.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Disposiciones del personal
