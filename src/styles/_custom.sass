@@ -409,14 +409,14 @@ table, th, td
 // .bg-color-1
 //   display: flex
 //   align-items: center
-//   background-color: #d2b078 /* Color de fondo */
+//   background-color: #d2b078
 //   padding: 10px 20px
 //   border-radius: 30px
 //   box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1)
 //   width: max-content
 
 .icon img
-  width: 40px /* Tamaño de la imagen */
+  width: 40px
   margin-right: 10px
 
 .tarjeta.color-acento-botones
@@ -575,21 +575,21 @@ table, th, td
       
 @media (max-width: 1024px) 
   .tarjeta_hover 
-    width: 48% /* Dos columnas en la primera fila */
-    margin-bottom: 20px /* Espacio entre las filas */
+    width: 48%
+    margin-bottom: 20px
   
-  /* Para que la tercera tarjeta ocupe toda la fila siguiente */
+ 
   .tarjeta_hover:nth-child(3) 
     width: 50%
 
   .tarjeta_figura
     .col-md-6:first-child
-      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+      width: 100%
       img.w-75
         width: 75%
     
     .col-md-6:last-child
-      width: 100% /* Ocupa todo el ancho en pantallas grandes */
+      width: 100%
 
   .text_completo
     .quitar_figura
@@ -600,51 +600,51 @@ table, th, td
       
   .fondo_2_1_2
     .col-md-4
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      // width: 100%
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
 
   .fondo_2_1_3
     .col-md-4
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      // width: 100%
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
 
   .fondo_2_3
     .col-md-3
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      width: 30% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      width: 35%
 
     .col-md-9
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
   
   .fondo_2_4
     .col-md-4
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      width: 40% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      width: 40%
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
     
   .fondo_2_5
     .col-md-4
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      width: 30% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      width: 30%
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
       
   .fondo_2_6
     .col-md-5
-      order: 0 /* Mueve la columna de la imagen hacia arriba */
-      // width: 20% /* Ocupará todo el ancho en pantallas grandes */
-
+      order: 0
+      width: 50%
+      
     .col-md-7
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
   
   .fondo_titulo_content
     width: 90%
@@ -658,11 +658,11 @@ table, th, td
 
   .tarjeta_ordenadas
     .col-md-4
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      width: 35% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      width: 35%
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
 
 
 /* Configuración para pantallas grandes */
@@ -689,37 +689,37 @@ table, th, td
 
   .fondo_2_1_7
     .col-md-4
-      order: 1 /* Mueve la columna de la imagen hacia arriba */
-      width: 50% /* Ocupará todo el ancho en pantallas grandes */
+      order: 1
+      width: 50%
 
     .col-md-8
-      width: 100% !important /* Ocupará todo el ancho en pantallas grandes */
+      width: 100% !important
 
   .fondo_1_4
     .col-md-4
-      order: 1 /* Mueve la columna de la imagen hacia arriba */
-      width: 50% /* Ocupará todo el ancho en pantallas grandes */
+      order: 1
+      width: 50%
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
 
   .tarjeta_ordenadas
     .col-md-4
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      width: 50% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      width: 50%
 
     .col-md-8
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
 
   .order_linea_tiempo
     .col-auto
-      order: 1 /* Mueve la columna de la imagen hacia arriba */
-      width: 50% /* Ocupará todo el ancho en pantallas grandes */
+      order: 1
+      width: 50%
       margin: 0px auto
 
   .fondo_3_1
     .col-md-10
-      width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      width: 100%
 
   .fondo_content
     width: 90%
@@ -735,15 +735,52 @@ table, th, td
     p 
       font-size: 12px
 
-@media (max-width: 430px) 
+  .fondo_2_1_2
+    .col-md-4
+      order: -1
+      width: 50%
+
+  .fondo_2_1_3
+    .col-md-4
+      order: -1
+      width: 60%
+
+  .fondo_2_3
+    .col-md-3
+      order: -1
+      width: 50%
+
+  .fondo_2_4
+    .col-md-4
+      order: -1
+      width: 60%
+  
+  .fondo_2_6
+    .col-md-5
+      order: 0
+      width: 60%
+      
+@media (max-width: 425px) 
   .fondo_2_5
     .col-md-8
-      order: -1 /* Mueve la columna de la imagen hacia arriba */
-      // width: 100% /* Ocupará todo el ancho en pantallas grandes */
+      order: -1
+      // width: 100%
 
     .col-md-4
-      width: 50% /* Ocupará todo el ancho en pantallas grandes */
+      width: 50%
+  
+  .tarjeta_figura:nth-child(2) 
+    p 
+      font-size: 11.5px
 
+  .tarjeta_figura
+    p 
+      font-size: 12px
+
+  .fondo_2_1_7
+    .col-md-4
+      order: 1
+      width: 80%
 
   .responsive_tarjeta
     width: 100%
@@ -753,8 +790,8 @@ table, th, td
       width: 58.333333% !important
     
   .tarjeta_hover
-    width: 100% /* Ocupaar todo el ancho en pantallas pequenas */
-    /* Para que la tercera tarjeta ocupe toda la fila siguiente */
+    width: 100%
+   
 
   .tarjeta_hover:nth-child(3) 
     width: 100%
@@ -769,23 +806,48 @@ table, th, td
     max-width: 90%
     margin: 0px -12px
 
+  .tarjeta_ordenadas
+    .col-md-4
+      order: -1
+      width: 80%
+
+    .col-md-8
+      width: 100%
+  
+  .order_linea_tiempo
+    .col-auto
+      order: 1
+      width: 100%
+      margin: 0px auto
+
+  .fondo_2_3
+    .col-md-3
+      order: -1
+      width: 80%
+  
+  .fondo_2_6
+    .col-md-5
+      order: 0
+      width: 70%
+      
+
 .lista-ul--color
-  padding-left: 0 /* Elimina el padding izquierdo por defecto */
-  list-style: none /* Elimina los puntos de la lista */
+  padding-left: 0
+  list-style: none
 
 .lista-ul--color li
-  display: flex /* Usa Flexbox para alinear elementos en línea */
-  align-items: flex-start /* Alinea los elementos al inicio */
-  margin-bottom: 10px /* Espacio entre los elementos de la lista */
+  display: flex
+  align-items: flex-start
+  margin-bottom: 10px
 
 .lista-ul--color li i
-  margin-right: 10px /* Espacio entre el ícono y el texto */
-  flex-shrink: 0 /* Evita que el ícono se reduzca */
+  margin-right: 10px
+  flex-shrink: 0
 
 .bgr_3
   background-color: #D0B57A
   border-radius: 20px
-  display: inline-block /* Cambiado a inline-block para flexibilidad */
+  display: inline-block
   padding: 10px
   padding-left: 69px
   position: relative
@@ -801,7 +863,7 @@ table, th, td
   .bgr_3 
     display: ''
 
-/* Media Query específico para pantallas de 430px o menos */
+/* Media Query específico para pantallas de 425px o menos */
 @media (max-width: 425px) 
   .bgr_3 
     display: ''
