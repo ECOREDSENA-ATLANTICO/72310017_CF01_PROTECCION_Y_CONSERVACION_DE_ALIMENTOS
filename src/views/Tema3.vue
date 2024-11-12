@@ -101,9 +101,9 @@
     #t_3_2.titulo-segundo
       .h2(data-aos="fade-right") 3.2  Recomendaciones generales
 
-    .bg_img_5.fondo_2_1_2.mb-3
+    .bg_img_5.mb-3
       .row.align-items-center.justify-content-center.mb-3(data-aos="zoom-in-down")
-        .col-md-8.mb-3
+        .col-xl-8.mb-3.order-2.order-xl-1
           p.mb-3 Para asegurar la prevención y control del deterioro de los alimentos, la <b>Resolución 2674 de 2013</b> y las Buenas Prácticas de Manufactura (BPM) proporcionan lineamientos claros sobre almacenamiento, transporte, manipulación, limpieza y desinfección en el contexto colombiano.
           
           p.mb-3 Las BPM y la resolución enfatizan la necesidad de mantener una higiene rigurosa en todas las etapas del manejo de alimentos. Esto implica un control sistemático de los factores que puedan influir en la calidad e inocuidad alimentaria, incluyendo temperatura, humedad, y la prevención de la contaminación cruzada durante toda la cadena de producción (Ministerio de Salud y Protección Social, 2013).
@@ -122,15 +122,15 @@
                       span Descargar
                       i.fas.fa-file-download
 
-        .col-md-4.mb-3
+        .col-md-8.col-xl-4.mb-3.order-1.order-xl-2
           figure
             img(src='@/assets/curso/temas/tema3/img_13.png', alt='Texto que describa la imagen').img125
 
-    .row.justify-content-center.align-items-center.mb-3.fondo_2_5
-      .col-md-4.mb-3
+    .row.justify-content-center.align-items-center.mb-3
+      .col-md-8.col-lg-4.mb-3
         figure
           img(src="@/assets/curso/temas/tema3/img_14.png", alt="alt").mx-auto
-      .col-md-8
+      .col-lg-8
         LineaTiempoD
           p(numero="1" titulo="Almacenamiento") 
             ul.lista-ul--color.lista-ul--separador
@@ -243,8 +243,8 @@
         h3.bgr_3.position-relative Secuencia y frecuencia
           img.pst(src='@/assets/curso/temas/titulos/img_20.svg', alt='') 
 
-    .row.justify-content-center.align-items-center.mb-3.fondo_2_4
-      .col-md-8.mb-3
+    .row.justify-content-center.align-items-center.mb-3
+      .col-xl-8.mb-3.order-2.order-xl-1
         p.mb-3 La limpieza debe seguir una secuencia lógica, comenzando de arriba hacia abajo, y debe realizarse con la frecuencia adecuada:
         ul.lista-ul--color.lista-ul--separador
           li 
@@ -257,27 +257,27 @@
             i.fas.fa-check-circle
             | Áreas de menor contacto deben recibir atención al menos mensualmente.
 
-      .col-md-4.mb-3
+      .col-md-8.col-xl-4.mb-3.order-1.order-xl-2
         figure
           img(src="@/assets/curso/temas/tema3/img_18.png", alt="alt").mx-auto
           
-    .bg_img_5.fondo_2_1_5
+    .bg_img_5
       .row.justify-content-center.mb-3(data-aos="zoom-in-down")
-        .col-md-4.mb-3.responsive_tarjeta
+        .col-md-6.col-xl-4.mb-3
           .tarjeta.color-primario.p-4.h-100
             figure
               img(src="@/assets/curso/temas/tema3/img_19.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Utensilios y Materiales de Limpieza
             p Los utensilios de limpieza deben mantenerse ordenados, limpios y almacenados en un área separada de la cocina. Las esponjas y trapos requieren desinfección diaria para prevenir la contaminación. (Ministerio de Salud y Protección Social, 2013).
 
-        .col-md-4.mb-3.responsive_tarjeta
+        .col-md-6.col-xl-4.mb-3
           .tarjeta.color-primario.p-4.h-100
             figure
               img(src="@/assets/curso/temas/tema3/img_20.png", alt="alt").w-50.mx-auto.mb-3
             h4.mb-3 Desinfestación
             p El control de plagas es fundamental para prevenir la entrada y la proliferación de roedores, insectos y otros animales en la cocina. Se deben establecer barreras físicas, como rejillas y mosquiteros. La fumigación periódica por empresas especializadas es recomendable, asegurando la protección de alimentos y superficies de contacto directo durante el proceso.
 
-        .col-md-4.mb-3.responsive_tarjeta
+        .col-md-6.col-xl-4.mb-3
           .tarjeta.color-primario.p-4.h-100
             figure
               img(src="@/assets/curso/temas/tema3/img_21.png", alt="alt").w-50.mx-auto.mb-3

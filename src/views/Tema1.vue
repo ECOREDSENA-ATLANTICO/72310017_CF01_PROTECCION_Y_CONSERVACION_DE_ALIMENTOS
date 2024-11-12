@@ -28,19 +28,19 @@
     .tarjeta.tarjeta.fondo_1_2.p-4.slyder_1.bg-01
       SlyderA(tipo="b")
         .tarjeta.bg-01.p-2
-          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.fondo_2_6
-            .col-md-7.mb-4.mb-md-0
+          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3
+            .col-md-12.col-xl-7.mb-4
               h3.mb-2 Definición de higiene alimentaria
 
               p La higiene alimentaria comprende un conjunto de condiciones y medidas necesarias para garantizar la seguridad e inocuidad de los alimentos en todas las etapas de la cadena alimentaria. Esto incluye desde la producción, procesamiento, y almacenamiento, hasta la distribución y consumo final.
 
-            .col-md-5
+            .col-md-8.col-xl-5
               figure
               img(src='@/assets/curso/temas/tema1/img_2.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-2
-          .row.justify-content-center.align-items-center.my-lg-4.p-3.fondo_2_6
-            .col-md-7.mb-4.mb-md-0
+          .row.justify-content-center.align-items-center.my-lg-4.p-3
+            .col-md-12.col-xl-7.mb-4
       
               h3.mb-2 Importancia de la Higiene y Seguridad Alimentaria.
 
@@ -55,13 +55,13 @@
                   i.lista-ul__vineta
                   | <b>Cumplimiento Legal</b>: Adherirse a las normas y regulaciones alimentarias es obligatorio para evitar sanciones legales y mantener licencias operativas.
 
-            .col-md-5
+            .col-md-8.col-xl-5
               figure
                 img(src='@/assets/curso/temas/tema1/img_5.png', alt='Texto que describa la imagen')
 
         .tarjeta.bg-01.p-2
-          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3.fondo_2_6
-            .col-md-7.mb-4.mb-md-0
+          .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3
+            .col-md-12.col-xl-7.mb-4
               h3.mb-2 Principios Básicos.
 
               ul.lista-ul
@@ -78,7 +78,7 @@
                   i.lista-ul__vineta
                   | <b>Enfriamiento</b>: Enfriar los alimentos de manera adecuada es esencial para evitar la proliferación de bacterias. Los alimentos perecederos deben mantenerse fuera de la zona de peligro de temperatura (entre 5°C y 60°C).
 
-            .col-md-5
+            .col-md-8.col-xl-5
               figure
                 img(src='@/assets/curso/temas/tema1/img_6.png', alt='Texto que describa la imagen')
 
@@ -113,32 +113,32 @@
     p Los agentes físicos <b>suelen actuar durante los procesos de cosecha y los tratamientos posteriores</b>. En general, por sí mismos, no suelen alterar las características nutricionales de los alimentos, pero sí su palatabilidad. El hecho más importante es que <b>pueden significar una vía de entrada a las otras alteraciones</b>. Se destacan:
 
     .row.mb-5
-      .col-lg-4.mb-3.responsive_tarjeta
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.p-4.h-100.fondo_3
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_9.png")
           h5 Mecánicas
           p Como golpes, cortes, en general sin alteraciones graves, pero que suponen una disminución de la vida útil del alimento.
-      .col-lg-4.mb-3.responsive_tarjeta
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_10.png")
           h5 Temperatura 
           p Las actividades químicas y enzimáticas doblan su velocidad cada 10°C  y por lo tanto aceleran los procesos de descomposición. Asimismo, se encuentran nutrientes especialmente sensibles al calor (algunas vitaminas), el cual propicia los cambios de estado de emulsiones o mezclas que contengan agua, al facilitar su desecación.
-      .col-lg-4.mb-3.responsive_tarjeta
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_12.png")
           h5 Humedad
           p Facilita el desarrollo de microorganismos debido a que proporciona las condiciones propicias para su crecimiento y multiplicación.
-      .col-lg-4.mb-3.responsive_tarjeta
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_13.png")
           h5 El aire 
           p Por contener oxígeno puede alterar algunas proteínas produciendo cambios de color, facilitando la oxidación, etc.
-      .col-lg-4.mb-3.responsive_tarjeta
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_14.png")
           h5 La luz 
           p Afecta el color y altera algunas vitaminas.
-      .col-lg-4.mb-3.responsive_tarjeta
+      .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_15.png")
           h5 Presencia de sustancias extrañas 
@@ -154,32 +154,32 @@
 
       .row.justify-content-center.mb-3
 
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-xl-4.mb-4.mb-xl-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/img_16.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Pardeamiento no enzimático o reacción de maillard
-              p.mb-0 Se incluyen una serie de reacciones complejas entre azúcares y compuestos nitrogenados (proteínas), las cuales generan pigmentos marrones.  <br>En algunos casos se producen de manera tecnológica (fritos y tostados), pero en otras es espontáneo. El calor y la desecación lo favorecen.
+              p.mb-0.text-small Se incluyen una serie de reacciones complejas entre azúcares y compuestos nitrogenados (proteínas), las cuales generan pigmentos marrones.  <br>En algunos casos se producen de manera tecnológica (fritos y tostados), pero en otras es espontáneo. El calor y la desecación lo favorecen.
 
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-xl-4.mb-4.mb-xl-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/img_17.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Enranciamiento
-              p.mb-0 Proceso por el cual un alimento con alto contenido en grasas o aceites se altera con el tiempo adquiriendo un sabor desagradable.
+              p.mb-0.text-small Proceso por el cual un alimento con alto contenido en grasas o aceites se altera con el tiempo adquiriendo un sabor desagradable.
 
-        .col-xl-4.mb-4.mb-xl-2.tarjeta_hover
+        .col-md-6.col-xl-4.mb-4.mb-xl-2
           .crd_hover_txt(data-aos="flip-left")
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/img_18.png", alt="alt")
             .crd_hover_txt--body
               h4.mb-3.text-center Presencia de químicos no autorizados 
-              p.mb-0 Los cuales se presentan en los alimentos al realizar el proceso de limpieza y desinfección sin seguir correctamente los protocolos. <br>Este proceso deja residuos de detergentes y/o desinfectantes, al cosechar las frutas, verduras y hortalizas en tiempos no apropiados con residuos de fungicidas, herbicidas o químicos utilizados durante la producción primaria, al ordeñar o sacrificar los animales sin dejar los tiempos de retiro necesarios en caso de ser vacunados, obteniendo la leche y carne con residuos de antibióticos o medicamentos.
+              p.mb-0.text-small Los cuales se presentan en los alimentos al realizar el proceso de limpieza y desinfección sin seguir correctamente los protocolos. <br>Este proceso deja residuos de detergentes y/o desinfectantes, al cosechar las frutas, verduras y hortalizas en tiempos no apropiados con residuos de fungicidas, herbicidas o químicos utilizados durante la producción primaria, al ordeñar o sacrificar los animales sin dejar los tiempos de retiro necesarios en caso de ser vacunados, obteniendo la leche y carne con residuos de antibióticos o medicamentos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-3(data-aos="fade-right")
@@ -188,8 +188,8 @@
 
     p Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
 
-    .row.justify-content-center.mb-5.tarjeta_ordenadas
-      .col-md-8.mb-4
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-4
         LineaTiempoD
           p(numero="1" titulo="Enzimáticos") Algunas enzimas sobreviven a los propios organismos, pudiendo aumentar su actividad. Pueden cambiar la textura de los alimentos (maduración de frutos o reblandecimiento de carne) y en algunos casos provocar su descomposición. El rigor mortis de los animales, por ejemplo, es debido a cambios enzimáticos ocurridos al faltar la circulación sanguínea y por lo tanto la oxigenación necesaria para el metabolismo aerobio. 
 
@@ -197,7 +197,7 @@
 
           p(numero="3" titulo="Microorganismos") Son sin duda los que producen las transformaciones más indeseadas y abundantes. En algunos casos pueden suponer riesgos para la salud de las personas, siendo las infecciones microbianas el problema más grave de la alimentación humana, después del hambre y la sobrealimentación.
 
-      .col-8.col-md-4.mb-4
+      .col-md-8.col-lg-4.mb-4
         figure
           img(src="@/assets/curso/temas/tema1/img_19.png", alt="alt")
 
@@ -234,25 +234,26 @@
 
     p.mb-5 Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
     
+    
     .row.justify-content-center.mb-5
-      .col-lg-12.position-relative.text_completo
-        .avatar.quitar_figura
+      .col-lg-12.position-relative
+        .avatar
           figure
-            img(src="@/assets/curso/temas/tema1/img_22.png", alt="alt").img250
+            img.d-lg-none.d-xl-flex(src="@/assets/curso/temas/tema1/img_22.png", alt="alt").img250
         .crd.crd--avatarHorizontal.crd--first.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/temas/tema1/img_23.png", alt="alt").img100
-            .col-7
+                img(src="@/assets/curso/temas/tema1/img_23.svg", alt="alt").img100
+            .col.col-xl-7
               h5 Humedad o disponibilidad de agua
               p Los microorganismos necesitan de agua para crecer y llevar a cabo sus funciones metabólicas y los medios húmedos favorecen su desarrollo, como es el caso de las carnes, pescados que se alteran rápidamente, sin embargo, alimentos desecados tardan más tiempo en deteriorarse.
         .crd.crd--avatarHorizontal.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/temas/tema1/img_24.png", alt="alt").img100
-            .col-7
+                img(src="@/assets/curso/temas/tema1/img_24.svg", alt="alt").img100
+            .col.col-xl-7
               h5 Oxígeno
               p Las necesidades de los microorganismos varían en cuanto al oxígeno, encontrándonos en la naturaleza distintos tipos:
               ul.lista-ul
@@ -265,15 +266,16 @@
                 li 
                   i.lista-ul__vineta
                   | <b>Anaerobios facultativos</b>: Microorganismos que se adaptan a las dos condiciones.
-
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
               figure
-                img(src="@/assets/curso/temas/tema1/img_25.png", alt="alt").img100
-            .col-7
+                img(src="@/assets/curso/temas/tema1/img_25.svg", alt="alt").img100
+            .col.col-xl-7
               h5 Nutrientes
               p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
+
+
 
     .row.justify-content-center.mb-5(data-aos="zoom-in-down")
       .col-md-12

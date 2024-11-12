@@ -19,45 +19,45 @@
 
     .bg_img_2
       .row.justify-content-center(data-aos="zoom-in-down")
-        .col-lg-10.order_linea_tiempo
+        .col-xl-10.order_linea_tiempo
           PasosA.color-acento-contenido.mb-3()
             .row
-              .col-lg
+              .col-lg-6.mb-4.mb-lg-0
                 h3 Principios del siglo XX
                 p La creciente industrialización de la producción de alimentos y medicamentos, especialmente en Estados Unidos, llevó a condiciones insalubres y prácticas poco higiénicas que ponían en riesgo la salud de los consumidores. 
-              .col-auto
+              .col-lg-6
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img_3.png', alt='').img125
 
             .row
-              .col-auto
+              .col-lg-6.mb-4
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img_4.png', alt='').img125
-              .col-lg
+              .col-lg-6.mb-4.mb-lg-0
                 h3 1906/ Publicación del libro "La Jungla"
                 p La creciente industrialización de la producción de alimentos y medicamentos, especialmente en Estados Unidos, llevó a condiciones insalubres y prácticas poco higiénicas que ponían en riesgo la salud de los consumidores. 
 
             .row
-              .col-lg
+              .col-lg-6.mb-4.mb-lg-0
                 h3 1938/ Acta de Alimentos, Medicamentos y Cosméticos
                 p Esta acta promulgada en Estados Unidos, fue una respuesta directa a la crisis generada por "La Jungla". Esta ley estableció requisitos de inocuidad para los alimentos y medicamentos, incluyendo la inspección de las instalaciones y los procesos de producción, la eliminación de prácticas peligrosas y la introducción de sistemas de control de calidad. 
-              .col-auto
+              .col-lg-6
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img_5.png', alt='').img125
 
             .row
-              .col-auto
+              .col-lg-6.mb-4
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img_6.png', alt='').img125
-              .col-lg
+              .col-lg-6.mb-4.mb-lg-0
                 h3 1962/ Concepto de BPM 
                 p Tras un caso de graves efectos adversos de un medicamento: "Talidomida" se desencadenó un cambio de paradigma en la regulación de la industria farmacéutica. A partir de ese momento, se comenzó a implementar de manera más formalizada el concepto de buenas prácticas en la fabricación de medicamentos, estableciendo guías que posteriormente influyeron en la elaboración de regulaciones globales para todos los procesos relacionados con la alimentación y la salud.
 
             .row
-              .col-lg
+              .col-lg-6.mb-4.mb-lg-0
                 h3 1969. El <em>Codex Alimentarius</em>
                 p Se concretó una recopilación de estándares internacionales para alimentos, que adoptó las BPM como un principio fundamental para la seguridad alimentaria, sentando las bases para la estandarización de prácticas de higiene y seguridad en todo el mundo.
-              .col-auto
+              .col-lg-6
                 figure(data-aos="zoom-in")
                   img(src='@/assets/curso/temas/tema2/img_7.png', alt='').img125
 
@@ -65,9 +65,9 @@
     #t_2_2.titulo-segundo
       .h2(data-aos="fade-right") 2.2 Principios de las BPM
 
-    .bg_img_0.fondo_2_1_2
+    .bg_img_0
       .row.justify-content-center.mb-2
-        .col-md-8.mb-3
+        .col-xl-8.mb-3.order-2.order-xl-1
           .cajon.bg-4.g_18.mb-5.mb-lg-0
             .row.mb-4
               .col-lg-12.p-4.ps-5 
@@ -77,7 +77,7 @@
 
           p.mb-3 Una guía de buenas prácticas de manufactura debe contemplar los siguientes temas, sin omitir ninguno de ellos:
 
-        .col-md-4.mb-3
+        .col-md-8.col-xl-4.mb-3.order-1.order-xl-2
           figure(data-aos="zoom-in")
             img(src='@/assets/curso/temas/tema2/img_8.png', alt='')
     
@@ -118,14 +118,14 @@
             p.text-dark.text-small Los registros son un elemento fundamental para el control de las buenas prácticas.  Se deben llevar registros de: limpieza y desinfección de las instalaciones, equipos y personal, inspección de la materia prima, productos y preparaciones, temperatura y condiciones de transporte de los alimentos y cualquier otra información relevante para la gestión de la seguridad alimentaria.
 
 
-    .bg_img_4.fondo_2_1_3
+    .bg_img_4
       .row.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
         .div.mb-3(data-aos="fade-right")
           h3.bgr_3.position-relative Campos de aplicación
             img.pst(src='@/assets/curso/temas/titulos/img_5.svg', alt='')  
 
       .row.justify-content-center.align-items-center.mb-3
-        .col-md-8.mb-4    
+        .col-xl-8.mb-4    
           ul.lista-ul--color.lista-ul--separador
             li 
               i.fas.fa-check-circle
@@ -139,7 +139,7 @@
             li 
               i.fas.fa-check-circle
               | A las actividades de vigilancia y control que ejerzan las autoridades sanitarias sobre la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, importación, exportación y comercialización de alimentos, sobre los alimentos y materias primas para alimentos.
-        .col-md-4.mb-4
+        .col-md-8.col-xl-4.mb-4
           figure
             img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen') 
     
@@ -172,8 +172,8 @@
 
     p.mb-4 La higiene del personal es crucial para la seguridad alimentaria. La dirección debe promover y supervisar la aplicación de normas básicas de higiene para los cocineros:
   
-    .row.justify-content-center.mb-3.align-items-center.fondo_2_3
-      .col-md-9.mb-3    
+    .row.justify-content-center.mb-3.align-items-center
+      .col-xl-9.mb-3    
           ul.lista-ul--color.lista-ul--separador
             li 
               i.fas.fa-check-circle
@@ -187,7 +187,7 @@
             li 
               i.fas.fa-check-circle
               | Lavado de manos: el lavado de manos debe ser una práctica constante y realizarse antes de manipular alimentos, después de usar el baño, de tocar productos contaminados o desechos, al ingresar a trabajar y al cambiar de tarea. Se debe usar jabón y agua limpia para un lavado efectivo.
-      .col-md-3
+      .col-md-8.col-xl-3
         figure
           img(src='@/assets/curso/temas/tema2/img_12.png', alt='Texto que describa la imagen').mb-3 
              
@@ -222,8 +222,8 @@
               
     h4.text-center.mb-4 Se deben tener en cuenta los siguientes elementos: 
 
-    .row.justify-content-center.mb-5.tarjeta_ordenadas
-      .col-md-8.mb-3
+    .row.justify-content-center.mb-5
+      .col-lg-8.mb-3
         LineaTiempoD
           p(numero="1" titulo="Diseño higiénico") Las cocinas deben construirse para evitar la acumulación de suciedad y permitir operaciones de limpieza eficaces. Las superficies deben ser continuas y de fácil acceso para la limpieza y desinfección, evitando ángulos y grietas donde se pueda acumular suciedad.
 
@@ -237,7 +237,7 @@
           
           p(numero="6" titulo="Prevención de condensación") Los techos deben diseñarse para evitar la acumulación de humedad que pueda provocar condensación y goteo sobre áreas donde se manipulan alimentos. El control de la temperatura y la humedad es esencial para prevenir estos riesgos (Ministerio de Salud y Protección Social, 2013, Art. 9).
 
-      .col-8.col-md-4.mb-3
+      .col-8.col-lg-4.mb-3
         figure
           img(src="@/assets/curso/temas/tema2/img_14.png", alt="alt")
 
@@ -248,11 +248,11 @@
           
     p.mb-3 Los utensilios, recipientes, envases y envolturas utilizados en la cocina deben cumplir con estrictos requisitos de higiene para asegurar la inocuidad de los alimentos. Según la Resolución 2674 de 2013 del Ministerio de Salud y Protección Social de Colombia, es imperativo que estos elementos se encuentren en perfecto estado de conservación e higiene para prevenir la contaminación cruzada (Ministerio de Salud y Protección Social, 2013, Art. 5).
 
-    .row.justify-content-center.align-items-center.mb-5.fondo_2_4
-      .col-md-4
+    .row.justify-content-center.align-items-center.mb-5
+      .col-md-8.col-xl-4
         figure
           img(src='@/assets/curso/temas/tema2/img_15.png', alt='Texto que describa la imagen').mx-auto.mb-4 
-      .col-md-8    
+      .col-xl-8    
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check-circle
@@ -289,11 +289,11 @@
         h3.bgr_3.position-relative Disposiciones referentes a las materias primas: asegurando la calidad e inocuidad
           img.pst(src='@/assets/curso/temas/titulos/img_13.svg', alt='')  
           
-    .row.justify-content-center.align-items-center.mb-3.fondo_2_3
-      .col-md-3.mb-3
+    .row.justify-content-center.align-items-center.mb-3
+      .col-md-8.col-xl-3.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img_17.png', alt='Texto que describa la imagen').mx-auto
-      .col-md-9.mb-3
+      .col-xl-9.mb-3
         p.mb-4 <b>Control de origen y procedencia:</b> es fundamental documentar el origen y procedencia de todos los productos y materias primas que se utilizan en la cocina. Cada producto debe contar con su etiqueta correspondiente, la cual debe incluir la fecha de elaboración, vencimiento, la descripción de los ingredientes, el registro del producto y del establecimiento. Mientras el producto se utiliza en la cocina, la etiqueta debe mantenerse visible. 
         .cajon.bg-3.g_18.mb-5.mb-lg-0
           .row.mb-4
@@ -302,8 +302,8 @@
       
     h4.text-center.mb-3 Evaluación de la materia prima: al adquirir una materia prima, se deben evaluar los siguientes factores:
 
-    .row.justify-content-center.align-items-center.mb-5.fondo_2_4
-      .col-md-8.mb-3
+    .row.justify-content-center.align-items-center.mb-5
+      .col-lg-8.mb-3
         LineaTiempoD
           p(numero="1" titulo="Calidad organoléptica") Los manipuladores deben tener conocimiento de la calidad organoléptica de los alimentos, es decir, su aspecto visual (color, textura), olor y sabor. Esta evaluación es parte de la ética profesional y comercial.
 
@@ -323,7 +323,7 @@
                 i.fas.fa-check-circle
                 |	Documentación: verificar que la materia prima cuente con la rotulación correcta, incluyendo el origen, el registro del establecimiento y la fecha de elaboración y vencimiento.
 
-      .col-md-4.mb-3
+      .col-md-8.col-lg-4.mb-3
         figure
           img(src="@/assets/curso/temas/tema2/img_18.png", alt="alt")
             
@@ -342,8 +342,8 @@
         h3.bgr_3.position-relative Requisitos para el transporte
           img.pst(src='@/assets/curso/temas/titulos/img_15.svg', alt='')  
 
-    .row.justify-content-center.align-items-center.mb-3.tarjeta_ordenadas
-      .col-md-8.mb-3
+    .row.justify-content-center.align-items-center.mb-3
+      .col-xl-8.mb-3.order-2.order-xl-1
         ul.lista-ul--color.lista-ul--separador
           li 
             i.fas.fa-check-circle
@@ -352,34 +352,34 @@
             i.fas.fa-check-circle
             |	Higiene del personal: el personal que se encarga del transporte de los alimentos debe mantener altos estándares de higiene, incluyendo la limpieza y desinfección personal.
     
-      .col-md-4.mb-3
+      .col-xl-4.mb-3.order-1.order-xl-2
         figure
-          img(src="@/assets/curso/temas/tema2/img_20.png", alt="alt").mx-auto
+          img(src="@/assets/curso/temas/tema2/img_20.png", alt="alt")
 
     .row.justify-content-center.mb-5
-      .col-xl-6.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.tarjeta_figura
+      .col-lg-6.col-xl-6.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/img_21.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3.text-center Transporte de alimentos no perecederos
-            p.mb-0 El transporte de alimentos no perecederos generalmente no presenta mayores dificultades. Sin embargo, cuando se trata de grandes volúmenes, es fundamental que los productos estén paletizados para optimizar el espacio y el tiempo, así como para reducir el riesgo de daños y roturas. 
+            p.mb-0.text-small El transporte de alimentos no perecederos generalmente no presenta mayores dificultades. Sin embargo, cuando se trata de grandes volúmenes, es fundamental que los productos estén paletizados para optimizar el espacio y el tiempo, así como para reducir el riesgo de daños y roturas. 
 
-      .col-xl-6.col-lg-7.col-md-9.col-11.mb-4.mb-xl-0.tarjeta_figura
+      .col-lg-6.col-xl-6.mb-4.mb-xl-0
         .crd_hover_txt(data-aos="flip-left")
           .crd_hover_txt--img
             figure
               img(src="@/assets/curso/temas/tema2/img_22.png", alt="alt")
           .crd_hover_txt--body
             h4.mb-3.text-center Transporte de alimentos perecederos
-            p.mb-0 El transporte de alimentos perecederos es un proceso que requiere un cuidado especial, especialmente en cuanto a la temperatura. Es fundamental controlar la temperatura del vehículo para evitar un corte de la cadena de frío, lo que podría afectar la vida útil del alimento y aumentar el riesgo de contaminación. Un corte en la cadena de frío puede provocar la multiplicación de microorganismos patógenos y en algunos casos, puede ocasionar una intoxicación alimentaria.
+            p.mb-0.text-small El transporte de alimentos perecederos es un proceso que requiere un cuidado especial, especialmente en cuanto a la temperatura. Es fundamental controlar la temperatura del vehículo para evitar un corte de la cadena de frío, lo que podría afectar la vida útil del alimento y aumentar el riesgo de contaminación. Un corte en la cadena de frío puede provocar la multiplicación de microorganismos patógenos y en algunos casos, puede ocasionar una intoxicación alimentaria.
 
-    .bg_img_5.fondo_2_1_5
+    .bg_img_5
       .row.justify-content-center.align-items-center.mb-2 
         h4.mb-5.text-center Recomendaciones para el transporte de alimentos perecederos:
         .row.justify-content-center.mb-5
-          .col-md-4.mb-4.responsive_tarjeta
+          .col-md-6.col-lg-4.mb-4
             .tarjeta-numerada.bg-06.p-5.h-100
               .tarjeta-numerada__numero
                 .h2 1
@@ -387,7 +387,7 @@
                 b Control de temperatura
               p Utilizar sistemas de refrigeración adecuados para mantener la temperatura del vehículo dentro de los rangos establecidos para el tipo de producto que se transporta.
 
-          .col-md-4.mb-4.responsive_tarjeta
+          .col-md-6.col-lg-4.mb-4
             .tarjeta-numerada.bg-07.p-5.h-100
               .tarjeta-numerada__numero
                 .h2 2
@@ -395,7 +395,7 @@
                 b Manejo cuidadoso
               p Manipular los productos con cuidado para evitar golpes o movimientos bruscos que puedan afectar su calidad.
 
-          .col-md-4.mb-4.responsive_tarjeta
+          .col-md-6.col-lg-4.mb-4
             .tarjeta-numerada.bg-08.p-5.h-100
               .tarjeta-numerada__numero
                 .h2 3
@@ -408,11 +408,11 @@
         h3.bgr_3.position-relative Disposiciones referentes al almacenamiento en la cocina
           img.pst(src='@/assets/curso/temas/titulos/img_16.svg', alt='')  
     
-    .row.justify-content-center.align-items-center.mb-3.fondo_2_4
-      .col-md-4.mb-4
+    .row.justify-content-center.align-items-center.mb-3
+      .col-md-8.col-xl-4.mb-4
         figure
           img(src="@/assets/curso/temas/tema2/img_23.png", alt="alt")
-      .col-md-8.mb-4
+      .col-xl-8.mb-4
         .cajon.bg-3.g_18.mb-5.mb-lg-0
           .row.mb-4
             .col-lg-12.p-4.ps-5
@@ -430,37 +430,37 @@
             |	Almacenamiento de alimentos perecederos: los productos perecederos deben almacenarse inmediatamente en el sector correspondiente.
     
     .bg_img_5
-      .row.justify-content-center.align-items-center.mb-0
+      .row.justify-content-center.align-items-center.mb-5
 
         h4.mb-5.text-center  En una cocina podemos distinguir tres tipos de almacenamientos, a saber:
 
         .col-md-10
           .row.justify-content-center.mb-1
-            .col-lg-4.mb-3.responsive_tarjeta
+            .col-md-6.col-lg-4.mb-3
               .tarjeta.color-primario.p-4.h-100
                 figure
                   img(src="@/assets/curso/temas/tema2/img_24.png", alt="alt").w-50.mx-auto.mb-3
                 h4.mb-3 Refrigeración
                 p La temperatura de refrigeración no debe superar los 4°C para asegurar una buena conservación de los productos.
             
-            .col-lg-4.mb-3.responsive_tarjeta
+            .col-md-6.col-lg-4.mb-3
               .tarjeta.color-primario.p-4.h-100
                 figure
                   img(src="@/assets/curso/temas/tema2/img_25.png", alt="alt").w-50.mx-auto.mb-3
                 h4.mb-3 Congelación
                 p La temperatura de congelación no debe superar los -18°C para una conservación a largo plazo.
             
-            .col-lg-4.mb-3.responsive_tarjeta
+            .col-md-6.col-lg-4.mb-3
               .tarjeta.color-primario.p-4.h-100
                 figure
                   img(src="@/assets/curso/temas/tema2/img_26.png", alt="alt").w-50.mx-auto.mb-3
                 h4.mb-3 Temperatura ambiente
                 p Para productos secos y vinos, la temperatura de almacenamiento no debe superar los 22°C. El ambiente debe ser seco y alejado de fuentes de calor. 
 
-    .bg_img_4.fondo_2_1_7
+    .bg_img_4
       .row.justify-content-center.align-items-center.mb-2            
         .row.justify-content-center.align-items-center.mb-4
-          .col-md-8.mb-3    
+          .col-xl-8.mb-3
             ul.lista-ul--color.lista-ul--separador
               li 
                 i.fas.fa-check-circle
@@ -475,15 +475,15 @@
                 i.fas.fa-check-circle
                 |	Ubicación de productos de limpieza: los productos de limpieza deben almacenarse en un sector específico, alejado de los alimentos.
                 
-          .col-md-4.mb-3
+          .col-md-8.col-xl-4.mb-3
             figure
               img(src='@/assets/curso/temas/tema2/img_27.png', alt='Texto que describa la imagen').mx-auto
         
         .row.justify-content-center.align-items-center.mb-2
-          .col-md-4.mb-3
+          .col-md-8.col-xl-4.mb-3.order-2.order-xl-1 
             figure
               img(src='@/assets/curso/temas/tema2/img_28.png', alt='Texto que describa la imagen') 
-          .col-md-8.mb-3
+          .col-xl-8.mb-3.order-1.order-xl-2
             h4 Reglas generales para un buen almacenamiento:    
             ul.lista-ul--color.lista-ul--separador
               li 
@@ -514,8 +514,8 @@
               .col-lg-12.p-4.ps-5
                 p.mb-0 La manipulación segura de alimentos es un pilar fundamental para garantizar su inocuidad y evitar la contaminación cruzada, un proceso que puede afectar negativamente la salud de los consumidores. La contaminación cruzada ocurre cuando microorganismos nocivos de alimentos crudos se transfieren a alimentos cocidos o listos para el consumo. Para prevenir esta situación, es crucial seguir las siguientes disposiciones, que abarcan diferentes aspectos del proceso de manipulación: 
 
-    .row.justify-content-center.align-items-center.mb-3.tarjeta_ordenadas
-      .col-md-8.mb-4
+    .row.justify-content-center.align-items-center.mb-3
+      .col-lg-8.mb-4.order-2.order-lg-1
         LineaTiempoD
           p(numero="a" titulo="Prácticas culinarias") La limpieza y organización son claves para prevenir la contaminación cruzada. Mantener las mesadas, tablas de trabajo y utensilios limpios y separados para alimentos crudos y cocidos es fundamental. El lavado de manos frecuente, especialmente antes de manipular alimentos, así como el uso de guantes en situaciones que lo requieran, también son medidas cruciales. Evitar la acumulación de residuos, alimentos o utensilios sucios en el área de trabajo y respetar la cadena de frío son aspectos a tener en cuenta para mantener un entorno higiénico.
 
@@ -526,15 +526,15 @@
           p(numero="d" titulo="Congelación") La congelación a -18°C o menos es una técnica eficiente para preservar alimentos por largos períodos. Es importante descongelar los alimentos de manera segura, evitando la recongelación, que puede afectar su calidad y seguridad. Es recomendable utilizar métodos de descongelación controlados, como la heladera o el microondas, evitando la descongelación a temperatura ambiente.
           
           p(numero="e" titulo="Cadena de frío") La cadena de frío debe mantenerse intacta durante todo el proceso de manipulación y transporte. Se debe evitar el corte de la cadena de frío, lo que podría generar la proliferación de microorganismos. Es crucial utilizar equipos de refrigeración y transporte adecuados que garanticen la temperatura adecuada durante todo el proceso. 
-      .col-md-4.mb-4
+      .col-md-8.col-lg-4.mb-4.order-1.order-lg-2
         figure(data-aos="zoom-in")
           img(src='@/assets/curso/temas/tema2/img_29.png', alt='')
 
     .row.justify-content-center.align-items-center.mb-0.fondo_2_3
-      .col-md-3.mb-3
+      .col-md-8.col-lg-3.mb-3
         figure
           img(src='@/assets/curso/temas/tema2/img_30.png', alt='')
-      .col-md-9.mb-3
+      .col-lg-9.mb-3
         h4 Sobre el manipulador de alimentos
         p La higiene personal del manipulador de alimentos es un aspecto fundamental para prevenir la contaminación. Es necesario lavarse las manos con frecuencia y seguir buenas prácticas de higiene, como el uso de guantes en situaciones que lo requieran. También se debe evitar tocarse la boca, la nariz o los ojos durante la manipulación de alimentos y mantener la ropa de trabajo limpia y adecuada. Los manipuladores deben recibir capacitación sobre las normas de seguridad alimentaria y buenas prácticas para garantizar que sus acciones contribuyen a la inocuidad de los alimentos.
         .cajon.bg-6.g_18.mb-5.mb-lg-0
