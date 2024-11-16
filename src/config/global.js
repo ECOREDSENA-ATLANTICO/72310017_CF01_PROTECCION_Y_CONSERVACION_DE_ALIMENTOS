@@ -62,7 +62,7 @@ export default {
         subMenu: [
           {
             numero: '1.1',
-            titulo: 'Identificación del bien o servicio',
+            titulo: 'Conceptos básicos de higiene y seguridad alimentaria',
             hash: 't_1_1',
           },
           {
@@ -152,7 +152,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: '#',
+        download: 'downloads/72310017_CF001_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -213,43 +213,43 @@ export default {
     {
       termino: 'Alimento',
       significado:
-        'Todo producto natural o artificial, elaborado o no, que ingerido aporta al organismo humano los nutrientes y la energía necesaria para el desarrollo de los procesos biológicos. Se incluyen bebidas no alcohólicas y especias.',
+        'todo producto natural o artificial, elaborado o no, que ingerido aporta al organismo humano los nutrientes y la energía necesaria para el desarrollo de los procesos biológicos. Se entienden incluidas en la presente definición las bebidas no alcohólicas y aquellas sustancias con que se sazonan algunos comestibles, y que se conocen con el nombre genérico de especias.',
     },
     {
       termino: 'Alimento adulterado',
       significado:
-        'Alimento al cual se le ha sustraído parte de los elementos constituyentes, adicionado sustancias no autorizadas, o sometido a tratamientos que disimulan u ocultan sus condiciones originales.',
+        'es aquel: a) al cual se le ha sustraído parte de los elementos constituyentes, reemplazándolos o no por otras sustancias; b) que haya sido adicionado con sustancias no autorizadas; c) que haya sido sometido a tratamientos que disimulen u oculten sus condiciones originales; y d) que por deficiencias en su calidad normal hayan sido disimuladas u ocultadas en forma fraudulenta, sus condiciones originales.',
     },
     {
       termino: 'Alimento alterado',
       significado:
-        'Alimento que sufre modificación o degradación de los constituyentes por agentes físicos, químicos o biológicos. Incluye alimentos fuera de su vida útil o almacenados en condiciones inadecuadas.',
+        'alimento que sufre modificación o degradación, parcial o total, de los constituyentes que le son propios, por agentes físicos, químicos o biológicos. Se incluye, pero no se limita a: a) el cual se encuentre por fuera de su vida útil; b) no esté siendo almacenado bajo las condiciones necesarias para evitar su alteración.',
     },
     {
       termino: 'Alimento contaminado',
       significado:
-        'Alimento que presenta o contiene agentes y/o sustancias extrañas en cantidades superiores a las permitidas en las normas nacionales o internacionales.',
+        'alimento que presenta o contiene agentes y/o sustancias extrañas de cualquier naturaleza en cantidades superiores a las permitidas en las normas nacionales, o en su defecto en normas reconocidas internacionalmente.',
     },
     {
       termino: 'Alimento de mayor riesgo en salud pública',
       significado:
-        'Alimentos que pueden contener microorganismos patógenos, toxinas o productos químicos nocivos que representan un mayor riesgo para la salud pública.',
+        'los alimentos que pueden contener microorganismos patógenos y favorecer la formación de toxinas o el crecimiento de microorganismos patógenos, y alimentos que pueden contener productos químicos nocivos.',
     },
     {
       termino: 'Alimento de menor riesgo en salud pública',
       significado:
-        'Alimentos con baja probabilidad de contener microorganismos patógenos y que no favorecen su crecimiento debido a sus características.',
+        'los alimentos que tienen poca probabilidad de contener microorganismos patógenos y normalmente no favorecen su crecimiento debido a las características de los alimentos y los alimentos que probablemente no contienen productos químicos nocivos.',
     },
     {
       termino:
         'Alimento derivado de un organismo genéticamente modificado (OGM)',
       significado:
-        'Alimento derivado en su totalidad o en una parte de un organismo genéticamente modificado.',
+        'alimento derivado en su totalidad o en una parte de un organismo genéticamente modificado.',
     },
     {
       termino: 'Alimento de riesgo medio en salud pública',
       significado:
-        'Alimentos que pueden contener microorganismos patógenos, pero que normalmente no favorecen su crecimiento debido a las características del alimento o procesamiento.',
+        'los alimentos que pueden contener microorganismos patógenos, pero normalmente no favorecen su crecimiento debido a las características del alimento o alimentos que es poco probable que contengan microorganismos patógenos debido al tipo de alimento o procesamiento del mismo, pero que pueden apoyar la formación de toxinas o el crecimiento de microorganismos patógenos.',
     },
     {
       termino: 'Alimento fraudulento',
@@ -259,32 +259,32 @@ export default {
     {
       termino: 'Alimento perecedero',
       significado:
-        'Alimento que, debido a su composición, puede experimentar alteraciones en un tiempo determinado y requiere condiciones especiales de conservación, transporte y expendio.',
+        'el alimento que, en razón de su composición, características fisicoquímicas y biológicas, pueda experimentar alteración de diversa naturaleza en un tiempo determinado y que, por lo tanto, exige condiciones especiales de proceso, conservación, almacenamiento, transporte y expendio.',
     },
     {
       termino: 'Desinfección - descontaminación',
       significado:
-        'Tratamiento aplicado a las superficies en contacto con el alimento para destruir microorganismos patógenos y reducir el número de otros indeseables sin afectar la calidad del alimento.',
+        'es el tratamiento físico-químico o biológico aplicado a las superficies limpias en contacto con el alimento con el fin de destruir las células vegetativas de los microorganismos que pueden ocasionar riesgos para la salud pública y reducir substancialmente el número de otros microorganismos indeseables, sin que dicho tratamiento afecte adversamente la calidad e inocuidad del alimento.',
     },
     {
       termino: 'Higiene de los alimentos',
       significado:
-        'Conjunto de medidas preventivas necesarias para garantizar la seguridad, limpieza y calidad de los alimentos en cualquier etapa de su manejo.',
+        'son el conjunto de medidas preventivas necesarias para garantizar la seguridad, limpieza y calidad de los alimentos en cualquier etapa de su manejo.',
     },
     {
       termino: 'Infestación',
       significado:
-        'Presencia y multiplicación de plagas que pueden contaminar o deteriorar los alimentos y/o materias primas.',
+        'es la presencia y multiplicación de plagas que pueden contaminar o deteriorar los alimentos y/o materias primas.',
     },
     {
       termino: 'Limpieza',
       significado:
-        'Proceso u operación de eliminación de residuos de alimentos u otras materias extrañas o indeseables.',
+        'es el proceso o la operación de eliminación de residuos de alimentos u otras materias extrañas o indeseables.',
     },
     {
       termino: 'Manipulador de alimentos',
       significado:
-        'Persona que interviene directamente en actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte y expendio de alimentos.',
+        'es toda persona que interviene directamente, aunque sea en forma ocasional, en actividades de fabricación, procesamiento, preparación, envase, almacenamiento, transporte y expendio de alimentos.',
     },
   ],
   referencias: [
@@ -372,7 +372,7 @@ export default {
       autores: [
         {
           nombre: 'Eulises Orduz Amezquita',
-          cargo: 'Diseñador de Contenidos Digitales',
+          cargo: 'Diseñador <em>web</em>',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },

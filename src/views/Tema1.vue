@@ -21,7 +21,7 @@
     Separador
 
     #t_1_1.titulo-segundo
-      .h2(data-aos="fade-right") 1.1 Identificación del bien o servicio
+      .h2(data-aos="fade-right") 1.1. Conceptos básicos de higiene y seguridad alimentaria
 
     p La higiene y seguridad alimentaria son pilares fundamentales en la preservación de la salud pública y en la prevención de enfermedades transmitidas por alimentos. Estos conceptos aseguran que los alimentos que consumimos sean seguros, nutritivos y aptos para el consumo humano. A continuación, se detallan los conceptos básicos que todo manipulador de alimentos debe conocer y aplicar.
 
@@ -96,8 +96,8 @@
               span Clasificación de alimentos  
 
           figure
-            img.mb-3(src='@/assets/curso/temas/tema1/img_4.svg', alt='Texto que describa la imagen').mx-auto
-            figcaption Fuente: elaboración propia
+            img.mb-3(src='@/assets/curso/temas/tema1/img_4.svg', alt='La clasificación de los alimentos se detallan a continuación.').mx-auto
+            figcaption Fuente: Sena 2024
 
     Separador
     #t_1_3.titulo-segundo
@@ -116,7 +116,7 @@
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.p-4.h-100.fondo_3
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_9.png")
-          h5 Mecánicas
+          h5 Mecánicos
           p Como golpes, cortes, en general sin alteraciones graves, pero que suponen una disminución de la vida útil del alimento.
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-6.fondo_2.p-4.h-100
@@ -160,7 +160,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img_16.png", alt="alt")
             .crd_hover_txt--body
-              h4.mb-3.text-center Pardeamiento no enzimático o reacción de maillard
+              h4.mb-3.text-center Pardeamiento no enzimático o reacción de Maillard
               p.mb-0.text-small Se incluyen una serie de reacciones complejas entre azúcares y compuestos nitrogenados (proteínas), las cuales generan pigmentos marrones.  <br>En algunos casos se producen de manera tecnológica (fritos y tostados), pero en otras es espontáneo. El calor y la desecación lo favorecen.
 
         .col-md-6.col-xl-4.mb-4.mb-xl-2
@@ -191,7 +191,7 @@
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4
         LineaTiempoD
-          p(numero="1" titulo="Enzimáticos") Algunas enzimas sobreviven a los propios organismos, pudiendo aumentar su actividad. Pueden cambiar la textura de los alimentos (maduración de frutos o reblandecimiento de carne) y en algunos casos provocar su descomposición. El rigor mortis de los animales, por ejemplo, es debido a cambios enzimáticos ocurridos al faltar la circulación sanguínea y por lo tanto la oxigenación necesaria para el metabolismo aerobio. 
+          p(numero="1" titulo="Enzimáticos") Algunas enzimas sobreviven a los propios organismos, pudiendo aumentar su actividad. Pueden cambiar la textura de los alimentos (maduración de frutos o reblandecimiento de carne) y en algunos casos provocar su descomposición. El <em>rigor mortis</em> de los animales, por ejemplo, es debido a cambios enzimáticos ocurridos al faltar la circulación sanguínea y por lo tanto la oxigenación necesaria para el metabolismo aerobio. 
 
           p(numero="2" titulo="Competidores naturales") Como insectos, roedores y pájaros, que compiten directamente por la obtención de alimento.
 
@@ -218,7 +218,7 @@
               span Rangos de temperatura para la proliferación bacteriana  
 
           figure
-            img.w-75.mb-3(src='@/assets/curso/temas/tema1/img_21.png', alt='Texto que describa la imagen').mx-auto
+            img.w-75.mb-3(src='@/assets/curso/temas/tema1/img_21.png', alt='La temperatura para la proliferación bacteriana se divide así: - Las bacterias se mueren en una temperatura entre 100ºC y 60ºC. - Las bacterias sobreviven y crecen entre 60ºC y 4ºC. - Las bacterias crecen muy lento o no se multiplican a menos de 4ºC. ').mx-auto
             figcaption Fuente: https://0grados.com/factores-de-cuidado-en-camaras-de-refrigeracion-y-congelacion/
 
         .col-md-6
@@ -232,8 +232,7 @@
         h3.bgr_3.position-relative Factores que favorecen la proliferación microbiana
           img.pst(src='@/assets/curso/temas/titulos/img_3.svg', alt='')          
 
-    p.mb-5 Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
-    
+    p.mb-5 La presencia de microorganismos en los alimentos es un factor crucial que determina su seguridad y calidad. Estos microorganismos necesitan ciertas condiciones para crecer y multiplicarse, lo que puede llevar al deterioro del alimento y generar riesgos para la salud. Algunos de los factores más importantes que favorecen la proliferación microbiana son la humedad, la disponibilidad de oxígeno y la presencia de nutrientes.    
     
     .row.justify-content-center.mb-5
       .col-lg-12.position-relative
@@ -259,13 +258,13 @@
               ul.lista-ul
                 li 
                   i.lista-ul__vineta
-                  | <b>Aerobios:</b> Microorganismos que necesitan oxígeno para desarrollarse
+                  | <b>Aerobios:</b> microorganismos que necesitan oxígeno para desarrollarse
                 li 
                   i.lista-ul__vineta
-                  | <b>Anaerobios</b>: Microorganismos que necesitan la ausencia de oxígeno en su desarrollo.
+                  | <b>Anaerobios</b>: microorganismos que necesitan la ausencia de oxígeno en su desarrollo.
                 li 
                   i.lista-ul__vineta
-                  | <b>Anaerobios facultativos</b>: Microorganismos que se adaptan a las dos condiciones.
+                  | <b>Anaerobios facultativos</b>: microorganismos que se adaptan a las dos condiciones.
         .crd.crd--avatarHorizontal.crd--last.py-4
           .row.align-items-center
             .col-auto
@@ -276,13 +275,6 @@
               p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
 
-
-    .row.justify-content-center.mb-5(data-aos="zoom-in-down")
-      .col-md-12
-        .cajon.bg-4.g_18.mb-5.mb-lg-0
-          .row
-            .col-lg-12.p-4.ps-5 
-              p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-3(data-aos="fade-right")
@@ -306,7 +298,7 @@
         
         .tabla-b.color-acento-contenido.mb-5 
           table
-            caption Fuente: Elaboración propia.
+            caption Fuente: Sena 2024.
             thead.encabezado-tabla
               tr
                 th Categoría

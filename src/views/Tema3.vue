@@ -39,7 +39,7 @@
               template(v-slot:imagen)
                 figure
                   img(src='@/assets/curso/temas/tema3/img_3.png', alt='Texto que describa la imagen').mb-3.mx-auto
-                  //- figcaption Fuente: Elaboración Propia.
+                  //- figcaption Fuente: Sena 2024.
 
               .tarjeta.color-acento-botones.p-3(x="43%" y="15%" numero="1")
                 .h5.mb-2.texto-color-acento-botones 1. Refrigeración

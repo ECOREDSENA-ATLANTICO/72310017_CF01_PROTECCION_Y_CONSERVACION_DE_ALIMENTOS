@@ -35,7 +35,7 @@
                   img(src='@/assets/curso/temas/tema2/img_4.png', alt='').img125
               .col-lg-6.mb-4.mb-lg-0
                 h3 1906/ Publicación del libro "La Jungla"
-                p La creciente industrialización de la producción de alimentos y medicamentos, especialmente en Estados Unidos, llevó a condiciones insalubres y prácticas poco higiénicas que ponían en riesgo la salud de los consumidores. 
+                p Esta obra de Upton Sinclair expuso las condiciones deplorables de la industria cárnica estadounidense, con descripciones impactantes de la falta de higiene, el uso de carne en mal estado y la contaminación generalizada. La indignación pública ante estas revelaciones fue considerable, lo que llevó a una presión sin precedentes para la implementación de reformas. 
 
             .row
               .col-lg-6.mb-4.mb-lg-0
@@ -90,8 +90,8 @@
         ImagenInfografica.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/temas/tema2/img_9.png', alt='Texto que describa la imagen').mb-3.mx-auto
-              figcaption Fuente: Elaboración Propia.
+              img(src='@/assets/curso/temas/tema2/img_9.png', alt='A continuación se detalla cada tema.').mb-3.mx-auto
+              figcaption Fuente: Sena 2024.
 
           .tarjeta.color-acento-botones.p-3(x="40%" y="17%" numero="A")
             .h5.mb-2.texto-color-acento-botones Personal
@@ -103,7 +103,7 @@
 
           .tarjeta.color-acento-botones.p-3(x="68%" y="46%" numero="C")
             .h5.mb-2.texto-color-acento-botones Edificio y terreno
-            p.text-dark.text-small Se deben implementar normas y principios básicos para el saneamiento e higiene del edificio, las dependencias, el equipamiento y los utensilios.  Esto incluye controlar la calidad y potabilidad del agua y del aire, asegurando su adecuada ventilación y circulación. Se deben establecer procedimientos eficientes para la gestión de desperdicios y desechos, incluyendo su recolección, almacenamiento y eliminación, para evitar la proliferación de plagas y la contaminación ambiental.  Se deben implementar medidas para controlar la presencia de plagas, como insectos y roedores, asegurando la limpieza y desinfección de las instalaciones para evitar la contaminación. 
+            p.text-dark.text-small El diseño y la construcción del edificio deben estar diseñados para proteger los alimentos de la contaminación y evitar el desarrollo de microorganismos.  Las áreas de trabajo deben ser aisladas para prevenir la entrada de polvo, suciedad y plagas.  Los materiales utilizados en la construcción del edificio deben ser resistentes a la humedad, las grasas y los químicos.  El edificio debe contar con un sistema de ventilación adecuado para evitar la acumulación de humedad y la proliferación de microorganismos. 
 
           .tarjeta.color-acento-botones.p-3(x="60%" y="72%" numero="D")
             .h5.mb-2.texto-color-acento-botones Equipamiento y utensilios
@@ -111,7 +111,7 @@
 
           .tarjeta.color-acento-botones.p-3(x="40%" y="72%" numero="E")
             .h5.mb-2.texto-color-acento-botones Procesos y controles
-            p.text-dark.text-small El diseño de los equipos y utensilios empleados en la cocina debe facilitar su limpieza y mantenimiento, previniendo la contaminación de los alimentos.  Los materiales de los equipos y utensilios deben ser no porosos, resistentes a la corrosión, al calor y fáciles de limpiar. Se deben establecer reglas para el manejo higiénico de los equipos y utensilios, incluyendo su limpieza y desinfección regular. 
+            p.text-dark.text-small Durante la manipulación de la materia prima y la preparación de alimentos, se deben establecer controles para minimizar el riesgo de contaminación: se deben implementar prácticas para evitar la proliferación de microorganismos en los alimentos, incluyendo la cocción adecuada, el almacenamiento en frío y el uso de técnicas de conservación. Se debe utilizar productos de limpieza y desinfección seguros y evitar el uso de productos químicos que puedan contaminar los alimentos. Se debe mantener el área de trabajo limpia y ordenada, evitando la acumulación de suciedad y residuos. Se deben establecer procedimientos para el manejo seguro de los alimentos contaminados, incluyendo su identificación, separación y eliminación. 
 
           .tarjeta.color-acento-botones.p-3(x="31%" y="46%" numero="F")
             .h5.mb-2.texto-color-acento-botones Registros
@@ -196,7 +196,7 @@
         h3.bgr_3.position-relative Ropa reglamentaria
           img.pst(src='@/assets/curso/temas/titulos/img_9.svg', alt='')  
           
-    p.mb-4 Lla ropa de trabajo de los manipuladores debe ser limpia y estar en buen estado, y debe cambiarse al inicio de cada jornada por un uniforme reglamentario. Se debe evitar usar la ropa de trabajo fuera del área de trabajo para prevenir la contaminación de los alimentos. El uso de elementos de profilaxis como guantes, barbijos y cofias debe ser regulado para minimizar el riesgo de contaminación. Estos elementos deben ser de un solo uso, cambiarse cuando estén sucios o dañados, y utilizarse de manera correcta para evitar la contaminación. 
+    p.mb-4 La ropa de trabajo de los manipuladores debe ser limpia y estar en buen estado, y debe cambiarse al inicio de cada jornada por un uniforme reglamentario. Se debe evitar usar la ropa de trabajo fuera del área de trabajo para prevenir la contaminación de los alimentos. El uso de elementos de profilaxis como guantes, barbijos y cofias debe ser regulado para minimizar el riesgo de contaminación. Estos elementos deben ser de un solo uso, cambiarse cuando estén sucios o dañados, y utilizarse de manera correcta para evitar la contaminación. 
   
     .row.justify-content-center
       .col-md-12.mb-2
@@ -233,7 +233,7 @@
           
           p(numero="4" titulo="Materialidad de superficies") Las superficies deben ser antideslizantes para garantizar la seguridad de los trabajadores, pero también deben ser lisas para facilitar la limpieza. Los materiales como las resinas poliméricas son ideales por su durabilidad y facilidad de mantenimiento (Ministerio de Salud y Protección Social, 2013, Art. 8).
           
-          p(numero="5" titulo="Revestimiento de paredes") Las superficies deben ser antideslizantes para garantizar la seguridad de los trabajadores, pero también deben ser lisas para facilitar la limpieza. Los materiales como las resinas poliméricas son ideales por su durabilidad y facilidad de mantenimiento (Ministerio de Salud y Protección Social, 2013, Art. 8).
+          p(numero="5" titulo="Revestimiento de paredes") El revestimiento ideal para paredes en cocinas es la cerámica o el acero inoxidable, debido a su resistencia a la humedad y facilidad de limpieza. Estos materiales deben aplicarse en toda la superficie de trabajo, cubriendo desde el piso hasta el techo para evitar zonas de acumulación de grasa o residuos. Para su mantenimiento, se recomienda limpiarlos diariamente con desinfectantes aprobados para uso alimentario y realizar revisiones regulares para reparar posibles fisuras o desgastes que puedan comprometer la higiene.
           
           p(numero="6" titulo="Prevención de condensación") Los techos deben diseñarse para evitar la acumulación de humedad que pueda provocar condensación y goteo sobre áreas donde se manipulan alimentos. El control de la temperatura y la humedad es esencial para prevenir estos riesgos (Ministerio de Salud y Protección Social, 2013, Art. 9).
 
@@ -312,7 +312,7 @@
           p(numero="3" titulo="Costo") El costo de las materias primas es un factor importante a considerar al momento de seleccionar proveedores y comprar productos. 
           
           p(numero="4" titulo="Control de recepción") Es crucial realizar una inspección y control de las materias primas al momento de su recepción. Esta inspección debe incluir:
-            ul.lista-ul--color.lista-ul--separador
+            ul.lista-ul--color.lista-ul--separador.mt-3
               li 
                 i.fas.fa-check-circle
                 |	Control cuantitativo: verificar que la cantidad recibida coincida con la cantidad indicada en la factura, la nota de remito o la entrega.
@@ -488,19 +488,19 @@
             ul.lista-ul--color.lista-ul--separador
               li 
                 i.fas.fa-check-circle
-                |	Inspección: Se debe revisar el aislamiento de las puertas del almacén para asegurar su cierre hermético.
+                |	Inspección: se debe revisar el aislamiento de las puertas del almacén para asegurar su cierre hermético.
               li 
                 i.fas.fa-check-circle
-                |	Limpieza: Las estanterías y paredes deben lavarse de acuerdo al plan de limpieza.
+                |	Limpieza: las estanterías y paredes deben lavarse de acuerdo al plan de limpieza.
               li 
                 i.fas.fa-check-circle
-                |	Manejo de envases: No se deben almacenar alimentos en latas o frascos con tapas abiertas. Al abrirlos, los alimentos deben protegerse en un contenedor plástico con tapa y se debe eliminar el embalaje original.
+                |	Manejo de envases: no se deben almacenar alimentos en latas o frascos con tapas abiertas. Al abrirlos, los alimentos deben protegerse en un contenedor plástico con tapa y se debe eliminar el embalaje original.
               li 
                 i.fas.fa-check-circle
-                |	Rotación de inventario: Las estanterías deben tener suficiente espacio para la rotación de los productos, evitando su vencimiento.
+                |	Rotación de inventario: las estanterías deben tener suficiente espacio para la rotación de los productos, evitando su vencimiento.
               li 
                 i.fas.fa-check-circle
-                |	Control de stock: Se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
+                |	Control de stock: se debe realizar un control diario del estado de la mercadería, incluyendo la cantidad y la calidad.
                 
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-3(data-aos="fade-right")
