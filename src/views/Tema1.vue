@@ -159,7 +159,7 @@
             .crd_hover_txt--img
               figure
                 img(src="@/assets/curso/temas/tema1/img_16.png", alt="alt")
-            .crd_hover_txt--body
+            .crd_hover_txt--body.pt-3
               h4.mb-3.text-center Pardeamiento no enzimático o reacción de Maillard
               p.mb-0.text-small Se incluyen una serie de reacciones complejas entre azúcares y compuestos nitrogenados (proteínas), las cuales generan pigmentos marrones.  <br>En algunos casos se producen de manera tecnológica (fritos y tostados), pero en otras es espontáneo. El calor y la desecación lo favorecen.
 
@@ -219,7 +219,7 @@
 
           figure
             img.w-75.mb-3(src='@/assets/curso/temas/tema1/img_21.png', alt='La temperatura para la proliferación bacteriana se divide así: - Las bacterias se mueren en una temperatura entre 100ºC y 60ºC. - Las bacterias sobreviven y crecen entre 60ºC y 4ºC. - Las bacterias crecen muy lento o no se multiplican a menos de 4ºC. ').mx-auto
-            figcaption Fuente: https://0grados.com/factores-de-cuidado-en-camaras-de-refrigeracion-y-congelacion/
+            figcaption Fuente: tomado de https://0grados.com/factores-de-cuidado-en-camaras-de-refrigeracion-y-congelacion/
 
         .col-md-6
           p La temperatura juega un papel fundamental en la proliferación de los microorganismos, para el crecimiento de la mayoría de los microorganismos la temperatura ideal oscila entre 36 - 37ºC, aunque el margen de crecimiento de los mismos está entre 5º y 65ºC (también conocido como zona de riesgo). A pesar de esto cuanto más cerca estamos de los 37ºC, mayor es la multiplicación de los mismos.
