@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5 En el esquema a continuación se presentan desde los fundamentos de la higiene hasta las técnicas de preservación. Se explora las buenas prácticas de manufactura y las recomendaciones para el almacenamiento, el transporte, la manipulación y la limpieza. Este componente explora los contenidos para garantizar la inocuidad de los alimentos y proteger la salud de los consumidores.
+    p.mb-5 En el esquema a continuación se presentan desde los fundamentos de la higiene hasta las técnicas de preservación. Se explora las buenas prácticas de manufactura y las recomendaciones para el almacenamiento, el transporte, la manipulación y la limpieza. Este componente explora los contenidos para garantizar la inocuidad de los alimentos y proteger la salud de los consumidores
 
     .row.justify-content-center
       .col-lg-12.mb-5

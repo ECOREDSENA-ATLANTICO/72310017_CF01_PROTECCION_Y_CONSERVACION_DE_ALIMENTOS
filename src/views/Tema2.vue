@@ -8,7 +8,7 @@
       h1 Buenas prácticas de manipulación y preservación de alimentos
 
     figure
-        img.mb-3(src='@/assets/curso/temas/tema2/img_1.png', alt='Texto que describa la imagen').mx-autoplay
+        img.mb-3(src='@/assets/curso/temas/tema2/img_1.png', alt='Imágen decorativa').mx-autoplay
 
     Separador
 
@@ -39,7 +39,7 @@
 
             .row
               .col-lg-6.mb-4.mb-lg-0
-                h3 1938/ Acta de Alimentos, Medicamentos y Cosméticos
+                h3 1938/ Acta de alimentos, medicamentos y cosméticos
                 p Esta acta promulgada en Estados Unidos, fue una respuesta directa a la crisis generada por "La Jungla". Esta ley estableció requisitos de inocuidad para los alimentos y medicamentos, incluyendo la inspección de las instalaciones y los procesos de producción, la eliminación de prácticas peligrosas y la introducción de sistemas de control de calidad. 
               .col-lg-6
                 figure(data-aos="zoom-in")
@@ -55,7 +55,7 @@
 
             .row
               .col-lg-6.mb-4.mb-lg-0
-                h3 1969. El <em>Codex Alimentarius</em>
+                h3 1969. El <em>Codex alimentarius</em>
                 p Se concretó una recopilación de estándares internacionales para alimentos, que adoptó las BPM como un principio fundamental para la seguridad alimentaria, sentando las bases para la estandarización de prácticas de higiene y seguridad en todo el mundo.
               .col-lg-6
                 figure(data-aos="zoom-in")
@@ -141,7 +141,7 @@
               | A las actividades de vigilancia y control que ejerzan las autoridades sanitarias sobre la fabricación, procesamiento, preparación, envase, almacenamiento, transporte, distribución, importación, exportación y comercialización de alimentos, sobre los alimentos y materias primas para alimentos.
         .col-md-8.col-xl-4.mb-4
           figure
-            img(src='@/assets/curso/temas/tema2/img_10.png', alt='Texto que describa la imagen') 
+            img(src='@/assets/curso/temas/tema2/img_10.png', alt='Imágen decorativa') 
     
     .bg_img_6.fondo_2_1_3
       .row.align-items-center.justify-content-star.mb-0.ps-2(data-aos="zoom-in-down")
@@ -189,7 +189,7 @@
               | Lavado de manos: el lavado de manos debe ser una práctica constante y realizarse antes de manipular alimentos, después de usar el baño, de tocar productos contaminados o desechos, al ingresar a trabajar y al cambiar de tarea. Se debe usar jabón y agua limpia para un lavado efectivo.
       .col-md-8.col-xl-3
         figure
-          img(src='@/assets/curso/temas/tema2/img_12.png', alt='Texto que describa la imagen').mb-3 
+          img(src='@/assets/curso/temas/tema2/img_12.png', alt='Imágen decorativa').mb-3 
              
     .row.align-items-center.justify-content-star.mb-1.ps-2(data-aos="zoom-in-down")
       .div.mb-3(data-aos="fade-right")
@@ -251,7 +251,7 @@
     .row.justify-content-center.align-items-center.mb-5
       .col-md-8.col-xl-4
         figure
-          img(src='@/assets/curso/temas/tema2/img_15.png', alt='Texto que describa la imagen').mx-auto.mb-4 
+          img(src='@/assets/curso/temas/tema2/img_15.png', alt='Imágen decorativa').mx-auto.mb-4 
       .col-xl-8    
         ul.lista-ul--color.lista-ul--separador
           li 
@@ -292,7 +292,7 @@
     .row.justify-content-center.align-items-center.mb-3
       .col-md-8.col-xl-3.mb-3
         figure
-          img(src='@/assets/curso/temas/tema2/img_17.png', alt='Texto que describa la imagen').mx-auto
+          img(src='@/assets/curso/temas/tema2/img_17.png', alt='Imágen decorativa').mx-auto
       .col-xl-9.mb-3
         p.mb-4 <b>Control de origen y procedencia:</b> es fundamental documentar el origen y procedencia de todos los productos y materias primas que se utilizan en la cocina. Cada producto debe contar con su etiqueta correspondiente, la cual debe incluir la fecha de elaboración, vencimiento, la descripción de los ingredientes, el registro del producto y del establecimiento. Mientras el producto se utiliza en la cocina, la etiqueta debe mantenerse visible. 
         .cajon.bg-3.g_18.mb-5.mb-lg-0
@@ -333,7 +333,7 @@
           img.pst(src='@/assets/curso/temas/titulos/img_14.svg', alt='')  
 
     figure
-      img(src='@/assets/curso/temas/tema2/img_19.png', alt='Texto que describa la imagen').mx-auto.mb-4
+      img(src='@/assets/curso/temas/tema2/img_19.png', alt='Imágen decorativa').mx-auto.mb-4
 
     p.mb-5 El transporte de alimentos es una parte crucial de la cadena alimentaria, y es crucial asegurar que se realiza de forma segura para preservar la calidad e inocuidad de los productos. Una de las mayores falencias en este ámbito es la falta de vehículos adecuados y la falta de higiene durante el transporte. Sin embargo, existen esfuerzos para mejorar la situación mediante la implementación de nuevos vehículos con sistemas de refrigeración adecuados. 
 
@@ -418,7 +418,7 @@
             .col-lg-12.p-4.ps-5
               p.mb-0 Es vital que la cocina cuente con un sistema de almacenamiento adecuado que asegure la calidad, frescura e inocuidad de los alimentos, evitando su deterioro o contaminación.
 
-        p.mb-3 <span class="azul">Recepción y traslado de la materia prima:</span> Si una vez recibida la materia prima, se debe trasladar a contenedores de plástico que pertenezcan a la cocina, evitando el contacto directo con el embalaje original (cajas de cartón, cajones, etc.) para prevenir una posible contaminación. Este traslado debe realizarse en un plazo máximo de 20 minutos.
+        p.mb-3 <span class="azul">Recepción y traslado de la materia prima:</span> una vez recibida la materia prima, se debe trasladar a contenedores de plástico que pertenezcan a la cocina, evitando el contacto directo con el embalaje original (cajas de cartón, cajones, etc.) para prevenir una posible contaminación. Este traslado debe realizarse en un plazo máximo de 20 minutos.
         p.mb-3 <span class="azul">Categorías de almacenamiento:</span> es fundamental diferenciar el almacenamiento de alimentos perecederos (frutas, verduras, carnes, pescados, productos lácteos, etc.) de los alimentos no perecederos (harinas, legumbres, arroz, azúcar, etc.).
 
         ul.lista-ul--color.lista-ul--separador
@@ -477,12 +477,12 @@
                 
           .col-md-8.col-xl-4.mb-3
             figure
-              img(src='@/assets/curso/temas/tema2/img_27.png', alt='Texto que describa la imagen').mx-auto
+              img(src='@/assets/curso/temas/tema2/img_27.png', alt='Imágen decorativa').mx-auto
         
         .row.justify-content-center.align-items-center.mb-2
           .col-md-8.col-xl-4.mb-3.order-2.order-xl-1 
             figure
-              img(src='@/assets/curso/temas/tema2/img_28.png', alt='Texto que describa la imagen') 
+              img(src='@/assets/curso/temas/tema2/img_28.png', alt='Imágen decorativa') 
           .col-xl-8.mb-3.order-1.order-xl-2
             h4 Reglas generales para un buen almacenamiento:    
             ul.lista-ul--color.lista-ul--separador

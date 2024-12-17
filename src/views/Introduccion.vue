@@ -14,7 +14,7 @@
       p.mb-4 Estimado aprendiz bienvenido al componente formativo “Seguridad alimentaria y buenas prácticas de manufactura” le invitamos a explorar el siguiente video:
       
       .video.mb-5
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/FxVSSZCuLLo" title="Producción pecuaria agroecológica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/urFyOBGQgfc" title="Producción pecuaria agroecológica" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
       p La protección y conservación de los alimentos tienen como objetivo estudiar los métodos de manipulación higiénica de alimentos, bebidas, utensilios y equipos utilizados en su preparación, asegurando su calidad. Conocer la clasificación de los alimentos es crucial para determinar su uso, aprovechar sus propiedades completamente y conservarlos adecuadamente, evitando su deterioro o contaminación. Comprender los factores y tipos de peligros que afectan la seguridad alimentaria permite identificar las maneras adecuadas de prevenir su deterioro.
 

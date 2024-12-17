@@ -152,7 +152,7 @@ export default {
       {
         icono: 'fas fa-file-pdf',
         titulo: 'Descargar PDF',
-        download: 'downloads/72310017_CF001_DU.pdf',
+        download: 'downloads/CF1_72310017_DU.pdf',
       },
       {
         icono: 'fas fa-download',
@@ -184,13 +184,13 @@ export default {
     {
       tema: 'Buenas prácticas de manipulación y preservación de alimentos.',
       referencia:
-        'Rodríguez Gómez, J. M. (s.f.). Consecuencias higiénicas de alteración.',
+        'Rodríguez Gómez, J. M. (s.f.). Consecuencias higiénicas de la alteración de los alimentos.',
       tipo: 'Capítulo de libro.',
       descarga:
         '/downloads/Consecuencia_Higienica_Alteracion_Alimentos_2012.pdf',
     },
     {
-      tema: 'Prevención y control del deterioro de los alimentos.',
+      tema: 'Prevención y control del deterioro de alimentos.',
       referencia:
         'In food quality. Education and culture. (s.f.). Microorganismos y alimentos.',
       tipo: 'Artículo.',
@@ -218,12 +218,12 @@ export default {
     {
       termino: 'Alimento adulterado',
       significado:
-        'es aquel: a) al cual se le ha sustraído parte de los elementos constituyentes, reemplazándolos o no por otras sustancias; b) que haya sido adicionado con sustancias no autorizadas; c) que haya sido sometido a tratamientos que disimulen u oculten sus condiciones originales; y d) que por deficiencias en su calidad normal hayan sido disimuladas u ocultadas en forma fraudulenta, sus condiciones originales.',
+        'es aquel: <br> a) al cual se le ha sustraído parte de los elementos constituyentes, reemplazándolos o no por otras sustancias; <br> b) que haya sido adicionado con sustancias no autorizadas; <br> c) que haya sido sometido a tratamientos que disimulen u oculten sus condiciones originales; y <br> d) que por deficiencias en su calidad normal hayan sido disimuladas u ocultadas en forma fraudulenta, sus condiciones originales.',
     },
     {
       termino: 'Alimento alterado',
       significado:
-        'alimento que sufre modificación o degradación, parcial o total, de los constituyentes que le son propios, por agentes físicos, químicos o biológicos. Se incluye, pero no se limita a: a) el cual se encuentre por fuera de su vida útil; b) no esté siendo almacenado bajo las condiciones necesarias para evitar su alteración.',
+        'alimento que sufre modificación o degradación, parcial o total, de los constituyentes que le son propios, por agentes físicos, químicos o biológicos. Se incluye, pero no se limita a: <br> a) el cual se encuentre por fuera de su vida útil; <br> b) no esté siendo almacenado bajo las condiciones necesarias para evitar su alteración.',
     },
     {
       termino: 'Alimento contaminado',
@@ -254,7 +254,7 @@ export default {
     {
       termino: 'Alimento fraudulento',
       significado:
-        'es aquel que: a) se le designe o expenda con nombre o calificativo distinto al que le corresponde; b) su envase, rótulo o etiqueta contenga diseño o declaración ambigua, falsa o que pueda inducir o producir engaño o confusión respecto de su composición intrínseca y uso; c) no proceda de sus verdaderos fabricantes o importadores declarados en el rótulo o que tenga la apariencia y caracteres generales de un producto legítimo, protegido o no por marca registrada y que se denomine como este, sin serlo; d) aquel producto que de acuerdo a su riesgo y a lo contemplado en la presente resolución, requiera de registro, permiso o notificación sanitaria y sea comercializado, publicitado o promocionado como un alimento, sin que cuente con el respectivo registro, permiso o notificación sanitaria.',
+        'es aquel que: <br> a) se le designe o expenda con nombre o calificativo distinto al que le corresponde; <br> b) su envase, rótulo o etiqueta contenga diseño o declaración ambigua, falsa o que pueda inducir o producir engaño o confusión respecto de su composición intrínseca y uso; <br> c) no proceda de sus verdaderos fabricantes o importadores declarados en el rótulo o que tenga la apariencia y caracteres generales de un producto legítimo, protegido o no por marca registrada y que se denomine como este, sin serlo; <br> d) aquel producto que de acuerdo a su riesgo y a lo contemplado en la presente resolución, requiera de registro, permiso o notificación sanitaria y sea comercializado, publicitado o promocionado como un alimento, sin que cuente con el respectivo registro, permiso o notificación sanitaria.',
     },
     {
       termino: 'Alimento perecedero',
@@ -318,7 +318,7 @@ export default {
     },
     {
       referencia:
-        'Rodríguez, J. M. (s.f.). Consecuencias higiénicas de alteración de los alimentos. Departamento de Nutrición, Bromatología y Tecnología de los Alimentos, Facultad de Veterinaria, Universidad Complutense de Madrid.',
+        'Rodríguez, J. M. (s.f.). Consecuencias higiénicas de la alteración de los alimentos. Departamento de Nutrición, Bromatología y Tecnología de los Alimentos, Facultad de Veterinaria, Universidad Complutense de Madrid.',
       link:
         'http://www.aeemt.net/contenidos_socios/Recursos/Documentos_interes/Consecuencia_Higienica_Alteracion_Alimentos_2012.pdf',
     },
@@ -335,7 +335,7 @@ export default {
         },
         {
           nombre: 'Miguel de Jesús Paredes Maestre',
-          cargo: 'Responsable de Línea de Producción',
+          cargo: 'Responsable de la Línea de Producción',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -384,7 +384,7 @@ export default {
         },
         {
           nombre: 'Carmen Alicia Martinez Torres',
-          cargo: 'Animador y Producción audiovisual',
+          cargo: 'Animador y producción audiovisual',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
@@ -413,13 +413,13 @@ export default {
         },
         {
           nombre: 'Juan Carlos Cardona Acosta',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },
         {
           nombre: 'Jairo Luis Valencia Ebratt',
-          cargo: 'Validador de Recursos Educativos Digitales',
+          cargo: 'Validador de recursos educativos digitales',
           centro:
             'Centro Para El Desarrollo Agroecológico Y Agroindustrial Sabanalarga - Regional Atlántico',
         },

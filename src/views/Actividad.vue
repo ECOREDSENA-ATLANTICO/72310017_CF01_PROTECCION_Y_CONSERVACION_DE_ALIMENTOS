@@ -18,7 +18,7 @@ export default {
       tema: 'Nombre del componente formativo',
       titulo: 'Exploremos las BPM',
       introduccion:
-        '<b> Objetivo:</b> Apropiar los conceptos de las buenas prácticas de manufactura (BPM) para su respectiva aplicación',
+        '<b> Objetivo:</b> apropiar los conceptos de las buenas prácticas de manufactura (BPM) para su respectiva aplicación',
       barajarPreguntas: false,
       preguntas: [
         {

@@ -36,51 +36,51 @@
 
             .col-md-8.col-xl-5
               figure
-              img(src='@/assets/curso/temas/tema1/img_2.png', alt='Texto que describa la imagen')
+              img(src='@/assets/curso/temas/tema1/img_2.png', alt='Imágen decorativa')
 
         .tarjeta.bg-01.p-2
           .row.justify-content-center.align-items-center.my-lg-4.p-3
             .col-md-12.col-xl-7.mb-4
       
-              h3.mb-2 Importancia de la Higiene y Seguridad Alimentaria.
+              h3.mb-2 Importancia de la higiene y seguridad alimentaria.
 
               ul.lista-ul
                 li 
                   i.lista-ul__vineta
-                  | <b>Prevención de Enfermedades</b>: La aplicación de prácticas adecuadas de higiene reduce significativamente el riesgo de brotes de enfermedades transmitidas por alimentos.
+                  | <b>Prevención de Enfermedades</b>: la aplicación de prácticas adecuadas de higiene reduce significativamente el riesgo de brotes de enfermedades transmitidas por alimentos.
                 li 
                   i.lista-ul__vineta
-                  | <b>Confianza del Consumidor</b>: La seguridad alimentaria fomenta la confianza de los consumidores en los productos que compran, siendo crucial para el éxito de cualquier negocio alimentario.
+                  | <b>Confianza del Consumidor</b>: la seguridad alimentaria fomenta la confianza de los consumidores en los productos que compran, siendo crucial para el éxito de cualquier negocio alimentario.
                 li 
                   i.lista-ul__vineta
-                  | <b>Cumplimiento Legal</b>: Adherirse a las normas y regulaciones alimentarias es obligatorio para evitar sanciones legales y mantener licencias operativas.
+                  | <b>Cumplimiento Legal</b>: adherirse a las normas y regulaciones alimentarias es obligatorio para evitar sanciones legales y mantener licencias operativas.
 
             .col-md-8.col-xl-5
               figure
-                img(src='@/assets/curso/temas/tema1/img_5.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img_5.png', alt='Imágen decorativa')
 
         .tarjeta.bg-01.p-2
           .row.ordenar_tarjeta.justify-content-center.align-items-center.my-lg-4.p-3
             .col-md-12.col-xl-7.mb-4
-              h3.mb-2 Principios Básicos.
+              h3.mb-2 Principios básicos.
 
               ul.lista-ul
                 li 
                   i.lista-ul__vineta
-                  | <b>Limpieza</b>: Mantener altos estándares de limpieza es esencial para prevenir la contaminación cruzada. Esto incluye la limpieza de instalaciones, utensilios, y manos.
+                  | <b>Limpieza</b>: mantener altos estándares de limpieza es esencial para prevenir la contaminación cruzada. Esto incluye la limpieza de instalaciones, utensilios, y manos.
                 li 
                   i.lista-ul__vineta
-                  | <b>Separación</b>: Evitar la contaminación cruzada almacenando y manejando alimentos crudos y cocidos por separado.
+                  | <b>Separación</b>: evitar la contaminación cruzada almacenando y manejando alimentos crudos y cocidos por separado.
                 li 
                   i.lista-ul__vineta
-                  | <b>Cocción</b>: Cocinar los alimentos a temperaturas adecuadas mata la mayoría de los patógenos dañinos. El uso de termómetros puede asegurar que los alimentos alcancen la temperatura interna necesaria.
+                  | <b>Cocción</b>: cocinar los alimentos a temperaturas adecuadas mata la mayoría de los patógenos dañinos. El uso de termómetros puede asegurar que los alimentos alcancen la temperatura interna necesaria.
                 li 
                   i.lista-ul__vineta
-                  | <b>Enfriamiento</b>: Enfriar los alimentos de manera adecuada es esencial para evitar la proliferación de bacterias. Los alimentos perecederos deben mantenerse fuera de la zona de peligro de temperatura (entre 5°C y 60°C).
+                  | <b>Enfriamiento</b>: enfriar los alimentos de manera adecuada es esencial para evitar la proliferación de bacterias. Los alimentos perecederos deben mantenerse fuera de la zona de peligro de temperatura (entre 5°C y 60°C).
 
             .col-md-8.col-xl-5
               figure
-                img(src='@/assets/curso/temas/tema1/img_6.png', alt='Texto que describa la imagen')
+                img(src='@/assets/curso/temas/tema1/img_6.png', alt='Imágen decorativa')
 
     Separador
     #t_1_2.titulo-segundo
@@ -122,7 +122,7 @@
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_10.png")
           h5 Temperatura 
-          p Las actividades químicas y enzimáticas doblan su velocidad cada 10°C  y por lo tanto aceleran los procesos de descomposición. Asimismo, se encuentran nutrientes especialmente sensibles al calor (algunas vitaminas), el cual propicia los cambios de estado de emulsiones o mezclas que contengan agua, al facilitar su desecación.
+          p Las actividades químicas y enzimáticas doblan su velocidad cada 10°C  y, por lo tanto, aceleran los procesos de descomposición. Asimismo, se encuentran nutrientes especialmente sensibles al calor (algunas vitaminas), el cual propicia los cambios de estado de emulsiones o mezclas que contengan agua, al facilitar su desecación.
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_12.png")
@@ -132,7 +132,7 @@
         .tarjeta.bg-6.fondo_2.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_13.png")
           h5 El aire 
-          p Por contener oxígeno puede alterar algunas proteínas produciendo cambios de color, facilitando la oxidación, etc.
+          p Por contener oxígeno puede alterar algunas proteínas, produciendo cambios de color, facilitando la oxidación, etc.
       .col-md-6.col-lg-4.mb-3
         .tarjeta.bg-5.fondo_3.p-4.h-100
           img.w-25.mx-auto(src="@/assets/curso/temas/tema1/img_14.png")
@@ -160,7 +160,7 @@
               figure
                 img(src="@/assets/curso/temas/tema1/img_16.png", alt="alt")
             .crd_hover_txt--body.pt-3
-              h4.mb-3.text-center Pardeamiento no enzimático o reacción de Maillard
+              h4.mb-3.text-center Pardeamiento no enzimático o reacción de <em>Maillard</em>
               p.mb-0.text-small Se incluyen una serie de reacciones complejas entre azúcares y compuestos nitrogenados (proteínas), las cuales generan pigmentos marrones.  <br>En algunos casos se producen de manera tecnológica (fritos y tostados), pero en otras es espontáneo. El calor y la desecación lo favorecen.
 
         .col-md-6.col-xl-4.mb-4.mb-xl-2
@@ -186,7 +186,7 @@
         h3.bgr_3.position-relative Agentes biológicos
           img.pst(src='@/assets/curso/temas/titulos/img_2.svg', alt='')          
 
-    p Son considerados, los agentes más relevantes en la alteración de los alimentos siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
+    p Son considerados, los agentes más relevantes en la alteración de los alimentos, siendo de origen biológico, entre los que se pueden diferenciar, los intrínsecos, como las enzimas y los extrínsecos, como microorganismos o parásitos.
 
     .row.justify-content-center.mb-5
       .col-lg-8.mb-4
@@ -272,7 +272,7 @@
                 img(src="@/assets/curso/temas/tema1/img_25.svg", alt="alt").img100
             .col.col-xl-7
               h5 Nutrientes
-              p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, será más propicio para el desarrollo de unos u otros microorganismos.
+              p Todos los microorganismos necesitan además de agua: proteínas, minerales, hidratos de carbono y lípidos. Estos nutrientes se encuentran en la mayoría de los alimentos, aunque debido al componente principal de cada uno de ellos, serán más propicios para el desarrollo de unos u otros microorganismos.
 
 
 
